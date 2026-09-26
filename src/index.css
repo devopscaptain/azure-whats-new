@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Azure light theme: white surfaces + the Fluent Azure-blue ramp.
+   Values are RGB triplets for Tailwind's alpha syntax. */
+@layer base {
+  :root {
+    color-scheme: light;
+    --c-page: 255 255 255;          /* page: white */
+    --c-surface: 255 255 255;       /* cards */
+    --c-surface-2: 239 246 252;     /* light blue tint #eff6fc (themeLighterAlt) */
+    --c-tint: 222 236 249;          /* light blue #deecf9 (themeLighter) */
+    --c-border: 222 236 249;        /* #deecf9 */
+    --c-border-bright: 199 224 244; /* #c7e0f4 (themeLight) */
+    --c-muted: 96 94 92;            /* Fluent neutral foreground 3 */
+    --c-subtle: 72 70 68;
+    --c-body: 50 49 48;
+    --c-heading: 32 31 30;
+    --c-accent: 0 120 212;          /* Azure blue #0078d4 (themePrimary) */
+    --c-accent-bright: 0 90 158;    /* hover/pressed #005a9e (themeDark) */
+    --c-ga: 16 124 16;              /* #107c10 */
+    --c-preview: 0 120 212;         /* Azure blue */
+    --c-dev: 157 93 0;
+    --c-retire: 196 43 28;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-page text-body font-sans min-h-screen;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--c-accent));
+    outline-offset: 2px;
+  }
+
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: rgb(var(--c-page)); }
+  ::-webkit-scrollbar-thumb { background: rgb(var(--c-border-bright)); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgb(var(--c-accent) / 0.6); }
+
+  ::selection { background: rgb(var(--c-accent) / 0.3); }
+}
+
+@layer components {
+  /* Status badge: set --c inline to one of the status RGB tokens */
+  .status-chip {
+    color: rgb(var(--c));
+    background-color: rgb(var(--c) / 0.1);
+    border-color: rgb(var(--c) / 0.3);
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .text-gradient-azure {
+    background: linear-gradient(90deg, #0078d4, #50e6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
