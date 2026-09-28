@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-09-28T07:05:04.768Z",
+  "lastUpdated": "2026-09-28T16:29:20.488Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "494438",
+      "title": "Generally Available: Azure Backup for Elastic SAN",
+      "description": "Azure Backup now supports operational backup for Elastic SAN, offering a fully managed solution for backing up and restoring Elastic SAN volumes. This integration helps protect data against accidental deletions, ransomware attacks, and application updates by exporting Elastic SAN volumes to independent Managed Disk Incremental Snapshots. These snapshots are stored in locally redundant storage and are independent of the Elastic SAN volume lifecycle. The solution supports up to 450 restore points with 24 hours backup frequency. It is generally available in all Azure regions and supports volumes ",
+      "url": "https://azure.microsoft.com/updates?id=494438",
+      "publishedAt": "2025-05-29T15:15:41.000Z",
+      "updatedAt": "2026-09-28T16:18:48.958Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Storage"
+      ],
+      "services": [
+        "Azure Backup",
+        "Azure Elastic SAN"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Compliance",
+        "Management"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": "2025-05",
+      "tags": [
+        "management and governance",
+        "storage",
+        "azure backup",
+        "azure elastic san",
+        "feature",
+        "compliance",
+        "management"
+      ]
+    },
     {
       "id": "573048",
       "title": "Public Preview: Azure HorizonDB supports PostgreSQL 18",
@@ -13686,35 +13719,6 @@
       "tags": [
         "compute",
         "containers",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "557912",
-      "title": "Generally Available: Azure Container Storage v2.1.0 now with Elastic SAN integration and on demand installation",
-      "description": "Containerized workloads often require higher and more consistent storage performance without managing large numbers of individual disks. Azure Container Storage integration with Elastic SAN allows Kubernetes clusters to consume storage from a shared pool of capacity and performance. This simplifies provisioning, improves utilization, and supports workloads with variable storage demands using a centrally managed storage model. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557912",
-      "publishedAt": "2026-03-24T18:15:48.958Z",
-      "updatedAt": "2026-03-24T18:15:48.958Z",
-      "status": "ga",
-      "categories": [
-        "Containers",
-        "Compute"
-      ],
-      "services": [
-        "Azure Container Storage",
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "containers",
-        "compute",
-        "azure container storage",
         "azure kubernetes service (aks)",
         "feature"
       ]
