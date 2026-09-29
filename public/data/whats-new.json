@@ -1,8 +1,106 @@
 {
-  "lastUpdated": "2026-09-28T16:29:20.488Z",
+  "lastUpdated": "2026-09-29T14:39:07.188Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "571800",
+      "title": "Generally Available: Vector search and vector indexes in Azure SQL",
+      "description": "Vector search and vector indexes are now generally available in Azure SQL Database. Using the CREATE VECTOR INDEX and VECTOR_SEARCH T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searches for AI scenarios such as semantic search, retrieval-augmented generation (RAG), recommendation systems, and image search. Built on the DiskANN algorithm, vector indexes enable efficient vector similarity search over large datasets while allowing you to combine vector search with relational queries and filtering directly in Azure SQL Database. By bringing AI retrieval directly",
+      "url": "https://azure.microsoft.com/updates?id=571800",
+      "publishedAt": "2026-09-28T22:07:19.171Z",
+      "updatedAt": "2026-09-28T22:07:19.171Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "572998",
+      "title": "Public Preview: Azure SQL Dev Hub",
+      "description": "Azure SQL Dev Hub gives you a central starting point for building applications with Azure SQL, whether you’re developing directly or using AI agents. You can find guidance for connecting to Azure SQL from.NET, Python, Node.js, and Java, along with resources for working with schemas and queries. You can also access runnable samples, troubleshooting guidance, and SQL agent skills in one place, making it easier to get started and build with Azure SQL using the tools and frameworks you already use. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=572998",
+      "publishedAt": "2026-09-28T22:06:05.661Z",
+      "updatedAt": "2026-09-28T22:06:05.661Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571632",
+      "title": "Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+      "description": "In late September 2026, the following updates and enhancements were made to Azure SQL Managed Instance: Use the flexible memory feature in Azure SQL Managed Instance to change the amount of memory allocated to your SQL managed instance without changing the number of vCores. Get support for higher transaction log write throughput limits in Azure SQL Managed Instance Business Critical, enabling greater performance for write-intensive workloads. Learn more: Flexible Memory in Azure SQL Managed Instance Azure SQL Managed Instance Business Critical",
+      "url": "https://azure.microsoft.com/updates?id=571632",
+      "publishedAt": "2026-09-28T18:52:10.268Z",
+      "updatedAt": "2026-09-28T18:52:10.268Z",
+      "status": "ga",
+      "categories": [
+        "Databases"
+      ],
+      "services": [
+        "Azure SQL Managed Instance"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "azure sql managed instance",
+        "feature"
+      ]
+    },
+    {
+      "id": "572968",
+      "title": "Generally Available: Luxembourg - Azure Extended Zones",
+      "description": "We are announcing the general availability of the Luxembourg Azure Extended Zone. Azure Extended Zones are small-footprint extensions of Azure placed in metro areas, industry centers, or specific jurisdictions, to serve low latency and data residency workloads. They support a selection of virtual machine (VMs), container, networking, storage, and other Azure services. Azure Extended Zones can run latency-sensitive and throughput-intensive applications close to end users, within data residency boundaries. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=572968",
+      "publishedAt": "2026-09-28T17:08:48.081Z",
+      "updatedAt": "2026-09-28T17:08:48.081Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Regions & Datacenters"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "regions & datacenters"
+      ]
+    },
     {
       "id": "494438",
       "title": "Generally Available: Azure Backup for Elastic SAN",
@@ -13593,116 +13691,6 @@
       "url": "https://azure.microsoft.com/updates?id=557902",
       "publishedAt": "2026-03-24T23:00:18.186Z",
       "updatedAt": "2026-03-24T23:00:18.186Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "557887",
-      "title": "Public Preview: AI Agent for container networking troubleshooting",
-      "description": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, forcing engineers to manually correlate signals during incidents. The container networking agent provides a lightweight, web‑based interface that translates natural‑language problem descriptions into read‑only diagnostics using live cluster telemetry and orchestrates safe diagnostic workflows. By consolidating networking insights and summarizing findings with structured remediation guidance, the agent reduces investigation time and improves troubleshooting consistency without makin",
-      "url": "https://azure.microsoft.com/updates?id=557887",
-      "publishedAt": "2026-03-24T21:45:26.015Z",
-      "updatedAt": "2026-03-24T21:45:26.015Z",
-      "status": "preview",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "557877",
-      "title": "Public Preview: Cross-cluster networking in Azure Kubernetes Fleet Manager",
-      "description": "Organizations running applications across multiple Kubernetes clusters often face challenges with performance, global service discovery, and observability due to the complexity of distributed microservice environments. Azure Kubernetes Fleet Manager now provides Cross Cluster Networking, delivering a managed Cilium cluster mesh that simplifies configuration and centralizes management of multi‑cluster networking. This capability enables unified connectivity across AKS clusters, creates a global service registry for cross‑cluster service discovery, and supports intelligent routing. For technical",
-      "url": "https://azure.microsoft.com/updates?id=557877",
-      "publishedAt": "2026-03-24T18:30:36.249Z",
-      "updatedAt": "2026-03-24T18:30:36.249Z",
-      "status": "preview",
-      "categories": [
-        "Containers",
-        "Compute"
-      ],
-      "services": [
-        "Azure Kubernetes Fleet Manager",
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "containers",
-        "compute",
-        "azure kubernetes fleet manager",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "557882",
-      "title": "Public Preview: AKS managed GPU metrics in Azure Monitor",
-      "description": "Teams running GPU‑backed workloads often lack integrated visibility into GPU utilization alongside Kubernetes metrics. AKS managed GPU metrics automatically expose performance and utilization data from NVIDIA GPU‑enabled node pools into managed Prometheus and Grafana environments. This brings GPU telemetry into the same observability stack as cluster metrics, supporting capacity planning and operational monitoring without manual exporter setup. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557882",
-      "publishedAt": "2026-03-24T18:30:36.249Z",
-      "updatedAt": "2026-03-24T18:30:36.249Z",
-      "status": "preview",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "557892",
-      "title": "Generally Available: Container network logs in AKS",
-      "description": "Networking issues in Kubernetes environments can be difficult to diagnose due to limited visibility into traffic flows and insufficient context around failures. Container network logs in Azure Kubernetes Service (AKS), now generally available, provide context‑rich visibility into network flows by capturing detailed per‑flow metadata such as IPs, ports, namespaces, pod and service names, flow direction, and policy verdicts across L3/L4 and supported Layer 7 protocols including HTTP, gRPC, and Kafka. This capability supports both stored logs for continuous, filter-based collection and on-demand ",
-      "url": "https://azure.microsoft.com/updates?id=557892",
-      "publishedAt": "2026-03-24T18:15:48.958Z",
-      "updatedAt": "2026-03-24T18:15:48.958Z",
       "status": "ga",
       "categories": [
         "Compute",
