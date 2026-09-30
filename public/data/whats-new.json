@@ -1,8 +1,669 @@
 {
-  "lastUpdated": "2026-09-29T14:39:07.188Z",
+  "lastUpdated": "2026-09-30T14:39:07.341Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "570800",
+      "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+      "description": "The Azure Functions v1 hosting model on Azure Container Apps will be retired on September 29, 2027. After this date, existing Functions v1 apps on Azure Container Apps will stop running and will no longer process requests or event-driven triggers. This retirement applies to the hosting model on Azure Container Apps, not the programming model version used by your function code. Action required Review your Azure environments and migrate all affected apps to the Functions v2 hosting model before September 29, 2027 to avoid service disruption. Functions v2 uses a native Azure Container App configu",
+      "url": "https://azure.microsoft.com/updates?id=570800",
+      "publishedAt": "2026-09-29T19:41:09.768Z",
+      "updatedAt": "2026-09-29T19:41:09.768Z",
+      "status": "retiring",
+      "categories": [
+        "Containers"
+      ],
+      "services": [
+        "Azure Container Apps"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "containers",
+        "azure container apps",
+        "retirements"
+      ]
+    },
+    {
+      "id": "572630",
+      "title": "Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+      "description": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available. Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU. Both support 200Gbps of network bandwidth and deliver up to 35% better average CPU performance. The Lasv5 VMs offer up to 30.7TB of local storage capacity with 9.6M read IOPS performance, while the Laosv5 VMs offer up to 138TB of local storage capacity with 20.7M read IOPS performance. These VM series are powered by Azure Boost and Azure Boos",
+      "url": "https://azure.microsoft.com/updates?id=572630",
+      "publishedAt": "2026-09-29T19:27:09.750Z",
+      "updatedAt": "2026-09-29T19:27:09.750Z",
+      "status": "ga",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Pricing & Offerings",
+        "Services"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "virtual machines",
+        "pricing & offerings",
+        "services"
+      ]
+    },
+    {
+      "id": "571075",
+      "title": "Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+      "description": "Automatic Zone Placement for VM Scale Sets (Public Preview) enables Azure to automatically select the best availability zones for your scale set based on SKU availability, capacity, and placement requirements. Instead of manually maintaining zone lists for each region, customers can use a consistent configuration across regions while Azure handles zone selection. Key benefits include: Simplified multi-region deployments with no region-specific zone management. Capacity-aware zone selection to improve deployment and scale-out success. Flexible resiliency controls that let you define zone spread",
+      "url": "https://azure.microsoft.com/updates?id=571075",
+      "publishedAt": "2026-09-29T19:17:59.857Z",
+      "updatedAt": "2026-09-29T19:17:59.857Z",
+      "status": "preview",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "compute",
+        "virtual machines",
+        "feature"
+      ]
+    },
+    {
+      "id": "570696",
+      "title": "Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
+      "description": "Azure Arc-enabled SQL Server is now available in Germany West Central, enabling you to connect SQL Server instances to Azure Arc and take advantage of Azure-based inventory, governance, security, assessment, and license management capabilities. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=570696",
+      "publishedAt": "2026-09-29T19:07:44.660Z",
+      "updatedAt": "2026-09-29T19:07:44.660Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "570763",
+      "title": "Generally Available: Azure Arc-enabled SQL Server Available in Italy North",
+      "description": "Azure Arc-enabled SQL Server is now available in Italy North, enabling you to connect SQL Server instances to Azure Arc and take advantage of Azure-based inventory, governance, security, assessment, and license management capabilities. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=570763",
+      "publishedAt": "2026-09-29T19:06:50.810Z",
+      "updatedAt": "2026-09-29T19:06:50.810Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "571909",
+      "title": "Public Preview: Azure Database for PostgreSQL Ultra Disk",
+      "description": "Ultra Disk support is now available in public preview for Azure Database for PostgreSQL flexible server. You can use Azure’s highest-performance managed disk option for I/O-intensive and transaction-heavy PostgreSQL workloads that require consistently low sub-millisecond latency, high IOPS, and throughput. With independently configurable capacity and performance, you can align storage needs more closely with your workload requirements. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571909",
+      "publishedAt": "2026-09-29T18:14:46.415Z",
+      "updatedAt": "2026-09-29T18:14:46.415Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "571867",
+      "title": "Public Preview: SQL Performance Monitoring for Azure SQL Database",
+      "description": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available. You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in data collection sends performance telemetry from your databases to a Microsoft-managed telemetry pipeline for processing and storage. Resource-level and estate-wide dashboards help you identify performance trends, anomalies, and resource bottlenecks. Integration with Fabric Database Hub brings this telemetry into a unified, estate-level monitoring exp",
+      "url": "https://azure.microsoft.com/updates?id=571867",
+      "publishedAt": "2026-09-29T18:13:31.367Z",
+      "updatedAt": "2026-09-29T18:13:31.367Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571904",
+      "title": "Public Preview: Performance monitoring for Azure Arc–enabled SQL Server",
+      "description": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The built-in Azure portal experience now uses Grafana dashboards, providing ready-to-use views without requiring you to deploy and manage a monitoring pipeline. You can also connect your own Grafana environment to the same telemetry endpoint and build dashboards tailored to your operational needs. Integration with Fabric Database Hub brings this teleme",
+      "url": "https://azure.microsoft.com/updates?id=571904",
+      "publishedAt": "2026-09-29T18:11:15.322Z",
+      "updatedAt": "2026-09-29T18:11:15.322Z",
+      "status": "preview",
+      "categories": [
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Arc"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "hybrid + multicloud",
+        "azure arc",
+        "feature"
+      ]
+    },
+    {
+      "id": "571643",
+      "title": "Generally Available: Azure SQL updates for late-September 2026",
+      "description": "The following updates and enhancements were made to Azure SQL: Scale larger workloads on Azure SQL Database Hyperscale Premium series with new 160-vCore and 192-vCore options, delivering up to 50% greater compute capacity than the previous 128-vCore maximum. Enable automatic index compaction to reduce storage space consumption and save resources without index maintenance jobs. Query and explore Azure SQL Database directly from the Azure portal with the modern, browser-based SQL Query Editor, without requiring external tools. Make informed Azure SQL migration decisions directly within SQL Serve",
+      "url": "https://azure.microsoft.com/updates?id=571643",
+      "publishedAt": "2026-09-29T18:05:11.786Z",
+      "updatedAt": "2026-09-29T18:05:11.786Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571783",
+      "title": "Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
+      "description": "Azure Database for PostgreSQL Flexible Server now supports cross-tenant customer-managed keys (CMK). You can encrypt your data using keys stored in an Azure Key Vault or Azure Managed HSM that resides in a different Microsoft Entra tenant than your PostgreSQL server. This update is ideal for SaaS providers and ISVs that need to keep database operations and key ownership in separate tenants. With cross-tenant CMK, you can keep full control of your encryption keys while applications and databases run in a service provider's tenant. This separation helps you meet security and compliance requireme",
+      "url": "https://azure.microsoft.com/updates?id=571783",
+      "publishedAt": "2026-09-29T17:57:36.760Z",
+      "updatedAt": "2026-09-29T17:57:36.760Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "571810",
+      "title": "Public preview: Script-based deployment for SQL Server on Linux Azure VM",
+      "description": "A new deployment experience for SQL Server on Linux Azure Virtual Machines (VMs) replaces legacy marketplace images with automated script-based provisioning. This release provides greater flexibility, simplified management, and improved customization. You can deploy a standard Linux VM, configure SQL Server, and automatically install and register SQL Server through an integrated workflow. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571810",
+      "publishedAt": "2026-09-29T17:52:59.756Z",
+      "updatedAt": "2026-09-29T17:52:59.756Z",
+      "status": "preview",
+      "categories": [
+        "Compute",
+        "Databases"
+      ],
+      "services": [
+        "SQL Server on Azure Virtual Machines"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "compute",
+        "databases",
+        "sql server on azure virtual machines",
+        "feature"
+      ]
+    },
+    {
+      "id": "571836",
+      "title": "Generally Available: SQL Server on Azure Local Disconnected (ALDO)",
+      "description": "Now you can use ALDO to extend SQL Server support to environments that can’t maintain continuous connectivity to Azure. ALDO is designed for operations in highly regulated, secure, remote, or air-gapped environments, where internet connectivity is restricted or unavailable. SQL Server workloads continue to run entirely on Azure Local infrastructure while maintaining operational independence from cloud connectivity. In addition to traditional database workloads, you can use ALDO to support local AI and intelligent application scenarios in disconnected environments. By keeping data, AI models, a",
+      "url": "https://azure.microsoft.com/updates?id=571836",
+      "publishedAt": "2026-09-29T17:51:34.467Z",
+      "updatedAt": "2026-09-29T17:51:34.467Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "571841",
+      "title": "Generally Available: SQL Server support on Azure Local connected mode",
+      "description": "With SQL Server on Azure Local, you can run SQL Server workloads on Azure Local infrastructure while leveraging Azure services for centralized management, governance, monitoring, security, and licensing experiences. By connecting to Azure through Azure Arc, you can maintain a consistent hybrid operating model across on-premises, edge, and cloud environments. In addition to traditional database workloads, you can use SQL Server on Azure Local to provide a foundation for AI-powered applications and intelligent data solutions. You can keep sensitive data local while enabling AI and analytics scen",
+      "url": "https://azure.microsoft.com/updates?id=571841",
+      "publishedAt": "2026-09-29T17:50:20.447Z",
+      "updatedAt": "2026-09-29T17:50:20.447Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "571846",
+      "title": "Public Preview: Azure SQL updates for late-September 2026",
+      "description": "In late September 2026, the following updates and enhancements were made to Azure SQL: Database Hub in Microsoft Fabric is a unified experience for discovering, managing, monitoring, and optimizing databases across SQL Server, Azure SQL, PostgreSQL, Azure Cosmos DB, and Fabric SQL. By bringing AI-powered insights and agents into a single control plane, Database Hub simplifies database operations and helps you modernize your data estate. You can now increase the number of databases allowed in a Hyperscale Elastic pool to 50. Azure SQL Database now supports local time zones, enabling application",
+      "url": "https://azure.microsoft.com/updates?id=571846",
+      "publishedAt": "2026-09-29T17:49:15.160Z",
+      "updatedAt": "2026-09-29T17:49:15.160Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database",
+        "Azure SQL Managed Instance"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "azure sql managed instance",
+        "feature"
+      ]
+    },
+    {
+      "id": "571852",
+      "title": "Generally Available: Database DevOps in SSMS powered by SQL projects",
+      "description": "In SSMS, you can now use Microsoft.Build.Sql projects to help you implement, manage, and collaborate on database changes, by providing a local definition of the database objects. A SQL database project is a local representation of SQL objects that comprise the schema for a single database, such as tables, stored procedures, or functions. With this support for the development cycle of a SQL database project, you can integrate database development into continuous integration and continuous deployment (CI/CD) workflows that are familiar as development best practices. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571852",
+      "publishedAt": "2026-09-29T17:42:47.305Z",
+      "updatedAt": "2026-09-29T17:42:47.305Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571857",
+      "title": "Public Preview: Azure SQL Database Hyperscale Serverless auto-pause and auto-resume",
+      "description": "Auto-pause and auto-resume are now available in public preview for Azure SQL Hyperscale databases using the Serverless compute tier. You can configure databases to automatically pause during periods of inactivity and automatically resume when activity returns, helping reduce costs for workloads that experience extended or predictable idle periods. When a database is paused, compute billing stops and only storage-related charges continue to apply. Auto-pause and auto-resume can be enabled for both new and existing Azure SQL Hyperscale databases using the Serverless compute tier. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571857",
+      "publishedAt": "2026-09-29T17:40:40.709Z",
+      "updatedAt": "2026-09-29T17:40:40.709Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571872",
+      "title": "Generally Available: SQL Formatter",
+      "description": "You can now format SQL scripts directly in Visual Studio Code using SQL Formatter for more consistent, readable code. Customizable formatting options help you match your preferred coding style, so you can keep queries tidy without manual reformatting. Now available in general availability, this feature makes it easier to standardize SQL across your projects and streamline everyday development. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571872",
+      "publishedAt": "2026-09-29T17:39:36.179Z",
+      "updatedAt": "2026-09-29T17:39:36.179Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571899",
+      "title": "Generally Available: SQL Migration Agent Skills for assessment, migration, and validation",
+      "description": "SQL Migration Agent Skills help you automate and streamline the end-to-end migration journey from SQL Server to Azure. These reusable AI-powered skills help guide you through assessment, target selection, migration execution, and post-migration validation, so you can migrate with less manual effort and more confidence. These skills are designed to work across multiple Microsoft user interfaces while preserving migration context, keeping you in control of critical decisions. Key capabilities: Assess readiness and identify blockers by analyzing SQL Server workloads for compatibility issues, risk",
+      "url": "https://azure.microsoft.com/updates?id=571899",
+      "publishedAt": "2026-09-29T17:38:16.208Z",
+      "updatedAt": "2026-09-29T17:38:16.208Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "570283",
+      "title": "Retirement: Azure Arc enabled System Center Virtual Machine Manager will be retired September 30, 2029",
+      "description": "Microsoft is retiring Azure Arc-enabled System Center Virtual Machine Manager (SCVMM) in September 2029. Customers must plan and transition to alternative solutions. What does this mean for you? If you are using Azure Arc-enabled SCVMM for: Azure services and Azure Arc capabilities such as monitoring, security, governance, updates, and licensing for Extended Security Updates and Pay-as-you-go SQL and WS, we recommend switching to Azure Arc-enabled Servers. VM lifecycle and powercycle operations such as create, start, stop, restart, resize, and self-service VM management, we recommend that you ",
+      "url": "https://azure.microsoft.com/updates?id=570283",
+      "publishedAt": "2026-09-29T17:36:13.532Z",
+      "updatedAt": "2026-09-29T17:36:13.532Z",
+      "status": "retiring",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "retirements"
+      ]
+    },
+    {
+      "id": "571795",
+      "title": "Public Preview: Migrate directly from Azure Arc to Azure SQL Database, including Hyperscale",
+      "description": "You can now select Azure SQL Database, including Hyperscale, as a migration target directly from the database migration experience in Azure Arc. The workflow brings Azure Database Migration Service and Self-hosted Integration Runtime setup into the guided portal journey, allowing you to assess your SQL Server estate, choose your target, configure your migration and monitor progress without leaving Arc. Until now, your path from assessment to migration required stepping outside Arc, learning a separate service, configuring a runtime, and moving between multiple tools. This additional effort slo",
+      "url": "https://azure.microsoft.com/updates?id=571795",
+      "publishedAt": "2026-09-29T17:34:44.007Z",
+      "updatedAt": "2026-09-29T17:34:44.007Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "573003",
+      "title": "Public Preview: Microsoft SQL Agent Skills",
+      "description": "Microsoft SQL Agent Skills help you get more accurate, product-specific guidance when using AI agents to build, operate, and migrate SQL workloads. You can use these skills with Azure SQL Database, Azure SQL Database container, SQL Server to Azure migration, and Fabric Database Hub scenarios. The skills provide SQL-specific guidance that helps your AI agent work more effectively with Microsoft SQL technologies, making it easier to complete common development, migration, and management tasks. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=573003",
+      "publishedAt": "2026-09-29T17:31:11.923Z",
+      "updatedAt": "2026-09-29T17:31:11.923Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
+    {
+      "id": "571914",
+      "title": "Public Preview: Long-term retention (LTR) v2 for Azure Database for PostgreSQL",
+      "description": "LTR v2 is the next-generation long-term backup solution for Azure Database for PostgreSQL that moves from logical backups (pg_dump/pg_restore) used in LTR v1 to physical snapshot-based backups integrated with Azure Backup Vaults. With this release, you can now support daily backups while gaining much greater scalability for large databases through physical snapshots rather than pg_dump-based exports. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571914",
+      "publishedAt": "2026-09-29T17:28:57.331Z",
+      "updatedAt": "2026-09-29T17:28:57.331Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "570046",
+      "title": "Retirement: Microsoft HPC Pack",
+      "description": "Microsoft is retiring all versions of HPC Pack. End of Support is August 27, 2027. HPC Pack is now entering a one-year retirement period. Microsoft will provide limited, retirement-only support during this period. The scope of this support is defined below so customers know what to expect. In scope until End of Support: • Security/CVE response and necessary security updates. • Guidance from existing documentation and validated configurations. • Assistance with supported components and documented functionality. • Case-by-case evaluation of long-term support options where available. Out of scope",
+      "url": "https://azure.microsoft.com/updates?id=570046",
+      "publishedAt": "2026-09-29T17:26:50.728Z",
+      "updatedAt": "2026-09-29T17:26:50.728Z",
+      "status": "retiring",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "retirements"
+      ]
+    },
+    {
+      "id": "569914",
+      "title": "Retirement: Azure IoT Central will be retired on September 20, 2029",
+      "description": "Azure IoT Central will be retired on September 20, 2029. You can continue using Azure IoT Central until the retirement date, but we recommend starting your transition planning early. Why is this happening? As Azure IoT evolves, Microsoft is focusing future investment on Azure IoT platform services that provide greater scalability, architectural flexibility, lifecycle management, and integration with Microsoft Fabric for analytics and AI-driven workloads. Azure IoT Hub, Device Provisioning Service (DPS), and Azure Device Registry represent the recommended Azure-native platform for connected ope",
+      "url": "https://azure.microsoft.com/updates?id=569914",
+      "publishedAt": "2026-09-29T17:25:10.280Z",
+      "updatedAt": "2026-09-29T17:25:10.280Z",
+      "status": "retiring",
+      "categories": [
+        "Internet of Things"
+      ],
+      "services": [
+        "Azure IoT Central"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "internet of things",
+        "azure iot central",
+        "retirements"
+      ]
+    },
+    {
+      "id": "573027",
+      "title": "Generally Available: Support for large volume breakthrough mode",
+      "description": "Large volume breakthrough mode in Azure NetApp Files enables extreme performance and scalability for demanding HPC and EDA workloads. It supports large volumes up to 2PiB, delivering throughput up to 80 GiBps, depending on workload characteristics. Large volume breakthrough mode uses six storage endpoints for each large volume ensuring consistent performance. Storage systems hosting breakthrough mode volumes are reserved for each customer to provide peak performance and not compete with other workloads. Key benefits include: High-capacity scaling for large-scale, latency-sensitive workloads Si",
+      "url": "https://azure.microsoft.com/updates?id=573027",
+      "publishedAt": "2026-09-29T17:12:40.693Z",
+      "updatedAt": "2026-09-29T17:12:40.693Z",
+      "status": "ga",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Azure NetApp Files"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "storage",
+        "azure netapp files",
+        "feature"
+      ]
+    },
+    {
+      "id": "573032",
+      "title": "Generally Available: Storage with cool access enhancement",
+      "description": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically adjusts as data moves to cool storage, maintaining hot‑tier performance while enabling customers to benefit from cool access at scale. This enhancement continuously optimizes pool and volume throughput as cool access patterns change, delivering a seamless experience without manual tuning. Learn more: What's new in Azure NetApp Files Azure NetApp Files storage with cool access Service levels for Azure Net",
+      "url": "https://azure.microsoft.com/updates?id=573032",
+      "publishedAt": "2026-09-29T17:09:58.009Z",
+      "updatedAt": "2026-09-29T17:09:58.009Z",
+      "status": "ga",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Azure NetApp Files"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-09",
+      "previewDate": null,
+      "tags": [
+        "storage",
+        "azure netapp files",
+        "feature"
+      ]
+    },
+    {
+      "id": "573041",
+      "title": "Public Preview : Microsoft entra kerberos authentication for Azure NetApp Files",
+      "description": "Azure NetApp Files now supports Microsoft Entra Kerberos authentication for SMB volumes. The capability enables users with hybrid or cloud-only identities to authenticate through Microsoft Entra ID using cloud-issued Kerberos tickets. This capability removes the requirement for SMB clients to have network line-of-sight to Active Directory Domain Services domain controllers in the authentication path. It helps organizations simplify identity architecture, reduce infrastructure dependencies, and modernize SMB access for hybrid and cloud-first environments. Learn more: What's new in Azure NetApp ",
+      "url": "https://azure.microsoft.com/updates?id=573041",
+      "publishedAt": "2026-09-29T17:07:55.415Z",
+      "updatedAt": "2026-09-29T17:07:55.415Z",
+      "status": "preview",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Azure NetApp Files"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "storage",
+        "azure netapp files",
+        "feature"
+      ]
+    },
     {
       "id": "571800",
       "title": "Generally Available: Vector search and vector indexes in Azure SQL",
@@ -12983,732 +13644,6 @@
         "app configuration",
         "feature",
         "microsoft ignite"
-      ]
-    },
-    {
-      "id": "559772",
-      "title": "Generally Available: Azure Data Box enhances compliance with automatic Secure Erasure Certificates",
-      "description": "Azure Data Box now automatically generates a downloadable Secure Erasure Certificate for every completed order, providing verification that all data on the device has been securely erased in accordance with NIST 800-88 Revision 2 standards. The certificate is created as part of the standard cleanup process and is accessible directly from the Azure portal. This enhancement reduces audit complexity and eliminates the need for manual validation, while increasing transparency and simplifying compliance for organizations handling sensitive data, such as: government, law enforcement, and financial s",
-      "url": "https://azure.microsoft.com/updates?id=559772",
-      "publishedAt": "2026-04-01T18:30:16.180Z",
-      "updatedAt": "2026-04-01T18:30:16.180Z",
-      "status": "ga",
-      "categories": [
-        "Migration",
-        "Storage"
-      ],
-      "services": [
-        "Azure Data Box"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "migration",
-        "storage",
-        "azure data box",
-        "feature"
-      ]
-    },
-    {
-      "id": "559504",
-      "title": "Public Preview: Azure NetApp Files storage with cool access enhancement",
-      "description": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically adjusts as data moves to cool storage, maintaining hot‑tier performance while enabling customers to benefit from cool access at scale. This enhancement continuously optimizes pool and volume throughput as cool access patterns change, delivering a seamless experience without manual tuning. Learn more: What's new in Azure NetApp Files Azure NetApp Files storage with cool access Service levels for Azure Net",
-      "url": "https://azure.microsoft.com/updates?id=559504",
-      "publishedAt": "2026-04-01T18:15:44.837Z",
-      "updatedAt": "2026-04-01T18:15:44.837Z",
-      "status": "preview",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure NetApp Files"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "storage",
-        "azure netapp files",
-        "feature"
-      ]
-    },
-    {
-      "id": "559767",
-      "title": "Generally Available: Azure Data Box now supports Azure Files Provisioned v2",
-      "description": "Azure Data Box now supports ingestion of data into Azure Files Provisioned v2 storage accounts. Azure Files Provisioned v2 is a billing model where customers provision and pay for specific capacity, IOPS, and throughput values; giving greater flexibility and cost control for file share workloads. With this update, customers can now use Azure Data Box to transfer data directly into Azure Files Provisioned v2 storage accounts across most public regions. Learn more: Unlocking Flexibility with Azure Files Provisioned V2 Migrating your on-premises data to Azure",
-      "url": "https://azure.microsoft.com/updates?id=559767",
-      "publishedAt": "2026-04-01T18:15:44.837Z",
-      "updatedAt": "2026-04-01T18:15:44.837Z",
-      "status": "ga",
-      "categories": [
-        "Migration",
-        "Storage"
-      ],
-      "services": [
-        "Azure Data Box"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "migration",
-        "storage",
-        "azure data box",
-        "feature"
-      ]
-    },
-    {
-      "id": "557394",
-      "title": "Retirement: Select Azure AI Language Features",
-      "description": "On March 31, 2029, Microsoft will retire the following eight Azure AI Language features: Key Phrase Extraction Sentiment Analysis and Opinion Mining Custom Text Classification Conversational Language Understanding (CLU) Custom Question Answering (CQA) Orchestration Workflow Summarization (extractive and abstractive, for documents and conversations) Entity Linking. After this date, requests to these features will return errors. The related authoring and runtime capabilities in Language Studio, Microsoft Foundry, and via REST APIs will no longer be available. Customers are encouraged to begin pl",
-      "url": "https://azure.microsoft.com/updates?id=557394",
-      "publishedAt": "2026-04-01T18:00:10.492Z",
-      "updatedAt": "2026-04-01T18:00:10.492Z",
-      "status": "retiring",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Azure AI Language"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "azure ai language",
-        "retirements"
-      ]
-    },
-    {
-      "id": "557406",
-      "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
-      "description": "Import data from external sources (Preview) – S3, Snowflake, Azure SQL Db along with external Data Connections (Preview) in Azure Machine Learning are being deprecated. These features will no longer be available after September 30, 2026. What this means for you: Existing external data connections won’t be available. You won’t be able to create new data imports or add new external data connections. Your pre-existing imported assets will continue to be available, but any scheduled refresh will no longer work. Recommended Actions: To avoid any disruptions to your ML pipelines, we recommend you mi",
-      "url": "https://azure.microsoft.com/updates?id=557406",
-      "publishedAt": "2026-03-31T20:00:35.919Z",
-      "updatedAt": "2026-03-31T20:00:35.919Z",
-      "status": "retiring",
-      "categories": [
-        "AI + machine learning",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Machine Learning"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "internet of things",
-        "azure machine learning",
-        "retirements"
-      ]
-    },
-    {
-      "id": "559660",
-      "title": "Generally Available: Azure DevOps March 2026 updates",
-      "description": "The following updates were made to Azure DevOps in March 2026. The Remote MCP Server entered public preview, enabling seamless AI-powered integration with Azure DevOps without requiring a local server. Security improvements included new Advanced Security PR status checks that integrate directly into branch policies, enhanced audit logging for secret push protection bypasses and security enablement changes, and the ability to export security overview data to CSV. Azure Pipelines introduced improved deployment visibility through artifact tracking on pipeline runs and a new Stages view that provi",
-      "url": "https://azure.microsoft.com/updates?id=559660",
-      "publishedAt": "2026-03-31T18:15:10.671Z",
-      "updatedAt": "2026-03-31T18:15:10.671Z",
-      "status": "ga",
-      "categories": [
-        "Developer tools",
-        "DevOps",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure DevOps"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "developer tools",
-        "devops",
-        "hybrid + multicloud",
-        "azure devops",
-        "feature"
-      ]
-    },
-    {
-      "id": "559695",
-      "title": "Public Preview: Azure Event Grid provides new capabilities for smarter, more secure event-driven architectures",
-      "description": "Azure Event Grid offers a variety of features in Public Preview – intended to help you better manage large-scale, distributed systems with improved interoperability and control. Public Preview Features: Cross-Tenant Webhook Delivery: Enables secure cross-tenant delivery using managed identity in Event Grid namespaces. Network Security Perimeter: Defines access boundaries with inbound and outbound communication rules for enhanced security. Managed Identity for Webhooks: Automates secure authentication between Event Grid and webhook endpoints. MQTT OAuth 2.0 Authentication: Uses JWTs from OIDC-c",
-      "url": "https://azure.microsoft.com/updates?id=559695",
-      "publishedAt": "2026-03-31T17:45:46.937Z",
-      "updatedAt": "2026-03-31T17:45:46.937Z",
-      "status": "preview",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": "2025-05",
-      "tags": [
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "492542",
-      "title": "Generally Available: Azure Event Grid provides new capabilities for smarter, more secure event-driven architectures",
-      "description": "Azure Event Grid now offers a variety of new features intended to help you better manage large-scale, distributed systems with improved interoperability and control. Generally Available features: MQTT Message Ordering: Ensures in-order message delivery within a client session, crucial for workflows requiring sequence integrity. MQTT Connect Rate Limiting: Limits connection attempts to 1 per second per client, improving system stability. MQTT Topic Segment Expansion: Supports up to 15 MQTT topic segments, enabling more granular routing for complex scenarios. Cross-Tenant Delivery: Managed ident",
-      "url": "https://azure.microsoft.com/updates?id=492542",
-      "publishedAt": "2026-03-31T17:30:08.641Z",
-      "updatedAt": "2026-03-31T17:30:08.641Z",
-      "status": "ga",
-      "categories": [
-        "Integration",
-        "Internet of Things"
-      ],
-      "services": [
-        "Event Grid"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": "2025-05",
-      "previewDate": null,
-      "tags": [
-        "integration",
-        "internet of things",
-        "event grid",
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "559535",
-      "title": "Generally Available: User delegation SAS for Azure Tables, Azure Files, and Azure Queues",
-      "description": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now generally available. User delegation SAS allows users to create a more secure SAS token than account or service SAS by tying the SAS token to the delegator. This extension of UDK SAS will allow users to set SAS tokens at the table, table entity, queue, queue entity, file container, and individual file level. Any SAS token set at the higher level will provide access to all table/queue/file entities within, and any SAS token set at the base level will only provide access to that individual entity. There is no additional c",
-      "url": "https://azure.microsoft.com/updates?id=559535",
-      "publishedAt": "2026-03-31T17:30:08.641Z",
-      "updatedAt": "2026-03-31T17:30:08.641Z",
-      "status": "ga",
-      "categories": [
-        "Storage",
-        "Databases"
-      ],
-      "services": [
-        "Azure Files",
-        "Queue Storage",
-        "Table Storage"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "databases",
-        "azure files",
-        "queue storage",
-        "table storage",
-        "feature",
-        "security"
-      ]
-    },
-    {
-      "id": "559406",
-      "title": "Generally Available: Microsoft Azure now available from new cloud region in Denmark",
-      "description": "Microsoft announces the opening of its cloud region in Denmark to accelerate digital transformation and AI innovation. The Denmark East region provides Danish customers with local, secure cloud infrastructure, supporting local data residency, low latency, an access to advanced cloud and AI services. For customers looking to leverage the new region and Availability Zones, Azure offers region portability for multiple resources with Azure Resource Mover. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=559406",
-      "publishedAt": "2026-03-31T17:15:56.092Z",
-      "updatedAt": "2026-03-31T17:15:56.092Z",
-      "status": "ga",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Regions & Datacenters"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "regions & datacenters"
-      ]
-    },
-    {
-      "id": "557395",
-      "title": "Retirement: Manually registered Azure VPN Clients for ​Azure Government and ​Microsoft Azure operated by 21Vianet clouds will be retired on March 31, 2029",
-      "description": "On March 31, 2029, we’ll be retiring manually registered Azure VPN clients for point-to-site connections with Microsoft Entra ID authentication for ​ Azure Government and ​ Microsoft Azure operated by 21Vianet clouds. Recommended action: To prevent disruptions, migrate manually registered Azure VPN clients to a Microsoft-registered VPN client for point-to-site connections with Microsoft Entra ID authentication before 31 March 2029. To improve security, we ’ ll only be supporting Microsoft-registered VPN clients after that date. Learn more: If you have general questions, ask community experts i",
-      "url": "https://azure.microsoft.com/updates?id=557395",
-      "publishedAt": "2026-03-31T16:45:33.568Z",
-      "updatedAt": "2026-03-31T16:45:33.568Z",
-      "status": "retiring",
-      "categories": [
-        "Networking",
-        "Security"
-      ],
-      "services": [
-        "VPN Gateway"
-      ],
-      "updateTypes": [
-        "Retirements",
-        "Security"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "networking",
-        "security",
-        "vpn gateway",
-        "retirements"
-      ]
-    },
-    {
-      "id": "559677",
-      "title": "Generally Available: Azure Premium SSD v2 Disk is now available in US Gov Arizona",
-      "description": "Azure Premium SSD v2 is now available in US Gov Arizona (a region without Availability Zone). Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines, offers sub-millisecond latencies and exceptional price performance for IO-intensive workloads at a low cost. Premium SSD v2 is suited for a broad range of enterprise production scenarios, including SQL Server, Oracle, MariaDB, SAP, Cassandra, MongoDB, big data/analytics, and gaming on virtual machines or stateful containers. If Premium SSD v2 is unavailable in your preferred region and you wou",
-      "url": "https://azure.microsoft.com/updates?id=559677",
-      "publishedAt": "2026-03-31T16:30:51.634Z",
-      "updatedAt": "2026-03-31T16:30:51.634Z",
-      "status": "ga",
-      "categories": [
-        "Storage",
-        "Compute"
-      ],
-      "services": [
-        "Azure Disk Storage",
-        "Virtual Machines"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "compute",
-        "azure disk storage",
-        "virtual machines",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "559322",
-      "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
-      "description": "Ephemeral OS Disk with full caching is now available in public preview for Azure VM/VMSS, bringing significantly faster and more reliable OS disk performance to your workloads. By caching the entire OS disk image on local VM storage (cache disk, resource disk, or NVMe disk), you get better IO performance with consistently low latency — and greater resilience, even during remote storage disruptions. This capability is extremely useful for stateless, IO-sensitive workloads including AI workloads, quorum-based databases, data analytics, and large-scale stateless services on General Purpose VM fam",
-      "url": "https://azure.microsoft.com/updates?id=559322",
-      "publishedAt": "2026-03-30T21:45:47.455Z",
-      "updatedAt": "2026-03-30T21:45:47.455Z",
-      "status": "preview",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Virtual Machine Scale Sets",
-        "Virtual Machines"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "compute",
-        "virtual machine scale sets",
-        "virtual machines",
-        "feature"
-      ]
-    },
-    {
-      "id": "550519",
-      "title": "Retirement: Deprecation of sidecar for remote-write for Azure Monitor managed service for Prometheus",
-      "description": "On March 31, 2027 Azure Monitor will be deprecating the s idecar for remote-write of Prometheus metrics to Azure Monitor Workspace. This is a s part of our ongoing efforts to improve reliability and reduce complexity. We recommend configuring your self-hosted Prometheus or Prometheus Operator to remote-write directly to Azure Monitor Workspace. All authentication methods are supported in the Prometheus remote-write configuration, and direct remote-write is fully compatible with the Prometheus Operator. You can find detailed configuration guidance in the official documentation. This approach re",
-      "url": "https://azure.microsoft.com/updates?id=550519",
-      "publishedAt": "2026-03-30T21:30:50.093Z",
-      "updatedAt": "2026-03-30T21:30:50.093Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Containers",
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)",
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "devops",
-        "management and governance",
-        "azure kubernetes service (aks)",
-        "azure monitor",
-        "retirements"
-      ]
-    },
-    {
-      "id": "559552",
-      "title": "Generally Available: Azure Red Hat OpenShift in Indonesia Central",
-      "description": "Azure Red Hat OpenShift (ARO) is now generally available in the Indonesia Central Azure region, expanding regional availability for customers running mission‑critical OpenShift workloads on Azure. This release enables organizations in Indonesia and the broader Southeast Asia region to deploy fully managed Red Hat OpenShift clusters with integrated Azure security, networking, and operations. With GA availability in Indonesia Central, customers can modernize applications, run regulated and latency‑sensitive workloads closer to end users, and meet local data residency requirements. ARO provides a",
-      "url": "https://azure.microsoft.com/updates?id=559552",
-      "publishedAt": "2026-03-30T21:30:50.093Z",
-      "updatedAt": "2026-03-30T21:30:50.093Z",
-      "status": "ga",
-      "categories": [
-        "Containers"
-      ],
-      "services": [
-        "Azure Red Hat OpenShift"
-      ],
-      "updateTypes": [
-        "Open Source"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "containers",
-        "azure red hat openshift",
-        "open source"
-      ]
-    },
-    {
-      "id": "556085",
-      "title": "Retirement: Azure Cosmos DB for PostgreSQL will retire on March 31, 2029",
-      "description": "On March 31, 2029, Azure Cosmos DB for PostgreSQL will be retired, and you'll need to migrate to Azure Database for PostgreSQL Elastic Cluster by that date. Azure Database for PostgreSQL Elastic Cluster delivers the same distributed PostgreSQL capabilities as Azure Cosmos DB for PostgreSQL, with full feature parity built on the Citus extension. It adds a simpler and more transparent pricing model, broader compute choices, and support for newer PostgreSQL versions, while providing built-in high availability, automated backups, point-in-time restore, and disaster recovery. Elastic Cluster also o",
-      "url": "https://azure.microsoft.com/updates?id=556085",
-      "publishedAt": "2026-03-30T17:45:08.258Z",
-      "updatedAt": "2026-03-30T17:45:08.258Z",
-      "status": "retiring",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "retirements"
-      ]
-    },
-    {
-      "id": "559526",
-      "title": "Generally Available: Azure Premium SSD v2 Disk is now available in South India",
-      "description": "Azure Premium SSD v2 is now available in South India (a region without Availability Zone). Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines, offers sub-millisecond latencies and exceptional price performance for IO-intensive workloads at a low cost. Premium SSD v2 is suited for a broad range of enterprise production scenarios, including SQL Server, Oracle, MariaDB, SAP, Cassandra, MongoDB, big data/analytics, and gaming on virtual machines or stateful containers. If Premium SSD v2 is unavailable in your preferred region and you would ",
-      "url": "https://azure.microsoft.com/updates?id=559526",
-      "publishedAt": "2026-03-30T16:30:50.988Z",
-      "updatedAt": "2026-03-30T16:30:50.988Z",
-      "status": "ga",
-      "categories": [
-        "Storage",
-        "Compute"
-      ],
-      "services": [
-        "Azure Disk Storage",
-        "Virtual Machines"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "compute",
-        "azure disk storage",
-        "virtual machines",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "558879",
-      "title": "Generally Available: Azure SQL updates for late-March 2026",
-      "description": "In late-March 2026, the following updates and enhancements were made to Azure SQL: Configure built-in SQL code analysis rules and severity settings without editing project XML. Use Fabric connectivity and provisioning options to connect with your Fabric workspaces and databases from the MSSQL extension while also creating a new database. Use Data-tier Application in the MSSQL extension to import and export.dacpac and.bacpac files. Learn more: Configure rules with SQL code analysis MSSQL Extension for VS Code",
-      "url": "https://azure.microsoft.com/updates?id=558879",
-      "publishedAt": "2026-03-26T16:00:10.842Z",
-      "updatedAt": "2026-03-26T16:00:10.842Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure SQL Database"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure sql database",
-        "feature"
-      ]
-    },
-    {
-      "id": "557862",
-      "title": "Public Preview: Blue-green agent pool upgrade in AKS",
-      "description": "In‑place node pool upgrades can introduce risk by applying changes directly to running environments. Blue‑green agent pool upgrades create a parallel node pool with the new configuration, allowing validation before workloads are shifted and providing a clear rollback path. This reduces upgrade risk and supports more controlled cluster lifecycle management. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557862",
-      "publishedAt": "2026-03-25T20:00:39.263Z",
-      "updatedAt": "2026-03-25T20:00:39.263Z",
-      "status": "preview",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "558836",
-      "title": "Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
-      "description": "We're excited to announce that private endpoint support for Azure Cosmos DB Mirroring in Microsoft Fabric is now generally available. You can now unlock powerful analytics on your operational data while keeping your enhanced network security posture intact. Now you can c onfigure virtual network restrictions, set up private endpoints, and help ensure your data stays protected within private network boundaries as data replicates to your Fabric w orkspace. You can use the Azure Cosmos DB n etwork access control list capability to authorize specific Fabric workspace IDs for trusted connections to",
-      "url": "https://azure.microsoft.com/updates?id=558836",
-      "publishedAt": "2026-03-25T20:00:39.263Z",
-      "updatedAt": "2026-03-25T20:00:39.263Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Cosmos DB"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "internet of things",
-        "azure cosmos db",
-        "feature"
-      ]
-    },
-    {
-      "id": "558841",
-      "title": "Public Preview: Fabric Mirroring integration for Azure Database for MySQL",
-      "description": "We are excited to announce the p ublic p review of Fabric Mirroring integration for Azure Database for MySQL – Flexible Server. You can now replicate MySQL operational data into Microsoft Fabric in near real time, without building or maintaining ETL pipelines. Mirrored data lands in OneLake in Delta Parquet format and is immediately available for analytics across Fabric experiences. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=558841",
-      "publishedAt": "2026-03-25T17:45:33.542Z",
-      "updatedAt": "2026-03-25T17:45:33.542Z",
-      "status": "preview",
-      "categories": [
-        "Databases"
-      ],
-      "services": [
-        "Azure Database for MySQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "databases",
-        "azure database for mysql",
-        "feature"
-      ]
-    },
-    {
-      "id": "558846",
-      "title": "Generally Available: Online migration now uses the pgoutput plugin",
-      "description": "You can now leverage pgoutput for online ( minimal-downtime ) migrations with i mproved reliability and performance. B y aligning with PostgreSQL’s native logical replication framework, t his update improve s ecosystem compatibility with modern PostgreSQL deployments and reduces dependency on legacy decoding mechanisms, helping ensure continued alignment as PostgreSQL versions evolve. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=558846",
-      "publishedAt": "2026-03-25T17:30:45.775Z",
-      "updatedAt": "2026-03-25T17:30:45.775Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "558851",
-      "title": "Generally Available: PostgreSQL migration service supports for Google AlloyDB into Azure Database for PostgreSQL",
-      "description": "We’re excited to announce that Google AlloyDB is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from Google AlloyDB to Azure using secure, reliable workflows designed for minimal downtime, while maintaining native PostgreSQL compatibility end to end. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=558851",
-      "publishedAt": "2026-03-25T17:30:45.775Z",
-      "updatedAt": "2026-03-25T17:30:45.775Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "558865",
-      "title": "Generally Available: PostgreSQL migration service supports compatible EDB workloads into Azure Database for PostgreSQL",
-      "description": "We’re excited to announce that EDB PostgreSQL is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from EDB Postgres Extended Server to Azure using secure, reliable workflows designed for minimal downtime, while maintaining native PostgreSQL compatibility end to end. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=558865",
-      "publishedAt": "2026-03-25T17:30:45.775Z",
-      "updatedAt": "2026-03-25T17:30:45.775Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "558870",
-      "title": "Generally Available: Custom time zone support for pg_cron via cron.timezone in Azure Database for PostgreSQL",
-      "description": "You can now modify the cron.timezone server parameter in Azure Database for PostgreSQL. This parameter controls the time zone used by pg_cron when evaluating scheduled jobs. By configuring cron.timezone, you can ensure scheduled jobs run according to your preferred time zone rather than relying on the server’s default setting. This u pdate is especially useful for applications that need job execution aligned with regional business hours or specific operational time zones. You can update the parameter through the Azure portal, Azure CLI, A zure Resource Manager, or REST API, and the change will",
-      "url": "https://azure.microsoft.com/updates?id=558870",
-      "publishedAt": "2026-03-25T17:30:45.775Z",
-      "updatedAt": "2026-03-25T17:30:45.775Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "558884",
-      "title": "Public Preview: Azure SQL Managed Instance change event streaming",
-      "description": "You can now stream row‑level data changes—inserts, updates, and deletes —from Azure SQL Managed Instance to Azure Event Hubs in near real time with c hange e vent s treaming (CES). SQL publishes changes as transactions commit, reducing latency while minimizing operational overhead on your workload. CES simplifies real‑time integration by eliminating the need for c hange d ata c apture, c hange t racking, custom polling, or external connectors. You configure streaming once at the database layer, and SQL handles reliability, retries, and log coordination. Events are emitted in structured JSON us",
-      "url": "https://azure.microsoft.com/updates?id=558884",
-      "publishedAt": "2026-03-25T17:30:45.775Z",
-      "updatedAt": "2026-03-25T17:30:45.775Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure SQL Database",
-        "Azure SQL Managed Instance"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-03",
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure sql database",
-        "azure sql managed instance",
-        "feature"
-      ]
-    },
-    {
-      "id": "557902",
-      "title": "Generally Available: Container network metrics filtering for AKS",
-      "description": "Network observability can generate large volumes of metrics, making it difficult for teams to focus on data that is operationally relevant. Container network metrics filtering in Azure Container Networking Services (ACNS) allows operators to control which container‑level network metrics are collected using Kubernetes custom resources, with filters applied dynamically. This helps teams reduce monitoring noise, manage data volumes, and keep dashboards focused on actionable signals. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557902",
-      "publishedAt": "2026-03-24T23:00:18.186Z",
-      "updatedAt": "2026-03-24T23:00:18.186Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
       ]
     }
   ]
