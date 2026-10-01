@@ -1,8 +1,193 @@
 {
-  "lastUpdated": "2026-09-30T14:39:07.341Z",
+  "lastUpdated": "2026-10-01T15:07:46.086Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "571894",
+      "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "description": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across disconnected tools. The SQL IaaS Agent extension collects performance data from your SQL Server instances and sends it to a Microsoft-managed telemetry pipeline for processing and storage. Resource-level and estate-wide dashboards help you identify performance trends, anomalies, and resource bottlenecks. Integration with Fabric Database Hub bri",
+      "url": "https://azure.microsoft.com/updates?id=571894",
+      "publishedAt": "2026-09-30T21:13:13.613Z",
+      "updatedAt": "2026-09-30T21:13:13.613Z",
+      "status": "preview",
+      "categories": [
+        "Compute",
+        "Databases"
+      ],
+      "services": [
+        "SQL Server on Azure Virtual Machines"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "compute",
+        "databases",
+        "sql server on azure virtual machines",
+        "feature"
+      ]
+    },
+    {
+      "id": "573414",
+      "title": "Retirement: NVv3-series Azure Virtual Machines",
+      "description": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs. Any remaining NVv3-series VMs will be set to a deallocated state. They'll stop working and no longer incur billing charges. NVv3 will no longer be under SLA or have support included. Note: 1-year and 3-year Reserved Instance (RI) purchases for the NVv3-series ended on November 2, 2025. Note: If you're currently using NVv3-series Azure VMs in the Azure UAE North region, you can co",
+      "url": "https://azure.microsoft.com/updates?id=573414",
+      "publishedAt": "2026-09-30T18:26:47.059Z",
+      "updatedAt": "2026-09-30T18:26:47.059Z",
+      "status": "retiring",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "virtual machines",
+        "retirements"
+      ]
+    },
+    {
+      "id": "573415",
+      "title": "Retirement: NVv4-series Azure Virtual Machines",
+      "description": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series VMs. Any remaining NVv4-series VMs will be set to a deallocated state. They'll stop working and no longer incur billing charges. NVv4 will no longer be under SLA or have support included. Note: 1-year and 3-year Reserved Instance (RI) purchases for the NVv4-series ended on November 2, 2025. Note: All Compute Pre-Purchase (CPP) sales for the N",
+      "url": "https://azure.microsoft.com/updates?id=573415",
+      "publishedAt": "2026-09-30T18:24:01.246Z",
+      "updatedAt": "2026-09-30T18:24:01.246Z",
+      "status": "retiring",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "virtual machines",
+        "retirements"
+      ]
+    },
+    {
+      "id": "573214",
+      "title": "Public Preview: Ubuntu 26.04 support in AKS",
+      "description": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04 support introduces the Ubuntu2604 OS SKU using Ubuntu Minimal as the baseline image, while preserving existing AKS create, update, and node pool workflows. You get a smaller default host footprint, Linux LTS kernel 7.0, and a controlled migration path with rollback flexibility to Ubuntu 24.04 where supported. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=573214",
+      "publishedAt": "2026-09-30T17:11:11.247Z",
+      "updatedAt": "2026-09-30T17:11:11.247Z",
+      "status": "preview",
+      "categories": [
+        "Compute",
+        "Containers"
+      ],
+      "services": [
+        "Azure Kubernetes Service (AKS)"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "compute",
+        "containers",
+        "azure kubernetes service (aks)",
+        "feature"
+      ]
+    },
+    {
+      "id": "573385",
+      "title": "Announcing: Azure canvases for GitHub Copilot",
+      "description": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while keeping progress, controls, and next steps visible and actionable in one workspace. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=573385",
+      "publishedAt": "2026-09-30T17:09:51.533Z",
+      "updatedAt": "2026-09-30T17:09:51.533Z",
+      "status": "update",
+      "categories": [
+        "Management and governance"
+      ],
+      "services": [
+        "Azure Copilot"
+      ],
+      "updateTypes": [
+        "SDK and Tools",
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "azure copilot",
+        "sdk and tools",
+        "announcement"
+      ]
+    },
+    {
+      "id": "572346",
+      "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "description": "As part of the Microsoft Azure VM lifecycle policy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3, and Esv3 Azure VM series in public cloud Azure regions. These VMs will enter the End-of-Life lifecycle stage and retire on November 15, 2029. We know migrating production workloads takes planning and engineering time. To keep your applications and workloads running without interruption, migrate any Dv3, Dsv3, Ev3, or Esv3 series VMs to a newer VM series before November 15, 2029. After this date, Dv3, Dsv3, Ev3, and Esv3 virtual machines will enter the Retired lifecycle stage and wi",
+      "url": "https://azure.microsoft.com/updates?id=572346",
+      "publishedAt": "2026-09-30T17:07:30.917Z",
+      "updatedAt": "2026-09-30T17:07:30.917Z",
+      "status": "retiring",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "virtual machines",
+        "retirements"
+      ]
+    },
+    {
+      "id": "transition-to-using-standard-tests-for-singlestep-availability-testing-in-azure-monitor-application-insights-by-30-september",
+      "title": "Retirement: Transition to using standard tests for single-step availability testing in Azure Monitor application insights by September 30, 2028",
+      "description": "URL ping tests in Application Insights were originally planned for retirement on September 30, 2026. In response to customer feedback requesting more time to complete migration, the retirement date has been extended by 24 months to September 30, 2028. On September 30, 2028, existing URL ping tests are removed from your resources. Review the pricing for standard tests and transition to using them before September 30, 2028, to ensure you can continue to run single-step availability tests in your Application Insights resources. Before the retirement date, you'll need to transition to using standa",
+      "url": "https://azure.microsoft.com/updates?id=transition-to-using-standard-tests-for-singlestep-availability-testing-in-azure-monitor-application-insights-by-30-september",
+      "publishedAt": "2023-09-22T23:00:56.000Z",
+      "updatedAt": "2026-09-30T16:18:26.485Z",
+      "status": "retiring",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "services": [
+        "Application Insights",
+        "Azure Monitor"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "devops",
+        "management and governance",
+        "application insights",
+        "azure monitor",
+        "retirements"
+      ]
+    },
     {
       "id": "570800",
       "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
@@ -13447,203 +13632,6 @@
         "containers",
         "azure kubernetes service (aks)",
         "feature"
-      ]
-    },
-    {
-      "id": "559899",
-      "title": "Generally Available: Network Security Perimeter for Azure Service Bus",
-      "description": "Network Security Perimeter (NSP) support for Azure Service Bus is now generally available. Network Security Perimeter creates a logical network boundary around your Service Bus namespaces and other Azure PaaS resources, blocking unauthorized public access by default and enabling secure communication between services within the perimeter. This complements existing Service Bus network security options - IP firewall rules, VNet service endpoints, and private endpoints - by providing centralized, perimeter-level control. Instead of configuring network rules on each resource individually, you creat",
-      "url": "https://azure.microsoft.com/updates?id=559899",
-      "publishedAt": "2026-04-06T18:00:04.734Z",
-      "updatedAt": "2026-04-06T18:00:04.734Z",
-      "status": "ga",
-      "categories": [
-        "Integration"
-      ],
-      "services": [
-        "Service Bus"
-      ],
-      "updateTypes": [
-        "Security"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "integration",
-        "service bus",
-        "security"
-      ]
-    },
-    {
-      "id": "559876",
-      "title": "Public Preview: Rule impact analysis on Azure Network Watcher",
-      "description": "Rule impact analysis on Azure Network Watcher enables you to preview the impact of security admin rules and network security group (NSG) rules before applying them to your environment. This feature helps you validate rule behavior, identify potential conflicts, and ensure that connectivity requirements are met without disrupting live traffic. By understanding the impact of your proposed rules changes, you can confidently plan changes, maintain compliance, and reduce the risk of misconfiguration across your virtual networks. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=559876",
-      "publishedAt": "2026-04-06T16:15:40.639Z",
-      "updatedAt": "2026-04-06T16:15:40.639Z",
-      "status": "preview",
-      "categories": [
-        "Management and governance",
-        "Networking"
-      ],
-      "services": [
-        "Network Watcher"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "management and governance",
-        "networking",
-        "network watcher",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "558027",
-      "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
-      "description": "Starting March 31, 2027, Python applications hosted on Azure App Service on Windows and Azure Functions on Windows will no longer run. After this date: Your application configuration and content will remain intact Your apps will stop running Technical support for these workloads will no longer be available Python on App Service for Windows has not been supported since December 2021. This change formally retires the runtime. What you need to do: To avoid service disruption, you must migrate your Python applications to Linux before 31 March 2027. Microsoft fully supports Python on: Azure App Ser",
-      "url": "https://azure.microsoft.com/updates?id=558027",
-      "publishedAt": "2026-04-02T16:45:52.712Z",
-      "updatedAt": "2026-04-02T16:45:52.712Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Mobile",
-        "Web"
-      ],
-      "services": [
-        "App Service"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "mobile",
-        "web",
-        "app service",
-        "retirements"
-      ]
-    },
-    {
-      "id": "558276",
-      "title": "Retirement: AzureDnsEndpoints for Azure storage accounts will be retired March 2027",
-      "description": "AzureDnsZone endpoints (preview) for Azure Blob storage accounts will enter retirement in March 2027. Customers leveraging AzureDnsZone endpoints (preview) should transition to Standard endpoints for all new and existing blob storage account deployments by April 1, 2027. Standard endpoints are Generally Available and fully supported for production workloads. As a preview customer, we thank you for your feedback on the preview. What do I need to do? Your existing storage accounts will not be impacted and will not be deleted. Over the coming months, we will remove the ability to create new stora",
-      "url": "https://azure.microsoft.com/updates?id=558276",
-      "publishedAt": "2026-04-02T16:30:09.210Z",
-      "updatedAt": "2026-04-02T16:30:09.210Z",
-      "status": "retiring",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Blob Storage"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure blob storage",
-        "retirements"
-      ]
-    },
-    {
-      "id": "558247",
-      "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
-      "description": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support model with mainstream OS support timelines, consistent with Linux and other Azure platforms. Service Fabric will no longer support Windows Server OS images beyond their mainstream support end date. This change strengthens security posture, reduces operational complexity, and enables continued innovation on modern platforms. Note: While Virtual Mac",
-      "url": "https://azure.microsoft.com/updates?id=558247",
-      "publishedAt": "2026-04-01T21:00:19.862Z",
-      "updatedAt": "2026-04-01T21:00:19.862Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Service Fabric"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure service fabric",
-        "retirements"
-      ]
-    },
-    {
-      "id": "558246",
-      "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
-      "description": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This change aligns Service Fabric’s Windows OS image support model with mainstream OS support timelines, consistent with Linux and other Azure platforms. Service Fabric will no longer support Windows Server OS images beyond their mainstream support end date. This change strengthens security posture, reduces operational complexity, and enables continued innovation on modern platforms. Note: While Virtual Mac",
-      "url": "https://azure.microsoft.com/updates?id=558246",
-      "publishedAt": "2026-04-01T20:30:41.706Z",
-      "updatedAt": "2026-04-01T20:30:41.706Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Service Fabric"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure service fabric",
-        "retirements"
-      ]
-    },
-    {
-      "id": "537234",
-      "title": "Public Preview: Unlock Client-Side Configuration at Scale with Azure App Configuration and Azure Front Door",
-      "description": "You can now deliver dynamic configuration directly to client-side applications —securely and at CDN scale—thanks to Azure App Configuration’s integration with Azure Front Door. This delivers new flexibility for modern apps and unlocks a critical capability for AI-powered and agentic client applications. This means you can now power modern client experiences across: Single Page Applications (React, Vue, Angular, Next.js, and others using JavaScript) Mobile/ and desktop applications with.Net MAUI JavaScript-powered UI components or embedded widgets running in browser Any browser-based applicatio",
-      "url": "https://azure.microsoft.com/updates?id=537234",
-      "publishedAt": "2026-04-01T19:00:05.657Z",
-      "updatedAt": "2026-04-01T19:00:05.657Z",
-      "status": "preview",
-      "categories": [
-        "Containers",
-        "Developer tools",
-        "Mobile",
-        "Security",
-        "Web"
-      ],
-      "services": [
-        "App Configuration"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Ignite"
-      ],
-      "gaDate": null,
-      "previewDate": "2025-11",
-      "tags": [
-        "containers",
-        "developer tools",
-        "mobile",
-        "security",
-        "web",
-        "app configuration",
-        "feature",
-        "microsoft ignite"
       ]
     }
   ]
