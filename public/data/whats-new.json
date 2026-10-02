@@ -1,8 +1,62 @@
 {
-  "lastUpdated": "2026-10-01T15:07:46.086Z",
+  "lastUpdated": "2026-10-02T14:29:00.971Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "569653",
+      "title": "Public Preview: Reader Endpoint for Azure Database for MySQL",
+      "description": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection traffic across multiple replicas. It simplifies application architecture by giving you a single endpoint for read operations, enhancing both scalability and fault tolerance. Azure Database for MySQL supports up to 10 read replicas per primary server. By routing read-only traffic through the reader endpoint, you can efficiently manage connectio",
+      "url": "https://azure.microsoft.com/updates?id=569653",
+      "publishedAt": "2026-09-02T16:59:15.707Z",
+      "updatedAt": "2026-10-01T17:57:11.121Z",
+      "status": "preview",
+      "categories": [
+        "Databases"
+      ],
+      "services": [
+        "Azure Database for MySQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "databases",
+        "azure database for mysql",
+        "feature"
+      ]
+    },
+    {
+      "id": "569592",
+      "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
+      "description": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before October 31, 2029, migrate your workloads to one of the following options that best aligns with your business needs: To use a VM-based programming model consider DCasv6 / DCadsv6 / DCesv6 / DCedsv6 or memory optimized ECasv6 / ECadsv6 / ECesv6 / ECedsv6 series confidential VMs (CVMs), For containerized applications, consider using Azure Confidential Container Instances (C-ACI) or Virtual nodes on Azur",
+      "url": "https://azure.microsoft.com/updates?id=569592",
+      "publishedAt": "2026-10-01T17:02:55.840Z",
+      "updatedAt": "2026-10-01T17:02:55.840Z",
+      "status": "retiring",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Linux Virtual Machines",
+        "Virtual Machines",
+        "Windows Virtual Machines"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "linux virtual machines",
+        "virtual machines",
+        "windows virtual machines",
+        "retirements"
+      ]
+    },
     {
       "id": "571894",
       "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
@@ -190,8 +244,8 @@
     },
     {
       "id": "570800",
-      "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
-      "description": "The Azure Functions v1 hosting model on Azure Container Apps will be retired on September 29, 2027. After this date, existing Functions v1 apps on Azure Container Apps will stop running and will no longer process requests or event-driven triggers. This retirement applies to the hosting model on Azure Container Apps, not the programming model version used by your function code. Action required Review your Azure environments and migrate all affected apps to the Functions v2 hosting model before September 29, 2027 to avoid service disruption. Functions v2 uses a native Azure Container App configu",
+      "title": "Retirement: Functions on Azure Container Apps V1",
+      "description": "The Functions on Azure Container Apps (ACA) V1 will be retired on September 29, 2027. After this date, existing Functions on ACA V1 Apps will stop running and no longer process requests or event-driven triggers. Action required Review your Azure environments and migrate all affected apps to the Functions on Azure Container Apps(ACA) V2 hosting model before September 29, 2027 to avoid service disruption. Functions on ACA V2 uses a native Azure Container App configured with `kind=functionapp`. You can reuse your existing container image; the standard migration path doesn't require function code ",
       "url": "https://azure.microsoft.com/updates?id=570800",
       "publishedAt": "2026-09-29T19:41:09.768Z",
       "updatedAt": "2026-09-29T19:41:09.768Z",
@@ -2061,31 +2115,6 @@
         "security",
         "azure front door",
         "web application firewall",
-        "feature"
-      ]
-    },
-    {
-      "id": "569653",
-      "title": "Private Preview: Reader Endpoint for Azure Database for MySQL",
-      "description": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection traffic across multiple replicas. It simplifies application architecture by giving you a single endpoint for read operations, enhancing both scalability and fault tolerance. Azure Database for MySQL supports up to 10 read replicas per primary server. By routing read-only traffic through the reader endpoint, you can efficiently manage connectio",
-      "url": "https://azure.microsoft.com/updates?id=569653",
-      "publishedAt": "2026-09-02T16:59:15.707Z",
-      "updatedAt": "2026-09-02T16:59:15.707Z",
-      "status": "development",
-      "categories": [
-        "Databases"
-      ],
-      "services": [
-        "Azure Database for MySQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-09",
-      "tags": [
-        "databases",
-        "azure database for mysql",
         "feature"
       ]
     },
@@ -13605,33 +13634,6 @@
         "azure functions",
         "feature",
         "services"
-      ]
-    },
-    {
-      "id": "557907",
-      "title": "Generally Available: Pod CIDR expansion in AKS",
-      "description": "When clusters exhaust available pod IP addresses, teams have historically been forced to rebuild environments to restore capacity, creating operational disruption. Pod CIDR expansion allows overlay‑based AKS clusters to increase their pod IP range in place without cluster recreation. This enables teams to scale workloads while maintaining availability and simplifies long‑term IP planning as environments grow. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557907",
-      "publishedAt": "2026-04-07T17:00:23.912Z",
-      "updatedAt": "2026-04-07T17:00:23.912Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature"
       ]
     }
   ]
