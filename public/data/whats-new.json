@@ -1,8 +1,35 @@
 {
-  "lastUpdated": "2026-10-02T14:29:00.971Z",
+  "lastUpdated": "2026-10-03T13:04:08.631Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "571504",
+      "title": "Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+      "description": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing your application connection endpoint. This managed upgrade experience helps reduce the downtime, complexity, and operational effort associated with traditional migration-based upgrades. You can use MVUs to keep distributed PostgreSQL workloads on supported versions and adopt the latest PostgreSQL and Citus performance improvements, capabilitie",
+      "url": "https://azure.microsoft.com/updates?id=571504",
+      "publishedAt": "2026-10-02T17:35:21.684Z",
+      "updatedAt": "2026-10-02T17:35:21.684Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
     {
       "id": "569653",
       "title": "Public Preview: Reader Endpoint for Azure Database for MySQL",
@@ -13603,37 +13630,6 @@
         "containers",
         "azure kubernetes service (aks)",
         "feature"
-      ]
-    },
-    {
-      "id": "559981",
-      "title": "Generally Available: Azure Functions now supports MCP resource triggers",
-      "description": "Developers building MCP servers on Azure Functions can expose tools but not resources. Now, Azure Functions supports MCP resource triggers, enabling developers to expose resources directly from an Azure Functions–hosted Model Context Protocol (MCP) server. Resources can include static or dynamic files, application metadata, and MCP App UI content such as HTML-based widgets rendered natively by MCP hosts. This capability is available in the Azure Functions MCP extension for Python, TypeScript,.NET, and Java. With MCP resource triggers, developers can now build and host MCP servers on Azure Func",
-      "url": "https://azure.microsoft.com/updates?id=559981",
-      "publishedAt": "2026-04-07T17:15:12.253Z",
-      "updatedAt": "2026-04-07T17:15:12.253Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Functions"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "internet of things",
-        "azure functions",
-        "feature",
-        "services"
       ]
     }
   ]
