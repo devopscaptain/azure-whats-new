@@ -1,8 +1,148 @@
 {
-  "lastUpdated": "2026-10-05T16:50:03.016Z",
+  "lastUpdated": "2026-10-06T14:46:20.579Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "572940",
+      "title": "Public Preview: Azure HorizonDB expands to additional regions",
+      "description": "Azure HorizonDB is expanding to additional Azure regions, giving you greater flexibility to deploy PostgreSQL workloads closer to your applications and users. With expanded regional availability, you have more options when choosing where to deploy Azure HorizonDB based on your workload needs. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=572940",
+      "publishedAt": "2026-10-05T18:51:57.653Z",
+      "updatedAt": "2026-10-05T18:51:57.653Z",
+      "status": "preview",
+      "categories": [
+        "Databases"
+      ],
+      "services": [
+        "Azure HorizonDB"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "databases",
+        "azure horizondb",
+        "feature"
+      ]
+    },
+    {
+      "id": "571499",
+      "title": "Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+      "description": "SQL Server on Azure Virtual Machines is now available in Azure Bleu, enabling you to deploy and manage SQL Server workloads in France's sovereign cloud environment while meeting data residency and sovereignty requirements. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=571499",
+      "publishedAt": "2026-10-05T18:12:09.471Z",
+      "updatedAt": "2026-10-05T18:12:09.471Z",
+      "status": "ga",
+      "categories": [
+        "Compute",
+        "Databases"
+      ],
+      "services": [
+        "SQL Server on Azure Virtual Machines"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "databases",
+        "sql server on azure virtual machines",
+        "feature"
+      ]
+    },
+    {
+      "id": "573875",
+      "title": "Announcing: Table discovery in OneLake Catalog search",
+      "description": "Starting October 15, 2026, Search in Microsoft Fabric will return tables from semantic models, lakehouses, and mirrored databases as individual results. Users can search by table name or description, or find a table by an exact column-name match. More object types will become available over time. This applies to Fabric's global search, the OneLake Catalog UI, the Search API, search in Fabric's MCP servers, the /find command in the Fabric CLI, and the discovery skill. What you need to know: Table visibility in search follows permissions on the parent item, not data-level permissions on the tabl",
+      "url": "https://azure.microsoft.com/updates?id=573875",
+      "publishedAt": "2026-10-05T17:55:23.422Z",
+      "updatedAt": "2026-10-05T17:55:23.422Z",
+      "status": "update",
+      "categories": [
+        "Analytics"
+      ],
+      "services": [
+        "Microsoft Fabric"
+      ],
+      "updateTypes": [
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "analytics",
+        "microsoft fabric",
+        "announcement"
+      ]
+    },
+    {
+      "id": "573425",
+      "title": "Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+      "description": "Azure Backup for PostgreSQL flexible server and elastic cluster (v2) preview brings enterprise-grade long-term retention to PostgreSQL. Backups are taken as physical backups from managed disk snapshots and vaulted in an Azure Backup vault, so protection now extends to servers of up to 32 TB on Premium SSD v1 and up to 64 TB on Premium SSD v2. The first backup is full and every backup after it is incremental, which keeps daily protection practical at multi-terabyte scale, with a recovery point objective goal of one day and retention configurable from 7 days up to 10 years. The v1 solution took ",
+      "url": "https://azure.microsoft.com/updates?id=573425",
+      "publishedAt": "2026-10-05T17:44:31.259Z",
+      "updatedAt": "2026-10-05T17:44:31.259Z",
+      "status": "preview",
+      "categories": [
+        "Management and governance",
+        "Storage",
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Backup",
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "management and governance",
+        "storage",
+        "databases",
+        "hybrid + multicloud",
+        "azure backup",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "573861",
+      "title": "Public Preview: IPv6 Support for Application Gateway WAF",
+      "description": "Announcing the Public Preview of IPv6 support for Application Gateway WAF. Application Gateway Web Application Firewall (WAF) now supports inspection and enforcement for IPv6 traffic in Public Preview, marking a major step forward in modernizing the platform for dual‑stack environments. As IPv6 adoption accelerates globally due to IPv4 exhaustion and modern connectivity requirements, this enhancement enables customers to embrace IPv6 without compromising their security posture. With this update, Application Gateway WAF extends its full protection stack -including managed rule sets, custom rule",
+      "url": "https://azure.microsoft.com/updates?id=573861",
+      "publishedAt": "2026-10-05T17:41:41.922Z",
+      "updatedAt": "2026-10-05T17:41:41.922Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "web application firewall",
+        "feature"
+      ]
+    },
     {
       "id": "571504",
       "title": "Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
@@ -13494,141 +13634,6 @@
         "databases",
         "hybrid + multicloud",
         "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "559628",
-      "title": "Generally Available: Enhancements to maintenance notifications in Azure Service Health",
-      "description": "We’re introducing r egional l evel c onsolidated m aintenance n otifications for Azure Database for PostgreSQL to simplify how you stay informed about upcoming maintenance. Instead of one notification per server, now you receive a single notification per region that consolidates m aintenance details for all your PostgreSQL servers across subscriptions. This enhancement reduces notification noise while giving you a clearer view of upcoming maintenance activities in your environment. You can more easily plan and coordinate across teams, ensuring minimal disruption to your workloads. No action is",
-      "url": "https://azure.microsoft.com/updates?id=559628",
-      "publishedAt": "2026-04-08T17:45:09.303Z",
-      "updatedAt": "2026-04-08T17:45:09.303Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "560025",
-      "title": "Public Preview: Azure Files assessments are now available using Azure Migrate",
-      "description": "Azure Migrate now supports assessments for Azure Files, allowing customers and partners to efficiently plan migrations of on-premises SMB and NFS file shares (Windows and Linux) to Azure Files. This feature enables discovery of file shares, visibility into capacity and sources, and provides Azure Files SKU recommendations for informed migration decisions. Key benefits include: Discover and review on-premises SMB/NFS shares Group, tag, and filter shares for better planning Generate business cases comparing Azure Files and on-premises costs Assess shares with Azure Files SKU recommendations base",
-      "url": "https://azure.microsoft.com/updates?id=560025",
-      "publishedAt": "2026-04-08T17:30:02.440Z",
-      "updatedAt": "2026-04-08T17:30:02.440Z",
-      "status": "preview",
-      "categories": [
-        "Management and governance",
-        "Migration"
-      ],
-      "services": [
-        "Azure Migrate"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-02",
-      "tags": [
-        "management and governance",
-        "migration",
-        "azure migrate",
-        "feature"
-      ]
-    },
-    {
-      "id": "560039",
-      "title": "Generally Available: Observability in AKS Namespace and Workload Views",
-      "description": "AKS now surfaces observability data powered by Azure Monitor managed service for Prometheus directly within Namespace and Workload views, making it easier to: Monitor cluster and workload health Troubleshoot pending or failed pods Analyze resource utilization across Nodes, Namespaces, Workloads, and Pods Assess pod performance with event and utilization summaries With these enhanced insights, you can diagnose issues faster and gain a clearer understanding of cluster performance and resource usage.",
-      "url": "https://azure.microsoft.com/updates?id=560039",
-      "publishedAt": "2026-04-08T17:30:02.440Z",
-      "updatedAt": "2026-04-08T17:30:02.440Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "feature"
-      ]
-    },
-    {
-      "id": "559547",
-      "title": "Generally Available: Azure Red Hat OpenShift adds NVIDIA H100 and H200 GPU support",
-      "description": "Azure Red Hat OpenShift (ARO) now supports NVIDIA H100 and H200 GPU-based Azure Virtual Machine SKUs, enabling customers to run large-scale AI, machine learning, and high-performance computing (HPC) workloads on a fully managed OpenShift service. This update allows organizations to deploy GPU-accelerated containers using enterprise Kubernetes with built-in security, lifecycle management, and Azure integration. With H100 and H200 GPUs, customers can take advantage of next-generation performance for training and inferencing large language models, data analytics, and advanced simulation workloads",
-      "url": "https://azure.microsoft.com/updates?id=559547",
-      "publishedAt": "2026-04-07T19:30:53.510Z",
-      "updatedAt": "2026-04-07T19:30:53.510Z",
-      "status": "ga",
-      "categories": [
-        "Containers"
-      ],
-      "services": [
-        "Azure Red Hat OpenShift"
-      ],
-      "updateTypes": [
-        "Open Source",
-        "Regions & Datacenters"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "containers",
-        "azure red hat openshift",
-        "open source",
-        "regions & datacenters"
-      ]
-    },
-    {
-      "id": "557857",
-      "title": "Generally Available: Disable HTTP proxy in AKS",
-      "description": "Organizations that use HTTP proxies to control outbound traffic often need to change or remove those settings as network requirements evolve, which can be disruptive in running clusters. Azure Kubernetes Service allows administrators to disable HTTP proxy variables for nodes and pods while retaining proxy configuration in the control plane, with changes triggering node pool reimaging to ensure a consistent cluster state. This gives operators clearer control over outbound networking behavior and simplifies ongoing maintenance without requiring full cluster rebuilds. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=557857",
-      "publishedAt": "2026-04-07T17:45:41.097Z",
-      "updatedAt": "2026-04-07T17:45:41.097Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
         "feature"
       ]
     }
