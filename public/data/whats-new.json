@@ -1,8 +1,208 @@
 {
-  "lastUpdated": "2026-10-06T14:46:20.579Z",
+  "lastUpdated": "2026-10-08T15:14:54.638Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "571831",
+      "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+      "description": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships, while customers rely on their trusted partners to manage their cloud and AI initiatives.",
+      "url": "https://azure.microsoft.com/updates?id=571831",
+      "publishedAt": "2026-10-08T14:17:44.508Z",
+      "updatedAt": "2026-10-08T14:17:44.508Z",
+      "status": "update",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "announcement"
+      ]
+    },
+    {
+      "id": "573744",
+      "title": "Generally Available: Anyscale on Azure",
+      "description": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your team already uses. Unlike other processing engines which either only support one hardware type (e.g. CPUs) or focus on a single workload (e.g. inference), Ray turns a heterogeneous cluster of CPUs and GPUs into a single Python runtime composing data preparation, distributed training, fine-tuning, reinforcement learning, high-throughput inference, and",
+      "url": "https://azure.microsoft.com/updates?id=573744",
+      "publishedAt": "2026-10-07T17:06:00.322Z",
+      "updatedAt": "2026-10-07T17:06:00.322Z",
+      "status": "ga",
+      "categories": [
+        "Compute",
+        "Containers"
+      ],
+      "services": [
+        "Azure Kubernetes Service (AKS)"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "azure kubernetes service (aks)",
+        "feature"
+      ]
+    },
+    {
+      "id": "573443",
+      "title": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "description": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the sysadmin fixed server role. This capability enables you to use operations such as BULK INSERT and OPENROWSET(BULK...) while following a least-privilege security model. Previously on SQL Server on Linux, these operations required sysadmin membership. With this release, organizations running SQL Server on Linux can provide users with the permiss",
+      "url": "https://azure.microsoft.com/updates?id=573443",
+      "publishedAt": "2026-10-07T16:57:04.099Z",
+      "updatedAt": "2026-10-07T16:57:04.099Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "570232",
+      "title": "Retirement: Pod name dimension in AKS pod platform metrics",
+      "description": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters: Number of pods by phase (kube_pod_status_phase) Number of pods in Ready state (kube_pod_status_ready) After this change: Metric names remain unchanged. Aggregate pod counts remain available. Namespace-level monitoring scenarios remain supported. The pod name dimension will no longer be available for filtering, grouping, or alerting. During the deprecation period, AKS will maintain both the existing and the n",
+      "url": "https://azure.microsoft.com/updates?id=570232",
+      "publishedAt": "2026-10-06T22:37:54.798Z",
+      "updatedAt": "2026-10-06T22:37:54.798Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Containers"
+      ],
+      "services": [
+        "Azure Kubernetes Service (AKS)"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "azure kubernetes service (aks)",
+        "retirements"
+      ]
+    },
+    {
+      "id": "568178",
+      "title": "Retirement: Azure App Service on Azure Stack Hub",
+      "description": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or enhancements will be made available. Existing supported deployments can continue to run and upgrade to the latest available release until retirement. Customers should begin planning migration to Azure App Service in Azure now to continue receiving support, security updates, platform improvements, and new capabilities. On September 30 th, 2029, App Service on Azure Stack will reach retirement and Microso",
+      "url": "https://azure.microsoft.com/updates?id=568178",
+      "publishedAt": "2026-10-06T18:24:43.728Z",
+      "updatedAt": "2026-10-06T18:24:43.728Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Mobile",
+        "Web",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "App Service",
+        "Azure Stack Hub"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "mobile",
+        "web",
+        "hybrid + multicloud",
+        "app service",
+        "azure stack hub",
+        "retirements"
+      ]
+    },
+    {
+      "id": "568585",
+      "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+      "description": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8, 11 and 17. Required action To avoid potential security vulnerabilities and minimize risk for your App Service apps, follow the steps to upgrade your app to Java 25 before September 1, 2027. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=568585",
+      "publishedAt": "2026-10-06T18:21:59.354Z",
+      "updatedAt": "2026-10-06T18:21:59.354Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Mobile",
+        "Web"
+      ],
+      "services": [
+        "App Service"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "mobile",
+        "web",
+        "app service",
+        "retirements"
+      ]
+    },
+    {
+      "id": "569236",
+      "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
+      "description": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent alternative, or consider SQL Server on Confidential VMs. Customer impact After retirement, workloads using Intel SGX enclaves will no longer have enclave functionality. Databases running on DC-series compute tiers should be migrated to supported compute tiers to continue using enclave-enabled features. Recommended actions Migrate from DC-seri",
+      "url": "https://azure.microsoft.com/updates?id=569236",
+      "publishedAt": "2026-10-06T16:42:33.627Z",
+      "updatedAt": "2026-10-06T16:42:33.627Z",
+      "status": "retiring",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "retirements"
+      ]
+    },
+    {
+      "id": "573782",
+      "title": "Public Preview: AKS on bare metal now on Ubuntu",
+      "description": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For AI workloads, these tradeoffs can limit access to local data, reduce available compute capacity, and restrict your choice of GPUs, drivers, and runtimes. AKS on bare metal Ubuntu, now in public preview, brings the AKS experience directly to customer owned Ubuntu infrastructure. Deploy a complete Kubernetes cluster on your hardware using Azure CLI. Choose the CPU and GPU hardware and supporting softw",
+      "url": "https://azure.microsoft.com/updates?id=573782",
+      "publishedAt": "2026-10-06T15:44:06.534Z",
+      "updatedAt": "2026-10-06T15:44:06.534Z",
+      "status": "preview",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-09",
+      "tags": [
+        "feature"
+      ]
+    },
     {
       "id": "572940",
       "title": "Public Preview: Azure HorizonDB expands to additional regions",
@@ -13407,233 +13607,6 @@
       "tags": [
         "storage",
         "azure files",
-        "feature"
-      ]
-    },
-    {
-      "id": "560162",
-      "title": "Public Preview: Managed identity support for graphical session recording",
-      "description": "Today, we are announcing Azure Bastion now supports managed identities for graphical session recording. Azure Bastion graphical session recording now supports write access to storage accounts using managed identities. With this update, users have the option to configure managed identities during session recording setup and specify the storage account container for storing VM recordings. Once the managed identity is authenticated to WRITE recordings to the storage container, Azure Bastion will authenticate without requiring a SAS token. Stronger security posture: Removes shared, time‑bound SAS ",
-      "url": "https://azure.microsoft.com/updates?id=560162",
-      "publishedAt": "2026-04-13T18:45:30.177Z",
-      "updatedAt": "2026-04-13T18:45:30.177Z",
-      "status": "preview",
-      "categories": [
-        "Networking",
-        "Security"
-      ],
-      "services": [
-        "Azure Bastion"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "networking",
-        "security",
-        "azure bastion",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "560198",
-      "title": "Generally Available: Azure Storage Mover now available in Azure Government (US)",
-      "description": "Azure Storage Mover is now available in Azure Government (US), enabling U.S. government customers and partners to securely migrate large‑scale file data to Azure Government cloud environments using a fully managed migration service. What is Azure Storage Mover? Azure Storage Mover is a fully managed service designed to simplify and accelerate large‑scale migrations of file data to Azure Storage. It provides centralized management, built‑in resiliency, and visibility across migrations, while allowing customers to run migration agents close to their data sources. Supported scenarios in Azure Gov",
-      "url": "https://azure.microsoft.com/updates?id=560198",
-      "publishedAt": "2026-04-13T18:00:56.792Z",
-      "updatedAt": "2026-04-13T18:00:56.792Z",
-      "status": "ga",
-      "categories": [
-        "Migration",
-        "Storage"
-      ],
-      "services": [
-        "Azure Storage Mover"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Regions & Datacenters",
-        "Services"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "migration",
-        "storage",
-        "azure storage mover",
-        "feature",
-        "regions & datacenters",
-        "services"
-      ]
-    },
-    {
-      "id": "560001",
-      "title": "Generally Available: Granular Encryption-in-Transit Controls for SMB and NFS on Azure Files",
-      "description": "Azure Files now supports independent configuration of encryption-in-transit settings for SMB and NFS protocols at the storage account level. Customers can now define protocol-specific security policies, enabling precise control over encryption requirements for each protocol without compromise. This is ideal for environments running mixed-protocol workloads that demand tailored security configurations. This capability is available today through the Azure portal, Azure CLI, Azure PowerShell, and REST API.",
-      "url": "https://azure.microsoft.com/updates?id=560001",
-      "publishedAt": "2026-04-13T17:45:02.987Z",
-      "updatedAt": "2026-04-13T17:45:02.987Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Files"
-      ],
-      "updateTypes": [
-        "Security"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure files",
-        "security"
-      ]
-    },
-    {
-      "id": "560119",
-      "title": "Public Preview: Monitor AKS applications with OpenTelemetry and Azure Monitor",
-      "description": "Azure Monitor now supports monitoring applications that run on Azure Kubernetes Service (AKS) by using OpenTelemetry for instrumentation and data collection. Leverage autoinstrumentation to deploy the Azure Monitor OpenTelemetry distro to workloads or use autoconfiguration to route OTLP signals from applications already instrumented with open-source, vendor neutral OpenTelemetry SDKs to Azure Monitor. Use Application Insights to monitor, troubleshoot and triage application performance in combination with infrastructure signals from Azure Managed Prometheus and container logs. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560119",
-      "publishedAt": "2026-04-13T17:45:02.987Z",
-      "updatedAt": "2026-04-13T17:45:02.987Z",
-      "status": "preview",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Open Source"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "open source"
-      ]
-    },
-    {
-      "id": "559395",
-      "title": "Retirement: Azure Managed Grafana Essential SKU will retire on March 30, 2027",
-      "description": "Azure Managed Grafana Essential SKU will be retired on March 30, 2027. Customers using the Essential SKU are encouraged to transition to Azure Managed Grafana Standard SKU or Azure Monitor Dashboards with Grafana before the retirement date to avoid service disruption, including loss of access to dashboards. From now until March 30, 2027, existing Essential SKU resources can continue to be used without disruption. On the retirement date, all Azure Managed Grafana instances using the Essential SKU will be deleted. This retirement helps simplify the Azure Managed Grafana offering and provides cus",
-      "url": "https://azure.microsoft.com/updates?id=559395",
-      "publishedAt": "2026-04-13T17:15:23.137Z",
-      "updatedAt": "2026-04-13T17:15:23.137Z",
-      "status": "retiring",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Managed Grafana"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure managed grafana",
-        "retirements"
-      ]
-    },
-    {
-      "id": "560207",
-      "title": "Public Preview: StandardV2 NAT Gateway as an outbound type for AKS",
-      "description": "AKS now supports managed and user-assigned StandardV2 NAT Gateway as an outbound type for your AKS managed or BYO VNets. This unlocks zone-redundant outbound connectivity, up to 100 Gbps outbound throughput, and IPv6 outbound support for AKS clusters. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560207",
-      "publishedAt": "2026-04-13T16:00:36.611Z",
-      "updatedAt": "2026-04-13T16:00:36.611Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers",
-        "Networking"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)",
-        "Azure NAT Gateway"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "compute",
-        "containers",
-        "networking",
-        "azure kubernetes service (aks)",
-        "azure nat gateway",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "559836",
-      "title": "Generally Available: Event Grid as a destination for Stripe events",
-      "description": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event Grid acts as a fully managed event broker between Stripe and other Azure services. Now Event Grid can automatically deliver Stripe events to Azure subscribers including: Azure Functions Logic Apps Event Hubs Service Bus Furthermore, because Event Grid has a native connector to Microsoft Fabric, you can now ingest Stripe events into Fabric as continuous streams, where they can be transformed, enriched",
-      "url": "https://azure.microsoft.com/updates?id=559836",
-      "publishedAt": "2026-04-10T17:00:41.237Z",
-      "updatedAt": "2026-04-10T17:00:41.237Z",
-      "status": "ga",
-      "categories": [
-        "Integration",
-        "Internet of Things"
-      ],
-      "services": [
-        "Event Grid"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": "2026-04",
-      "tags": [
-        "integration",
-        "internet of things",
-        "event grid",
-        "feature"
-      ]
-    },
-    {
-      "id": "559623",
-      "title": "Generally Available: PgBouncer 1.25.1 support in Azure Database for PostgreSQL – Flexible Server",
-      "description": "PgBouncer 1.25.1 is now generally available in Azure Database for PostgreSQL. As a built-in connection pooling feature, PgBouncer helps you scale to thousands of connections with low overhead by efficiently managing idle and short-lived connections. With this update, you benefit from the latest cumulative improvements from recent community releases, including performance enhancements, protocol improvements, and important security and stability fixes. This u pdate helps you run applications more efficiently, reduce connection overhead, and improve overall reliability of your database workloads.",
-      "url": "https://azure.microsoft.com/updates?id=559623",
-      "publishedAt": "2026-04-08T17:45:09.303Z",
-      "updatedAt": "2026-04-08T17:45:09.303Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
         "feature"
       ]
     }
