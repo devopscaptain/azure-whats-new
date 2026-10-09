@@ -1,8 +1,185 @@
 {
-  "lastUpdated": "2026-10-08T15:14:54.638Z",
+  "lastUpdated": "2026-10-09T15:00:10.805Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "574430",
+      "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "description": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network. StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported regions when using the managedNATGateway outbound type. StandardV2 NAT Gateway provides zone redundancy by default, higher bandwidth and throughput, and IPv6 support. Existing AKS clusters can migrate from a managed Standard NAT Gateway or load balancer to a managed StandardV2 NAT Gateway. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=574430",
+      "publishedAt": "2026-10-08T22:51:01.632Z",
+      "updatedAt": "2026-10-08T22:51:01.632Z",
+      "status": "ga",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Networking"
+      ],
+      "services": [
+        "Azure Kubernetes Service (AKS)",
+        "Azure NAT Gateway"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "networking",
+        "azure kubernetes service (aks)",
+        "azure nat gateway",
+        "feature"
+      ]
+    },
+    {
+      "id": "573691",
+      "title": "Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "description": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=573691",
+      "publishedAt": "2026-10-08T19:56:31.576Z",
+      "updatedAt": "2026-10-08T19:56:31.576Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "567933",
+      "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+      "description": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mode, and Microsoft’s investments for developer cloud environments are focused on Windows 365. Existing Microsoft Dev Box usage remains supported during the transition period, and we recommend that you begin planning your migration now to avoid disruption to developer workflows. What this means for you If you currently use Microsoft Dev Box, you ",
+      "url": "https://azure.microsoft.com/updates?id=567933",
+      "publishedAt": "2026-10-08T18:23:25.289Z",
+      "updatedAt": "2026-10-08T18:23:25.289Z",
+      "status": "retiring",
+      "categories": [
+        "Developer tools",
+        "DevOps",
+        "Virtual desktop infrastructure"
+      ],
+      "services": [
+        "Microsoft Dev Box"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "developer tools",
+        "devops",
+        "virtual desktop infrastructure",
+        "microsoft dev box",
+        "retirements"
+      ]
+    },
+    {
+      "id": "567934",
+      "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+      "description": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will no longer be available. To help avoid disruption, we recommend that you begin assessing your current usage and planning your transition now. Review the environments, templates, and workflows in your organization that depend on Azure Deployment Environments and identify the replacement approach that best supports your requirements. What this means for you You should review all current Azure Deployme",
+      "url": "https://azure.microsoft.com/updates?id=567934",
+      "publishedAt": "2026-10-08T18:20:34.009Z",
+      "updatedAt": "2026-10-08T18:20:34.009Z",
+      "status": "retiring",
+      "categories": [
+        "Developer tools",
+        "DevOps"
+      ],
+      "services": [
+        "Azure Deployment Environments"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "developer tools",
+        "devops",
+        "azure deployment environments",
+        "retirements"
+      ]
+    },
+    {
+      "id": "574343",
+      "title": "Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "description": "Announcing the general availability of exceptions for Web Application Firewall on Azure Application Gateway and Azure Front Door. Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF may block requests that are safe and expected for your application. Existing exclusions help reduce false positives by omitting specific request attributes, such as headers, cookies, query string arguments, or body fields, from WAF evaluation while the rest of the request continues to be inspected. Exceptions provide additional flexibility by ",
+      "url": "https://azure.microsoft.com/updates?id=574343",
+      "publishedAt": "2026-10-08T17:29:30.825Z",
+      "updatedAt": "2026-10-08T17:29:30.825Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway",
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "574204",
+      "title": "Public Preview: Microsoft Agent 365 integration with Azure API Management",
+      "description": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers and tools. With this integration, organizations can: Discover Azure API Management gateways and MCP servers in Agent 365, creating a centralized inventory of gateway-managed tools. Control access to MCP servers from Agent 365, with enforcement applied by Azure API Management at runtime. Apply tool-level access controls with the Azure API Management AI Gateway tier, including blocking individual too",
+      "url": "https://azure.microsoft.com/updates?id=574204",
+      "publishedAt": "2026-10-08T17:24:34.408Z",
+      "updatedAt": "2026-10-08T17:24:34.408Z",
+      "status": "preview",
+      "categories": [
+        "Integration",
+        "Internet of Things",
+        "Mobile",
+        "Web"
+      ],
+      "services": [
+        "API Management"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "integration",
+        "internet of things",
+        "mobile",
+        "web",
+        "api management",
+        "feature"
+      ]
+    },
     {
       "id": "571831",
       "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
@@ -13452,162 +13629,6 @@
         "containers",
         "azure kubernetes service (aks)",
         "retirements"
-      ]
-    },
-    {
-      "id": "558483",
-      "title": "Generally Available: User and group quota reports in Azure NetApp Files",
-      "description": "For organizations leveraging individual user and group quotas in Azure NetApp Files to manage capacity on NFS, SMB, and dual-protocol volumes, the user and group quota reporting feature offers clear visibility into key metrics such as quota limits, used capacity, and percentage utilization for each target user and group of a quota rule. Administrators can view quota usage reports in the portal, download a quota report, and modify quota rules directly within the Azure portal for any volume with quota rules—removing the previous dependency on host-based tools and the need to mount the volume for",
-      "url": "https://azure.microsoft.com/updates?id=558483",
-      "publishedAt": "2026-04-16T18:00:13.140Z",
-      "updatedAt": "2026-04-16T18:00:13.140Z",
-      "status": "preview",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure NetApp Files"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure netapp files",
-        "feature"
-      ]
-    },
-    {
-      "id": "559751",
-      "title": "Retirement: End of life reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
-      "description": "Microsoft Azure will retire support for HBv2-series, HC-series, and NP-series VMs in Azure Batch pools on May 31, 2027, including: HBv2-series: 120 AMD EPYC 7V12 vCPUs, 480 GB RAM, 200 Gb/s HDR InfiniBand HC-series: 44 Intel Xeon Platinum 8168 vCPUs, 352 GB RAM, 100 Gb/s EDR InfiniBand NP-series: Xilinx Alveo U250 FPGA-accelerated VMs These VM series have been superseded by newer generations with improved performance and better price-performance. Recommended migration targets: HBv2-series → HBv3-series or HBv4-series (3rd/4th Gen AMD EPYC, 200/400 Gb/s NDR InfiniBand) HC-series → HX-series (4t",
-      "url": "https://azure.microsoft.com/updates?id=559751",
-      "publishedAt": "2026-04-15T17:30:33.282Z",
-      "updatedAt": "2026-04-15T17:30:33.282Z",
-      "status": "retiring",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Batch"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "batch",
-        "retirements"
-      ]
-    },
-    {
-      "id": "559761",
-      "title": "Generally Available: Encrypt Premium SSD v2 and Ultra Disks with Cross Tenant Customer Managed Keys",
-      "description": "Cross-tenant customer-managed keys (CMK) for Premium SSD v2 and Ultra Disks are now generally available. This capability allows managed disks to be encrypted using a customer-managed key stored in an Azure Key Vault located in a different Microsoft Entra tenant than the disk resource. This enables scenarios where resource ownership and key ownership are intentionally separated across tenants, for example, in multi-tenant or service provider environments. Service providers building software-as-a-service (SaaS) solutions on Azure can now offer customers the ability to manage their own encryption",
-      "url": "https://azure.microsoft.com/updates?id=559761",
-      "publishedAt": "2026-04-15T17:15:38.587Z",
-      "updatedAt": "2026-04-15T17:15:38.587Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Disk Storage"
-      ],
-      "updateTypes": [
-        "Compliance",
-        "Security"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure disk storage",
-        "compliance",
-        "security"
-      ]
-    },
-    {
-      "id": "560241",
-      "title": "Generally Available: Azure Site Recovery support for Windows Azure VMs with NVMe disk controllers",
-      "description": "Azure Site Recovery now supports replication and disaster recovery for Windows Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series, Ddsv6, Edsv6 and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This enhancement allows customers to enable disaster recovery for their Azure VMs running high performance, I/O-intensive workloads (limited to ASR churn support) with the NVMe disk controller. This capability is supported across all Azure public cloud regions. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560241",
-      "publishedAt": "2026-04-14T21:15:15.063Z",
-      "updatedAt": "2026-04-14T21:15:15.063Z",
-      "status": "ga",
-      "categories": [
-        "Management and governance",
-        "Migration"
-      ],
-      "services": [
-        "Azure Site Recovery"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Management"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": "2026-04",
-      "tags": [
-        "management and governance",
-        "migration",
-        "azure site recovery",
-        "feature",
-        "management"
-      ]
-    },
-    {
-      "id": "559746",
-      "title": "Generally Available: Smart Tier (Azure Blob and Data Lake Storage)",
-      "description": "Announcing the GA of smart tier for Azure Blob and Data Lake Storage (ADLS). Smart Tier is Generally Available (GA) today in nearly all zonal public cloud regions. (The Azure regions Israel Central, Qatar Central and UAE North are not part of this GA announcement) Smart tier is a fully managed and automated data tiering solution, avoiding manual tier placement for object storage standard online tiers. Smart tier automatically moves your data between hot, cool, and cold access tiers based on usage patterns, optimizing your costs for these access tiers automatically. New data is stored in the ho",
-      "url": "https://azure.microsoft.com/updates?id=559746",
-      "publishedAt": "2026-04-14T17:15:47.435Z",
-      "updatedAt": "2026-04-14T17:15:47.435Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Blob Storage"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure blob storage",
-        "feature"
-      ]
-    },
-    {
-      "id": "557828",
-      "title": "Generally Available: Azure File Sync in Belgium Central, Malaysia West, and Indonesia Central",
-      "description": "Azure File Sync enables seamless tiering of data from on-premises Windows Servers to Azure Files for hybrid use cases and simplified migration. It also enables you to leverage the performance, flexibility and compatibility of your on-premises File Server while leveraging the scale and cost effectiveness of Azure Files. The expansion into Belgium Central, Malaysia West, and Indonesia Central brings the service closer to organizations in these regions, offering lower latency, better performance, and support for local data residency requirements. If Azure File Sync is not yet available in your pr",
-      "url": "https://azure.microsoft.com/updates?id=557828",
-      "publishedAt": "2026-04-13T23:45:31.518Z",
-      "updatedAt": "2026-04-13T23:45:31.518Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Files"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure files",
-        "feature"
       ]
     }
   ]
