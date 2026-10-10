@@ -1,8 +1,27 @@
 {
-  "lastUpdated": "2026-10-09T15:00:10.805Z",
+  "lastUpdated": "2026-10-10T14:15:46.955Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "570313",
+      "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "description": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027. Customers currently using the extension should plan to migrate to the Azure Key Vault Secret Store Extension before the retirement date. The Azure Key Vault Secret Store Extension provides equivalent functionality for accessing and synchronizing secrets from Azure Key Vault for workloads running on Azure Arc-enabled Kubernetes clusters. In addition, the Azure Key Vault Secret Store Extension includes enhancements such as support for offline access to secrets and authentication us",
+      "url": "https://azure.microsoft.com/updates?id=570313",
+      "publishedAt": "2026-10-09T20:27:17.341Z",
+      "updatedAt": "2026-10-09T20:27:17.341Z",
+      "status": "retiring",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "retirements"
+      ]
+    },
     {
       "id": "574430",
       "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
@@ -13602,33 +13621,6 @@
         "azure backup",
         "azure kubernetes service (aks)",
         "feature"
-      ]
-    },
-    {
-      "id": "557928",
-      "title": "Retirement: Azure Kubernetes Service support for Ubuntu 22.04",
-      "description": "On June 30, 2027, we'll retire Ubuntu 22.04 on Azure Kubernetes Service. To avoid disruptions, transition to Ubuntu 24.04 or later by that date. Newer supported versions include kernel updates and security improvements. Until June 30, 2027, you can continue to use Ubuntu 22.04 on AKS without disruption. If you don't migrate by June 30, 2027, you won't be able to create new node pools, AKS won't produce new node images, and you'll no longer receive security patches for existing node pools. If you'd like to enable long-term support with Kubernetes version 1.33+, first update your node pools to U",
-      "url": "https://azure.microsoft.com/updates?id=557928",
-      "publishedAt": "2026-04-16T20:30:13.244Z",
-      "updatedAt": "2026-04-16T20:30:13.244Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "retirements"
       ]
     }
   ]
