@@ -1,8 +1,56 @@
 {
-  "lastUpdated": "2026-10-14T13:20:10.982Z",
+  "lastUpdated": "2026-10-15T13:05:41.728Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "576377",
+      "title": "Generally Available: Azure Cloud HSM hardware audit logging",
+      "description": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers can access human-readable records alongside HSM-signed binary audit data, signatures, and certificates to independently verify the authenticity and integrity of signed audit batches. Audit events are delivered to Azure Monitor Log Analytics for use in existing monitoring and investigation workflows.",
+      "url": "https://azure.microsoft.com/updates?id=576377",
+      "publishedAt": "2026-10-14T19:17:47.024Z",
+      "updatedAt": "2026-10-14T19:17:47.024Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "576214",
+      "title": "Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "description": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory, monitoring and management capabilities. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=576214",
+      "publishedAt": "2026-10-14T19:13:31.736Z",
+      "updatedAt": "2026-10-14T19:13:31.736Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "services": [
+        "Azure Site Recovery"
+      ],
+      "updateTypes": [
+        "Management",
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "migration",
+        "azure site recovery",
+        "management",
+        "feature"
+      ]
+    },
     {
       "id": "570313",
       "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
@@ -13558,68 +13606,6 @@
         "ai + machine learning",
         "analytics",
         "azure databricks",
-        "feature"
-      ]
-    },
-    {
-      "id": "559311",
-      "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
-      "description": "Azure Functions runtime v3 was retired on December 13, 2022. As part of ongoing efforts to reduce reliance on legacy infrastructure and focus investments on supported platforms, Azure will enforce this retirement for Linux Consumption–based Function Apps still running runtime v3. After September 30, 2026, Function Apps using runtime v3 on Linux Consumption will no longer start or process executions, and existing deployments in this configuration will stop functioning. To avoid service disruption, customers must migrate affected apps to Azure Functions runtime v4 before the enforcement date. Si",
-      "url": "https://azure.microsoft.com/updates?id=559311",
-      "publishedAt": "2026-04-17T19:00:12.877Z",
-      "updatedAt": "2026-04-17T19:00:12.877Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Containers",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Functions"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "internet of things",
-        "azure functions",
-        "retirements"
-      ]
-    },
-    {
-      "id": "560521",
-      "title": "Generally Available: Configure AKS backup using a single Azure CLI command",
-      "description": "Azure Backup now provides a simplified experience to configure backup for Azure Kubernetes Service (AKS) clusters using a single Azure CLI command. Enabling backup for AKS clusters through CLI requires multiple manual steps, including installation of the Backup extension, provisioning of storage resources, creation of backup vaults and policies, enabling Trusted Access between the cluster and vault, and initialization of the backup instance. To simplify this backup configuration, Microsoft provides an alternate approach to enable backup protection for an AKS cluster by running a single command",
-      "url": "https://azure.microsoft.com/updates?id=560521",
-      "publishedAt": "2026-04-17T17:15:04.291Z",
-      "updatedAt": "2026-04-17T17:15:04.291Z",
-      "status": "ga",
-      "categories": [
-        "Management and governance",
-        "Storage",
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Backup",
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "management and governance",
-        "storage",
-        "compute",
-        "containers",
-        "azure backup",
-        "azure kubernetes service (aks)",
         "feature"
       ]
     }
