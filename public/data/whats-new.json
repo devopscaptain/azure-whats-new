@@ -1,8 +1,81 @@
 {
-  "lastUpdated": "2026-10-15T13:05:41.728Z",
+  "lastUpdated": "2026-10-16T13:02:25.673Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "576542",
+      "title": "Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
+      "description": "Azure Files customers can now copy and synchronize file share data across storage accounts, Azure regions, and subscriptions within the same tenant using Azure Storage Mover. Schedule incremental transfers to maintain secondary copies that can support business continuity scenarios, copy data across regions, consolidate file shares, or place data closer to applications and analytics workloads. Centralized scheduling, monitoring, auditing, and metadata preservation provide a managed approach to recurring file share copy operations. Azure Files-to-Azure Files data copy is now in preview for SMB s",
+      "url": "https://azure.microsoft.com/updates?id=576542",
+      "publishedAt": "2026-10-15T19:05:18.076Z",
+      "updatedAt": "2026-10-15T19:05:18.076Z",
+      "status": "preview",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Azure Files"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "storage",
+        "azure files",
+        "feature"
+      ]
+    },
+    {
+      "id": "571025",
+      "title": "Generally Available: Standard service endpoint",
+      "description": "Standard service endpoint, a new capability in the Azure Private Link family, provides a scalable and secure approach for connecting Azure IaaS workloads to Azure PaaS services. Standard service endpoint addresses the manageability, and the scale limitations of traditional service endpoints by using Public IP addresses as network identifiers and integrating with network security perimeter. This enables organizations to achieve large-scale IaaS-to-PaaS connectivity while maintaining strong network access controls and simplified operations. With standard service endpoint, customers can associate",
+      "url": "https://azure.microsoft.com/updates?id=571025",
+      "publishedAt": "2026-10-15T17:39:51.229Z",
+      "updatedAt": "2026-10-15T17:39:51.229Z",
+      "status": "ga",
+      "categories": [
+        "Networking"
+      ],
+      "services": [
+        "Azure Private Link"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Pricing & Offerings",
+        "SDK and Tools"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "azure private link",
+        "feature",
+        "pricing & offerings",
+        "sdk and tools"
+      ]
+    },
+    {
+      "id": "576334",
+      "title": "Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
+      "description": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM instances when zonal imbalances occur. This helps reduce the risk that a single-zone outage disproportionately affects an application. Automatic zone balance uses a create-before-delete approach: Azure creates a replacement VM in an under-provisioned zone and validates its health before removing an instance from an over-provisioned zone. Built-in safeguards respect instance protection policies, coor",
+      "url": "https://azure.microsoft.com/updates?id=576334",
+      "publishedAt": "2026-10-15T16:54:20.998Z",
+      "updatedAt": "2026-10-15T16:54:20.998Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
     {
       "id": "576377",
       "title": "Generally Available: Azure Cloud HSM hardware audit logging",
@@ -13523,89 +13596,6 @@
       "tags": [
         "storage",
         "azure netapp files",
-        "feature"
-      ]
-    },
-    {
-      "id": "transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026",
-      "title": "Retirement: Transition to Entra ID (formerly known as Azure AD) to query data from Azure Monitor application insights by September 30, 2026",
-      "description": "* Note: We have extended the retirement date to September 30, 2026. September 30, 2026 API keys used query application insights will be retired. You'll need to transition to Microsoft Entra ID (formerly known as Azure AD) which provides all the functionality of API keys plus new ones, including: Microsoft Entra ID (formerly Azure AD) Multi-Factor Authentication. Hybrid integration to write password changes back to on-premises environment. Hybrid integration to enforce password protection policies for an on-premises environment. Recommended action: To continue querying your application insights",
-      "url": "https://azure.microsoft.com/updates?id=transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026",
-      "publishedAt": "2023-05-15T19:51:58.000Z",
-      "updatedAt": "2026-04-21T18:15:14.864Z",
-      "status": "retiring",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Application Insights",
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "application insights",
-        "azure monitor",
-        "retirements"
-      ]
-    },
-    {
-      "id": "560530",
-      "title": "Public Preview: Azure Monitor supports native OTLP ingestion using the Azure Monitor Agent",
-      "description": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals. Send telemetry directly from OpenTelemetry-instrumented applications by using the Azure Monitor Agent (AMA) to receive OTLP from your apps and export it to Azure Monitor. This is supported on Azure VMs, VM scale sets, and Azure Arc-enabled platforms. Instrument your workloads with OpenTelemetry SDKs and configure AMA. Then you can use Application Insights to monitor, triage, and troubleshoot app performance with the ingested OTLP data. Visualize OTLP metrics with pre-built Grafana dashboards and Prometheus qu",
-      "url": "https://azure.microsoft.com/updates?id=560530",
-      "publishedAt": "2026-04-20T17:30:53.189Z",
-      "updatedAt": "2026-04-20T17:30:53.189Z",
-      "status": "preview",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Open Source"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "open source"
-      ]
-    },
-    {
-      "id": "560590",
-      "title": "Generally available: Anthropic Claude Opus 4.7 on Azure Databricks",
-      "description": "Azure Databricks now supports Anthropic Claude Opus 4.7 through Azure Databricks AI Model Serving. Claude Opus 4.7 is Anthropic's most capable hybrid reasoning model, delivering stronger performance on complex extraction and agentic reasoning tasks while using fewer output tokens than its predecessor. The model features a 1 million token context window and increased image resolution support, advancing accuracy, efficiency, and vision capabilities over earlier Opus versions. Claude Opus 4.7 is ideal for enterprise applications requiring deep analysis, document understanding, and sophisticated m",
-      "url": "https://azure.microsoft.com/updates?id=560590",
-      "publishedAt": "2026-04-17T21:30:12.543Z",
-      "updatedAt": "2026-04-17T21:30:12.543Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning",
-        "Analytics"
-      ],
-      "services": [
-        "Azure Databricks"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "analytics",
-        "azure databricks",
         "feature"
       ]
     }
