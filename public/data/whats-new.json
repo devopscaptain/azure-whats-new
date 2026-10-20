@@ -1,8 +1,64 @@
 {
-  "lastUpdated": "2026-10-19T15:18:25.703Z",
+  "lastUpdated": "2026-10-20T13:21:59.936Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577165",
+      "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+      "description": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate changes in ingestion volume to help optimize costs and plan capacity. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=577165",
+      "publishedAt": "2026-10-19T20:23:15.167Z",
+      "updatedAt": "2026-10-19T20:23:15.167Z",
+      "status": "ga",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "services": [
+        "Azure Monitor"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "devops",
+        "management and governance",
+        "azure monitor",
+        "feature"
+      ]
+    },
+    {
+      "id": "573917",
+      "title": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+      "description": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the trafficmanager.net domain. This integration reduces DNS lookup latency by removing the additional CNAME lookup and enables DNSSEC compatibility for load-balanced records by removing the unsigned trafficmanager.net domain from the DNS resolution chain. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=573917",
+      "publishedAt": "2026-10-19T17:55:40.380Z",
+      "updatedAt": "2026-10-19T17:55:40.380Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Management and governance"
+      ],
+      "services": [
+        "Azure DNS",
+        "Traffic Manager"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "management and governance",
+        "azure dns",
+        "traffic manager",
+        "feature"
+      ]
+    },
     {
       "id": "576556",
       "title": "Public Preview: Azure Databricks Private network gateway",
@@ -13543,60 +13599,6 @@
         "analytics",
         "azure database for postgresql",
         "microsoft fabric",
-        "feature"
-      ]
-    },
-    {
-      "id": "560298",
-      "title": "Public Preview: Migrating from virtual network-integrated to Private Endpoint–capable network configuration",
-      "description": "You can now migrate your Azure Database for PostgreSQL server from a virtual network‑integrated deployment to a network configuration that supports Private Endpoint connectivity. If you originally deployed your server inside a virtual network but now want more flexibility in how you manage networking, Private Endpoints give you a simpler and more scalable model. With this migration, you can continue to access your server privately over the Azure backbone network, reduce dependency on delegated subnets, and better align your database networking with evolving architecture or organizational stand",
-      "url": "https://azure.microsoft.com/updates?id=560298",
-      "publishedAt": "2026-04-22T17:30:14.118Z",
-      "updatedAt": "2026-04-22T17:30:14.118Z",
-      "status": "preview",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "560336",
-      "title": "Generally Available: Premium SSD v2 for Azure Database for PostgreSQL",
-      "description": "We are excited to announce the general availability of Premium SSD v2 for Azure Database for PostgreSQL flexible server. With Premium SSD v2, you can achieve up to four times higher IOPS, significantly lower latency, and better price-performance for I/O-intensive PostgreSQL workloads. With independent scaling of storage and performance, you can now eliminate overprovisioning and unlock predictable, high-performance PostgreSQL at scale. This release delivers particular value for online transaction processing (OLTP) workloads, SaaS platforms, and other high concurrency applications that require ",
-      "url": "https://azure.microsoft.com/updates?id=560336",
-      "publishedAt": "2026-04-22T17:30:14.118Z",
-      "updatedAt": "2026-04-22T17:30:14.118Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
         "feature"
       ]
     }
