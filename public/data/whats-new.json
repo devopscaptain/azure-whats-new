@@ -1,8 +1,120 @@
 {
-  "lastUpdated": "2026-10-20T13:21:59.936Z",
+  "lastUpdated": "2026-10-21T13:28:38.686Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "576242",
+      "title": "Public Preview: Disable VNet peering route",
+      "description": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while preserving the peering connection itself. In large hub-and-spoke networks, you can pair this feature with a summarized user-defined route to direct traffic through a network virtual appliance, such as Azure Firewall, instead of maintaining a separate override for every spoke. This helps simplify route management as your network grows. Manage ",
+      "url": "https://azure.microsoft.com/updates?id=576242",
+      "publishedAt": "2026-10-20T18:55:47.185Z",
+      "updatedAt": "2026-10-20T18:55:47.185Z",
+      "status": "preview",
+      "categories": [
+        "Networking"
+      ],
+      "services": [
+        "Virtual Network"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Management",
+        "Services"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "networking",
+        "virtual network",
+        "feature",
+        "management",
+        "services"
+      ]
+    },
+    {
+      "id": "577156",
+      "title": "Generally Available: Service tag match condition for Azure Front Door Premium WAF",
+      "description": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address prefixes used by Azure services, and Microsoft updates them automatically as addresses change. Custom rules can now match a HTTP request's source IP address against service tags, so you can control traffic from Azure services without building and maintaining lists of IPs. With service tag matching, you can: Allow Azure services your application relies on, such as monitoring and health checks, throug",
+      "url": "https://azure.microsoft.com/updates?id=577156",
+      "publishedAt": "2026-10-20T16:57:35.712Z",
+      "updatedAt": "2026-10-20T16:57:35.712Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "577130",
+      "title": "Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
+      "description": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and the private key is never exported to the gateway. This integration helps you: Maintain private key custody within a dedicated HSM boundary. Use managed identities and role-based access control for key access. Monitor signing operations through Managed HSM diagnostic logs. Obtain cryptographic evidence that the TLS key was generated and is stored in a FIPS 140-3 Level 3 validated HSM. Support separ",
+      "url": "https://azure.microsoft.com/updates?id=577130",
+      "publishedAt": "2026-10-20T16:55:59.970Z",
+      "updatedAt": "2026-10-20T16:55:59.970Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "feature"
+      ]
+    },
+    {
+      "id": "575329",
+      "title": "Generally Available: Advanced platform metrics for Azure Monitor",
+      "description": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources. With this release, customers can enable advanced platform metrics directly from the Azure portal, with an in-product banner prompting enablement for subscriptions where the feature is not yet enabled. Advanced platform metrics are also now available in Fairfax and Mooncake, expanding availability beyond the public cloud.",
+      "url": "https://azure.microsoft.com/updates?id=575329",
+      "publishedAt": "2026-10-20T16:54:24.934Z",
+      "updatedAt": "2026-10-20T16:54:24.934Z",
+      "status": "ga",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "services": [
+        "Azure Monitor"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": "2026-07",
+      "tags": [
+        "devops",
+        "management and governance",
+        "azure monitor",
+        "feature"
+      ]
+    },
     {
       "id": "577165",
       "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
@@ -13487,118 +13599,6 @@
       "tags": [
         "hybrid + multicloud",
         "azure arc",
-        "feature"
-      ]
-    },
-    {
-      "id": "513249",
-      "title": "Public Preview: Logical replication slot sync Status metric for Azure PostgreSQL Flexible Server",
-      "description": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric, now in public preview. This Azure Monitor metric shows whether each logical replication slot is synchronized, catching up, or in an unknown state—helping you validate replication health and slot readiness. This feature is especially useful when using logical decoding or change data capture (CDC) tools like Debezium or Kafka. With per-slot visibility and the ability to set up alerts, you can ensure your log",
-      "url": "https://azure.microsoft.com/updates?id=513249",
-      "publishedAt": "2026-04-22T17:45:10.597Z",
-      "updatedAt": "2026-04-22T17:45:10.597Z",
-      "status": "preview",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "559633",
-      "title": "Generally Available: Dynamic data masking with Azure Cosmos DB",
-      "description": "Dynamic data masking (DDM) is a server-side, policy-based security feature in Azure Cosmos DB that helps your organization protect sensitive data from unauthorized access. DDM dynamically masks data for nonprivileged users, ensuring that sensitive information is redacted in real time before being presented to applications, while the original data remains unchanged in the database. DDM helps your organization meet security, compliance, and regulatory requirements by limiting exposure of sensitive data such as Personally Identifiable Information (PII) and Protected Health Information (PHI). Lear",
-      "url": "https://azure.microsoft.com/updates?id=559633",
-      "publishedAt": "2026-04-22T17:45:10.597Z",
-      "updatedAt": "2026-04-22T17:45:10.597Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Cosmos DB"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "internet of things",
-        "azure cosmos db",
-        "feature"
-      ]
-    },
-    {
-      "id": "560288",
-      "title": "Generally Available: Azure Database for PostgreSQL flexible server in Denmark East",
-      "description": "You can now deploy Azure Database for PostgreSQL flexible server in the Denmark East Azure region. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560288",
-      "publishedAt": "2026-04-22T17:45:10.597Z",
-      "updatedAt": "2026-04-22T17:45:10.597Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "560293",
-      "title": "Generally Available: Enhanced Mirroring Azure Database for PostgreSQL in Microsoft Fabric",
-      "description": "New capabilities make it easier to mirror real-world Azure Database for PostgreSQL workloads at scale in Microsoft Fabric and operate them with confidence. You can mirror native PostgreSQL data types such as JSON, JSONB and other commonly used types, so richer application schemas flow directly into Fabric without workarounds. Mirroring setup is simpler because the replication user no longer needs to own database tables, allowing you to enable mirroring on existing databases without changing ownership or security models. Operating mirroring is more transparent as well. Improved error messaging ",
-      "url": "https://azure.microsoft.com/updates?id=560293",
-      "publishedAt": "2026-04-22T17:30:14.118Z",
-      "updatedAt": "2026-04-22T17:30:14.118Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud",
-        "Analytics"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL",
-        "Microsoft Fabric"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "analytics",
-        "azure database for postgresql",
-        "microsoft fabric",
         "feature"
       ]
     }
