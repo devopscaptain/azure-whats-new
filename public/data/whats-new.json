@@ -1,8 +1,60 @@
 {
-  "lastUpdated": "2026-10-21T13:28:38.686Z",
+  "lastUpdated": "2026-10-22T13:29:51.759Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577273",
+      "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+      "description": "What and why Starting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication. Organizations select a supported provider through Microsoft Security Store and manage their commercial relationship directly with the provider. Microsoft recommends phishing-resistant authentication methods, such as passkeys, instead of SMS or voice authentication. Organizations should use a telephony provider for user populations that have",
+      "url": "https://azure.microsoft.com/updates?id=577273",
+      "publishedAt": "2026-10-21T17:38:32.911Z",
+      "updatedAt": "2026-10-21T17:38:32.911Z",
+      "status": "update",
+      "categories": [
+        "Identity"
+      ],
+      "services": [
+        "Microsoft Entra ID (formerly Azure AD)"
+      ],
+      "updateTypes": [
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "identity",
+        "microsoft entra id (formerly azure ad)",
+        "announcement"
+      ]
+    },
+    {
+      "id": "576716",
+      "title": "Generally Available: Azure Cosmos DB Safe Key Rotation",
+      "description": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials. This visibility helps reduce the risk of service disruptions caused by disabling keys that are still in use. It also gives you actionable insights to improve credential management, maintain application continuity, and support modern security and compliance practices. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=576716",
+      "publishedAt": "2026-10-21T17:13:16.692Z",
+      "updatedAt": "2026-10-21T17:13:16.692Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Internet of Things"
+      ],
+      "services": [
+        "Azure Cosmos DB"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "internet of things",
+        "azure cosmos db",
+        "feature"
+      ]
+    },
     {
       "id": "576242",
       "title": "Public Preview: Disable VNet peering route",
@@ -13537,68 +13589,6 @@
       "tags": [
         "storage",
         "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560358",
-      "title": "Generally Available: Azure Monitor for Azure Arc-enabled Kubernetes with OpenShift and Azure Red Hat OpenShift",
-      "description": "Azure Monitor provides a complete set of services for monitoring the health and performance of different layers of your Kubernetes infrastructure and the applications that depend on it. Azure Monitor support for Azure Arc-enabled Kubernetes with OpenShift and Azure Red Hat OpenShift with Container Insights and Managed Prometheus is now in GA. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560358",
-      "publishedAt": "2026-04-23T16:45:55.812Z",
-      "updatedAt": "2026-04-23T16:45:55.812Z",
-      "status": "ga",
-      "categories": [
-        "Hybrid + multicloud",
-        "Compute",
-        "Containers",
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Arc",
-        "Azure Kubernetes Service (AKS)",
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "hybrid + multicloud",
-        "compute",
-        "containers",
-        "devops",
-        "management and governance",
-        "azure arc",
-        "azure kubernetes service (aks)",
-        "azure monitor",
-        "feature"
-      ]
-    },
-    {
-      "id": "560805",
-      "title": "Public Preview: Azure Arc adds SQL Server on Azure Virtual Machines as a migration target",
-      "description": "Azure Arc migration now supports SQL Server on Azure Virtual Machines as a migration target. You can migrate Arc-enabled SQL Server instances not only to Azure SQL Managed Instance but also to SQL Server running on Azure infrastructure — using the same unified workflow. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560805",
-      "publishedAt": "2026-04-22T20:45:32.635Z",
-      "updatedAt": "2026-04-22T20:45:32.635Z",
-      "status": "preview",
-      "categories": [
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Arc"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "hybrid + multicloud",
-        "azure arc",
         "feature"
       ]
     }
