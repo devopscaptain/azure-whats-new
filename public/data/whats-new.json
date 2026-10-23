@@ -1,8 +1,37 @@
 {
-  "lastUpdated": "2026-10-22T13:29:51.759Z",
+  "lastUpdated": "2026-10-23T13:06:08.617Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577618",
+      "title": "Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
+      "description": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips for workloads such as selective Parquet queries. Compatible Spark workloads can enable the capability through configuration, without rewriting queries or migrating data. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=577618",
+      "publishedAt": "2026-10-22T18:01:00.863Z",
+      "updatedAt": "2026-10-22T18:01:00.863Z",
+      "status": "ga",
+      "categories": [
+        "Storage",
+        "Analytics"
+      ],
+      "services": [
+        "Azure Blob Storage",
+        "Azure Data Lake Storage"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-05",
+      "previewDate": null,
+      "tags": [
+        "storage",
+        "analytics",
+        "azure blob storage",
+        "azure data lake storage",
+        "feature"
+      ]
+    },
     {
       "id": "577273",
       "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
@@ -13564,31 +13593,6 @@
         "databases",
         "hybrid + multicloud",
         "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "560919",
-      "title": "Generally Available: Capacity Autoscaling on Azure Elastic SAN",
-      "description": "Capacity Autoscaling support is now generally available on Elastic SAN. Customers can avoid the constraints of overprovisioning and manual capacity management by setting a policy to automatically expand SAN Capacity based on usage. Autoscaling provides the ability to specify scaling increments for cost control and predictability. This capability is especially helpful for customers navigating rapid growth scenarios and unplanned usage spikes. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560919",
-      "publishedAt": "2026-04-23T18:30:11.711Z",
-      "updatedAt": "2026-04-23T18:30:11.711Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-03",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
         "feature"
       ]
     }
