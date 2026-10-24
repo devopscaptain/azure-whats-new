@@ -1,8 +1,35 @@
 {
-  "lastUpdated": "2026-10-23T13:06:08.617Z",
+  "lastUpdated": "2026-10-24T12:27:56.722Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577963",
+      "title": "Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+      "description": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 and Ultra disks. You can generate a file-recovery executable or script through the Azure portal, CLI, or PowerShell, then run it on a compatible machine to access the recovery point, selectively browse, and copy individual files or folders without performing a full disk or virtual machine restore, in parity with the existing ILR behavior. Learn ",
+      "url": "https://azure.microsoft.com/updates?id=577963",
+      "publishedAt": "2026-10-23T19:21:07.079Z",
+      "updatedAt": "2026-10-23T19:21:07.079Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Storage"
+      ],
+      "services": [
+        "Azure Backup"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "storage",
+        "azure backup",
+        "feature"
+      ]
+    },
     {
       "id": "577618",
       "title": "Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
@@ -13566,33 +13593,6 @@
       "tags": [
         "storage",
         "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560939",
-      "title": "Generally Available: Cascading read replicas in Azure Database for PostgreSQL",
-      "description": "Cascading read replicas are now generally available in Azure Database for PostgreSQL, giving you greater flexibility to scale read‑intensive workloads. You can now create read replicas from existing ones, creating up to 30 across two levels of replication. Each source supports up to five read replicas. This capability enables you to design advanced, multi‑level replication topologies tailored for globally distributed applications. By placing replicas closer to your users, you can improve read response times, efficiently distribute read traffic, and reduce read pressure on the primary server. L",
-      "url": "https://azure.microsoft.com/updates?id=560939",
-      "publishedAt": "2026-04-24T16:45:30.161Z",
-      "updatedAt": "2026-04-24T16:45:30.161Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
         "feature"
       ]
     }
