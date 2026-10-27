@@ -1,8 +1,35 @@
 {
-  "lastUpdated": "2026-10-26T14:52:54.703Z",
+  "lastUpdated": "2026-10-27T14:00:38.850Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577782",
+      "title": "Generally Available: Network Watcher VNet flow logs filtering",
+      "description": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic direction. With this capability, you can focus logging on the traffic that matters most for monitoring, troubleshooting, security, compliance, and network optimization. Filtering helps reduce log volume by capturing only relevant flows, which can lower storage costs and make analysis easier by reducing noise. This feature is now accessible through the",
+      "url": "https://azure.microsoft.com/updates?id=577782",
+      "publishedAt": "2026-10-26T16:02:05.593Z",
+      "updatedAt": "2026-10-26T16:02:05.593Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Networking"
+      ],
+      "services": [
+        "Network Watcher"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "networking",
+        "network watcher",
+        "feature"
+      ]
+    },
     {
       "id": "577963",
       "title": "Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
@@ -13569,31 +13596,6 @@
         "web",
         "app service",
         "retirements"
-      ]
-    },
-    {
-      "id": "560889",
-      "title": "Generally Available: Azure Elastic SAN support for CRC Protection",
-      "description": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing Elastic SAN. Elastic SAN also provides a volume group–level enforcement setting for CRC protection. When this property is enabled, all volumes in the volume group inherit it, and Elastic SAN rejects any client connections that do not have CRC‑32C enabled for header or data digests. When the enforcement property is disabled, checksum verification depends solely on the client configuration. Elastic SAN wil",
-      "url": "https://azure.microsoft.com/updates?id=560889",
-      "publishedAt": "2026-04-24T16:45:30.161Z",
-      "updatedAt": "2026-04-24T16:45:30.161Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2024-11",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
-        "feature"
       ]
     }
   ]
