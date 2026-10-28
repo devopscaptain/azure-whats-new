@@ -1,8 +1,88 @@
 {
-  "lastUpdated": "2026-10-27T14:00:38.850Z",
+  "lastUpdated": "2026-10-28T14:53:10.967Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "578358",
+      "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "description": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the need to distribute resources across multiple subscriptions. Request quota increases through the Azure Portal, Azure CLI, or Azure PowerShell without opening a support ticket. Azure Storage Resource Provider (SRP) API read, write, and list operations automatically scale to support higher approved account quotas. These changes apply to account ",
+      "url": "https://azure.microsoft.com/updates?id=578358",
+      "publishedAt": "2026-10-27T21:16:52.999Z",
+      "updatedAt": "2026-10-27T21:16:52.999Z",
+      "status": "ga",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Azure Blob Storage"
+      ],
+      "updateTypes": [
+        "Management"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "storage",
+        "azure blob storage",
+        "management"
+      ]
+    },
+    {
+      "id": "577260",
+      "title": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+      "description": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deployments lacked the tags enterprises rely on for showback and chargeback, leaving finance and platform teams to reconcile costs by hand. With this release, Claude costs appear under the associated Foundry resource; Claude deployments and Foundry resources support tags that follow your organization's existing conventions; and Claude cost records ",
+      "url": "https://azure.microsoft.com/updates?id=577260",
+      "publishedAt": "2026-10-27T17:19:43.437Z",
+      "updatedAt": "2026-10-27T17:19:43.437Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature"
+      ]
+    },
+    {
+      "id": "578153",
+      "title": "Generally Available: Azure Front Door profile and route level WAF policies",
+      "description": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an entire Azure Front Door profile and use targeted policies for the routes that need different controls. You can associate a WAF policy at the profile, domain, or route scope. For example, use a profile level policy for common protections across every domain in a profile, then apply a route level policy to sensitive paths such as sign-in, checkou",
+      "url": "https://azure.microsoft.com/updates?id=578153",
+      "publishedAt": "2026-10-27T16:58:04.004Z",
+      "updatedAt": "2026-10-27T16:58:04.004Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
     {
       "id": "577782",
       "title": "Generally Available: Network Watcher VNet flow logs filtering",
@@ -13517,85 +13597,6 @@
         "azure kubernetes service (aks)",
         "feature",
         "security"
-      ]
-    },
-    {
-      "id": "560987",
-      "title": "Generally Available: Hosted agent support in the Foundry Toolkit for Visual Studio Code",
-      "description": "The Foundry Toolkit for Visual Studio Code is now generally available with full hosted-agent support, aligned with the Hosted Agents GA release. It brings the complete hosted-agent lifecycle, create, debug, evaluate, and deploy, inside the editor, so developers move from local code to a running hosted agent without switching tools or hand-packaging builds. The toolkit integrates natively with the Microsoft Agent Framework and the Foundry SDK, keeping teams in a familiar environment while giving them a clear path from development to production. The result is a single IDE-native workflow with le",
-      "url": "https://azure.microsoft.com/updates?id=560987",
-      "publishedAt": "2026-04-24T18:15:17.603Z",
-      "updatedAt": "2026-04-24T18:15:17.603Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "feature"
-      ]
-    },
-    {
-      "id": "560997",
-      "title": "Public Preview: Hosted Agents in Foundry Agent Service",
-      "description": "Hosted agents run in an isolated execution sandbox that provides a dedicated, secure runtime per agent session. Sessions start with a clean environment with no shared state between sessions, no cross-session data leakage, and strong compute boundaries between tenants.",
-      "url": "https://azure.microsoft.com/updates?id=560997",
-      "publishedAt": "2026-04-24T18:15:17.603Z",
-      "updatedAt": "2026-04-24T18:15:17.603Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "feature"
-      ]
-    },
-    {
-      "id": "558033",
-      "title": "Retirement: Support for .NET 8 (LTS) ends on November 10, 2026—upgrade your apps to .NET 10 (LTS)",
-      "description": "On November 10, 2026, support for.NET 8 (LTS) will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available and we'll no longer provide customer service for.NET 8 (LTS). Required action: To avoid potential security vulnerabilities and minimize risk for your App Service apps, follow the steps to upgrade your app to.NET 10 (LTS) before 10 November 2026. Help and support: If you have questions, get answers from community experts in Microsoft Q&A. If you have a support plan and you need technical help, create a support request. For Summar",
-      "url": "https://azure.microsoft.com/updates?id=558033",
-      "publishedAt": "2026-04-24T17:45:05.902Z",
-      "updatedAt": "2026-04-24T17:45:05.902Z",
-      "status": "retiring",
-      "categories": [
-        "Compute",
-        "Mobile",
-        "Web"
-      ],
-      "services": [
-        "App Service"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "mobile",
-        "web",
-        "app service",
-        "retirements"
       ]
     }
   ]
