@@ -1,8 +1,91 @@
 {
-  "lastUpdated": "2026-10-28T14:53:10.967Z",
+  "lastUpdated": "2026-10-29T14:58:08.673Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577689",
+      "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+      "description": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to the Azure Monitor logging destination. This recommendation is driven by the underlying HTTP Data Collector API used by the Log Analytics logging destination. Support for the legacy HTTP Data Collector API ended on September 14, 2026 and will now only be receiving critical security updates. Recommended action Review any monitoring resources that ",
+      "url": "https://azure.microsoft.com/updates?id=577689",
+      "publishedAt": "2026-10-28T17:52:51.602Z",
+      "updatedAt": "2026-10-28T17:52:51.602Z",
+      "status": "update",
+      "categories": [
+        "Containers"
+      ],
+      "services": [
+        "Azure Container Apps"
+      ],
+      "updateTypes": [
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "containers",
+        "azure container apps",
+        "announcement"
+      ]
+    },
+    {
+      "id": "577117",
+      "title": "Public Preview: Cross Tenant Restore with Azure Backup",
+      "description": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring customers to maintain and manage duplicate backup data. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=577117",
+      "publishedAt": "2026-10-28T17:09:30.462Z",
+      "updatedAt": "2026-10-28T17:09:30.462Z",
+      "status": "preview",
+      "categories": [
+        "Management and governance",
+        "Storage"
+      ],
+      "services": [
+        "Azure Backup"
+      ],
+      "updateTypes": [
+        "Management",
+        "Microsoft Ignite",
+        "Security",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "management and governance",
+        "storage",
+        "azure backup",
+        "management",
+        "microsoft ignite",
+        "security",
+        "feature"
+      ]
+    },
+    {
+      "id": "576547",
+      "title": "Generally Available: Marketplace private offer enhancements",
+      "description": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying the private offer purchase experience for customers. Previously, customers needed to first “accept” the private offer and then “purchase” individual products. Now, customers simply purchase all included products with one easy step for eligible private offers. Purchase governance remains aligned with Azure role-based access controls through the",
+      "url": "https://azure.microsoft.com/updates?id=576547",
+      "publishedAt": "2026-10-28T16:23:43.648Z",
+      "updatedAt": "2026-10-28T16:23:43.648Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance"
+      ],
+      "services": [
+        "Microsoft Azure portal"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "microsoft azure portal",
+        "feature"
+      ]
+    },
     {
       "id": "578358",
       "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
@@ -13524,79 +13607,6 @@
         "ai + machine learning",
         "microsoft foundry",
         "feature"
-      ]
-    },
-    {
-      "id": "502936",
-      "title": "Retirement: Prompt Flow in Azure ML and Foundry",
-      "description": "Prompt Flow will be retired from Microsoft Foundry and Azure Machine Learning on April 20, 2027 and replaced by a single, modern orchestration platform: Microsoft Agent Framework. This change unlocks powerful new capabilities, including a unified, future-proof foundation for building intelligent agents and workflows with support for advanced agent architectures. Key dates: April 3, 2026: General Availability (GA) of Microsoft Agent Framework. April 20, 2026: Public announcement of Prompt Flow deprecation. April 20, 2027: Full retirement of Prompt Flow from Azure ML, Microsoft Foundry, and VS C",
-      "url": "https://azure.microsoft.com/updates?id=502936",
-      "publishedAt": "2026-04-27T16:15:55.706Z",
-      "updatedAt": "2026-04-27T16:15:55.706Z",
-      "status": "retiring",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "retirements"
-      ]
-    },
-    {
-      "id": "560904",
-      "title": "Public Preview: Azure Backup for Elastic SAN",
-      "description": "Azure Backup now supports Elastic SAN, offering a fully managed solution for backing up and restoring Elastic SAN volumes. This integration helps protect data against accidental deletions, ransomware attacks, and application updates by exporting Elastic SAN volumes to independent Managed Disk Incremental Snapshots. These snapshots are stored in locally redundant storage and are independent of the Elastic SAN volume lifecycle. The solution supports up to 450 restore points with 24 hours backup frequency. It is currently available in select Azure regions and supports volumes up to 4 TiB. Long-te",
-      "url": "https://azure.microsoft.com/updates?id=560904",
-      "publishedAt": "2026-04-24T18:30:50.292Z",
-      "updatedAt": "2026-04-24T18:30:50.292Z",
-      "status": "preview",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2025-05",
-      "tags": [
-        "storage",
-        "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560015",
-      "title": "Generally Available: WireGuard In‑Transit Encryption for Azure Kubernetes Service (AKS)",
-      "description": "WireGuard in‑transit encryption is now generally available for Azure Kubernetes Service (AKS) clusters using Azure CNI powered by Cilium and Advanced Container Networking Services (ACNS). This capability enables transparent, node‑level encryption for inter‑node pod traffic using WireGuard’s modern cryptography, helping protect data in transit as it traverses the underlying network infrastructure without requiring application changes. Key capabilities: In‑transit encryption for inter‑node pod traffic within an AKS cluster No application or workload changes required Fully managed key generation ",
-      "url": "https://azure.microsoft.com/updates?id=560015",
-      "publishedAt": "2026-04-24T18:15:17.603Z",
-      "updatedAt": "2026-04-24T18:15:17.603Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "azure kubernetes service (aks)",
-        "feature",
-        "security"
       ]
     }
   ]
