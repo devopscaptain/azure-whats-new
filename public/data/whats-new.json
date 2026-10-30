@@ -1,8 +1,84 @@
 {
-  "lastUpdated": "2026-10-29T14:58:08.673Z",
+  "lastUpdated": "2026-10-30T14:51:22.627Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "578850",
+      "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "description": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back by disk size. During migration, the OS disk is encrypted with confidential disk encryption. This protects all critical partitions and binds the encryption keys to the VM's virtual TPM, so disk content is accessible only to that VM, not to the host or hypervisor. Keys are released only after the platform passes attestation. Because encryption ha",
+      "url": "https://azure.microsoft.com/updates?id=578850",
+      "publishedAt": "2026-10-29T21:19:52.948Z",
+      "updatedAt": "2026-10-29T21:19:52.948Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "feature"
+      ]
+    },
+    {
+      "id": "578681",
+      "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "description": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rate limits often can't keep pace with distributed botnets. The HTTP DDoS ruleset provides automated, adaptive layer 7 protection that learns, detects, and defends with minimal configuration. Once assigned, it continuously baselines normal traffic for each Azure Front Door profile and, when a surge indicates an attack, selectively mitigates offen",
+      "url": "https://azure.microsoft.com/updates?id=578681",
+      "publishedAt": "2026-10-29T17:09:49.271Z",
+      "updatedAt": "2026-10-29T17:09:49.271Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "578662",
+      "title": "Generally Available: Azure MCP Server 3.0",
+      "description": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP). This release introduces new and expanded capabilities: Infrastructure as code: Azure Terraform tools for provider documentation, Azure Verified Modules, resource export, and policy validation. Protection and recovery: Azure Backup and Azure Resilience Management tools for backup protection, recovery plans, readiness checks, and drills. Cost optimization: Expanded Azure Advisor capabilities and optimization tools for reviewing recommenda",
+      "url": "https://azure.microsoft.com/updates?id=578662",
+      "publishedAt": "2026-10-29T17:04:58.336Z",
+      "updatedAt": "2026-10-29T17:04:58.336Z",
+      "status": "ga",
+      "categories": [
+        "Developer tools"
+      ],
+      "services": [
+        "SDKs"
+      ],
+      "updateTypes": [
+        "Feature",
+        "SDK and Tools"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "developer tools",
+        "sdks",
+        "feature",
+        "sdk and tools"
+      ]
+    },
     {
       "id": "577689",
       "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
@@ -13518,94 +13594,6 @@
       "tags": [
         "storage",
         "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "561067",
-      "title": "Generally Available: Cross-region IPAM pool association in Azure Virtual Network Manager",
-      "description": "Managing IP address space across multiple regions can be difficult to scale and prone to configuration mistakes. With cross-region IPAM pool association, you can associate a single IPAM pool with virtual networks across multiple Azure regions. This helps centralize address planning, simplify governance, and maintain consistent CIDR allocation across global environments. Key benefits: Centralized address management: Use one multi-region IPAM pool instead of creating and maintaining separate pools for each region. Consistent governance: Apply CIDR allocation policies across regions, with the fle",
-      "url": "https://azure.microsoft.com/updates?id=561067",
-      "publishedAt": "2026-04-28T17:45:04.663Z",
-      "updatedAt": "2026-04-28T17:45:04.663Z",
-      "status": "ga",
-      "categories": [
-        "Networking"
-      ],
-      "services": [
-        "Azure Virtual Network Manager"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Management",
-        "Services"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "networking",
-        "azure virtual network manager",
-        "feature",
-        "management",
-        "services"
-      ]
-    },
-    {
-      "id": "561148",
-      "title": "Public Preview: Microsoft HTTP DDoS Ruleset for Azure WAF on Azure Front Door Premium",
-      "description": "Announcing the public preview of the HTTP DDoS Ruleset on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and traditional static controls often fall short against evolving botnets. The new HTTP DDoS Ruleset for Azure WAF introduces automated, adaptive Layer 7 protection that learns, detects, and defends with minimal configuration. Once assigned, the ruleset continuously baselines normal traffic for each Azure Front Door Profile and, when attack surges are detected, selectively blocks offending clients with no emergency tuning required. The HTTP",
-      "url": "https://azure.microsoft.com/updates?id=561148",
-      "publishedAt": "2026-04-28T17:45:04.663Z",
-      "updatedAt": "2026-04-28T17:45:04.663Z",
-      "status": "preview",
-      "categories": [
-        "Networking",
-        "Security"
-      ],
-      "services": [
-        "Azure DDoS Protection",
-        "Azure Front Door",
-        "Web Application Firewall"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "networking",
-        "security",
-        "azure ddos protection",
-        "azure front door",
-        "web application firewall",
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "561002",
-      "title": "Generally Available: Bring your own AI Gateway in Foundry Agent Service",
-      "description": "Foundry Agent Service now supports bring ‑ your ‑ own ‑ model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such as Azure API Management. This enables organizations to integrate custom, fine ‑ tuned, open ‑ source, or third ‑ party models into Foundry agents while retaining control over model endpoints, security policies, and governance. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=561002",
-      "publishedAt": "2026-04-27T18:00:52.305Z",
-      "updatedAt": "2026-04-27T18:00:52.305Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
         "feature"
       ]
     }
