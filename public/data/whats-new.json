@@ -1,8 +1,35 @@
 {
-  "lastUpdated": "2026-10-30T14:51:22.627Z",
+  "lastUpdated": "2026-10-31T14:19:30.793Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577491",
+      "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "description": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate these queries without storing shared access signature (SAS) tokens or relying on a shared server-level identity. By assigning separate identities and storage permissions to your databases, you can limit each database to the data it needs—for example, granting your HR database access to HR files and your finance database access to finance files.",
+      "url": "https://azure.microsoft.com/updates?id=577491",
+      "publishedAt": "2026-10-30T17:16:27.273Z",
+      "updatedAt": "2026-10-30T17:16:27.273Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "feature"
+      ]
+    },
     {
       "id": "578850",
       "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
@@ -13569,31 +13596,6 @@
         "compute",
         "containers",
         "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "560914",
-      "title": "Generally Available: Connect to Azure Elastic SAN from Windows VM via VM Extension",
-      "description": "Azure Elastic SAN now supports volume connectivity for Windows Virtual Machines using the Elastic SAN VM extension, directly from the Azure Portal. This capability enables customers to connect Elastic SAN volumes during virtual machine deployment, simplifying setup by reducing the need for manual post‑deployment configuration. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560914",
-      "publishedAt": "2026-04-28T20:30:56.162Z",
-      "updatedAt": "2026-04-28T20:30:56.162Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2025-11",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
         "feature"
       ]
     }
