@@ -1,8 +1,172 @@
 {
-  "lastUpdated": "2026-11-03T15:51:51.848Z",
+  "lastUpdated": "2026-11-04T15:58:33.796Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "576382",
+      "title": "Public Preview: JWT validation for Application Gateway for Containers",
+      "description": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HTTPS JSON Web Key Set endpoint. Requests with missing or invalid credentials are rejected at the gateway instead of being forwarded to the backend. AuthPolicy can protect an ApplicationLoadBalancer, Gateway, HTTPRoute, GRPCRoute, or MCPRoute. Policies inherit through the resource hierarchy, while a more specific route-level policy can replace a",
+      "url": "https://azure.microsoft.com/updates?id=576382",
+      "publishedAt": "2026-11-03T21:17:08.643Z",
+      "updatedAt": "2026-11-03T21:17:08.643Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "feature"
+      ]
+    },
+    {
+      "id": "576388",
+      "title": "Public Preview: MCP gateway for Application Gateway for Containers",
+      "description": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while centralizing TLS, JWT validation, Web Application Firewall protection, backend health monitoring, and routing policy at the gateway. MCPRoute supports both direct routing to a single MCP server and aggregation of multiple independent servers behind one logical endpoint. For aggregated deployments, Application Gateway for Containers merges tool, resource, and prompt discovery responses, namespaces ",
+      "url": "https://azure.microsoft.com/updates?id=576388",
+      "publishedAt": "2026-11-03T21:16:36.396Z",
+      "updatedAt": "2026-11-03T21:16:36.396Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "feature"
+      ]
+    },
+    {
+      "id": "576393",
+      "title": "Public Preview: Private ingress for Application Gateway for Containers",
+      "description": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal applications, shared services, and cross-cluster traffic on private connectivity while retaining Kubernetes-native Layer 7 routing, TLS, health probing, and Web Application Firewall capabilities. Private ingress supports connectivity across virtual networks, subscriptions, Microsoft Entra tenants, and Azure regions without requiring VNet peering. A single Application Gateway for Containers resource can also ",
+      "url": "https://azure.microsoft.com/updates?id=576393",
+      "publishedAt": "2026-11-03T21:15:46.645Z",
+      "updatedAt": "2026-11-03T21:15:46.645Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "feature"
+      ]
+    },
+    {
+      "id": "578655",
+      "title": "Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+      "description": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retention states, and versioning. With these insights, teams can identify opportunities, understand factors contributing to storage growth, and inform storage management decisions at scale. Learn more: Discover what's new with advanced capacity insights Explore advanced capacity insights and capabilities Get started with Azure Storage Discovery",
+      "url": "https://azure.microsoft.com/updates?id=578655",
+      "publishedAt": "2026-11-03T20:20:29.260Z",
+      "updatedAt": "2026-11-03T20:20:29.260Z",
+      "status": "preview",
+      "categories": [
+        "Storage"
+      ],
+      "services": [
+        "Storage Accounts",
+        "Azure Storage Discovery"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-10",
+      "tags": [
+        "storage",
+        "storage accounts",
+        "azure storage discovery",
+        "feature"
+      ]
+    },
+    {
+      "id": "579305",
+      "title": "Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+      "description": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of PITR retention. The current default immutability is up to 7 days, and with this enhancement you can extend and lock immutability up to 35 days. Once locked, only extensions to PITR retention are allowed. This setting is permanent for the life of the database. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=579305",
+      "publishedAt": "2026-11-03T18:36:12.919Z",
+      "updatedAt": "2026-11-03T18:36:12.919Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database",
+        "Azure SQL Managed Instance"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "azure sql managed instance",
+        "feature"
+      ]
+    },
+    {
+      "id": "578926",
+      "title": "Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
+      "description": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and end-to-end recovery workflows, including failover, reprotection, and failback. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=578926",
+      "publishedAt": "2026-11-03T18:32:01.621Z",
+      "updatedAt": "2026-11-03T18:32:01.621Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "services": [
+        "Azure Site Recovery"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-10",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "migration",
+        "azure site recovery",
+        "feature"
+      ]
+    },
     {
       "id": "577975",
       "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
@@ -13434,170 +13598,6 @@
         "databases",
         "internet of things",
         "azure cosmos db",
-        "feature"
-      ]
-    },
-    {
-      "id": "560948",
-      "title": "Retirement: Azure Reserved Virtual Machines Instances for select VM series",
-      "description": "Starting July 1, 2026, purchases and renewals will no longer be available for one-year Azure Reserved VM Instances for the Av2, Amv2, Bv1, D, Ds, Dv2, Dsv2, F, Fs, Fsv2, G, Gs, Ls, and Lsv2 VM series. Additionally, one-year and three-year reserved instances (RIs) for the Dv3, Dsv3, Ev3, and Esv3 VM series will no longer be available for purchase and renewal. To avoid unexpected billing changes or lapses in commitment savings, we recommend reviewing your current RI orders for impacted VMs and their expiration dates. If no action is taken before July 1, 2026, these VM workloads will be billed at",
-      "url": "https://azure.microsoft.com/updates?id=560948",
-      "publishedAt": "2026-05-05T20:00:13.494Z",
-      "updatedAt": "2026-05-05T20:00:13.494Z",
-      "status": "retiring",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Virtual Machines"
-      ],
-      "updateTypes": [
-        "Retirements",
-        "Pricing & Offerings"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "virtual machines",
-        "retirements",
-        "pricing & offerings"
-      ]
-    },
-    {
-      "id": "558403",
-      "title": "Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
-      "description": "We previously announced the availability of Application Gateway for Containers and the Application Gateway for Containers AKS Add-on for Azure Kubernetes Service (AKS). At that time, one limitation was that Application Gateway for Containers could not be provisioned into an AKS Automatic cluster. Application Gateway for Containers can now be used with AKS Automatic through the Application Gateway for Containers AKS Add-on. With this update, customers using AKS Automatic can deploy Application Gateway for Containers by enabling the AKS Add-on, allowing Application Gateway for Containers to be m",
-      "url": "https://azure.microsoft.com/updates?id=558403",
-      "publishedAt": "2026-05-05T17:30:03.000Z",
-      "updatedAt": "2026-05-05T17:30:03.000Z",
-      "status": "preview",
-      "categories": [
-        "Networking",
-        "Security",
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "Application Gateway",
-        "Azure Kubernetes Service (AKS)"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-05",
-      "tags": [
-        "networking",
-        "security",
-        "compute",
-        "containers",
-        "application gateway",
-        "azure kubernetes service (aks)",
-        "feature"
-      ]
-    },
-    {
-      "id": "560894",
-      "title": "Generally Available: AVS Support for AV64 SKU on Azure Elastic SAN",
-      "description": "Azure Elastic SAN datastores are now supported with AV64 SKUs, enabling higher-scale and higher-performance storage options for Azure VMware Solution deployments.",
-      "url": "https://azure.microsoft.com/updates?id=560894",
-      "publishedAt": "2026-05-05T16:00:38.457Z",
-      "updatedAt": "2026-05-05T16:00:38.457Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2025-02",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560899",
-      "title": "Generally Available: Single Volume Snapshots on Azure Elastic SAN",
-      "description": "Azure Elastic SAN now supports single volume snapshots, enabling incremental, point‑in‑time backups of individual SAN volumes. Snapshots capture only changes since the previous snapshot and reside within the SAN, allowing customers to quickly deploy new volumes from a restore point or export data to managed disk snapshots for long‑term retention. Snapshots are capacity efficient, consume SAN storage instead of incurring separate billing, and inherit the redundancy configuration of the parent SAN. Snapshots consume provisioned SAN capacity rather than incurring separate billing and can be expor",
-      "url": "https://azure.microsoft.com/updates?id=560899",
-      "publishedAt": "2026-05-05T16:00:38.457Z",
-      "updatedAt": "2026-05-05T16:00:38.457Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2025-03",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560909",
-      "title": "Generally Available: Azure Elastic SAN support for AVS Gen2 Private Cloud",
-      "description": "Elastic SAN datastores deliver simpler connectivity and improved performance when used with AVS Gen2 Private Cloud: Simpler connectivity & configuration No ExpressRoute gateway required A single Private Endpoint is sufficient to configure the optimal number of iSCSI sessions Higher performance No throughput limitations imposed by ExpressRoute gateway bandwidth Ability to achieve the entire provisioned Elastic SAN throughput This significantly simplifies deployment while maximizing performance for throughput‑intensive AVS workloads. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560909",
-      "publishedAt": "2026-05-05T16:00:38.457Z",
-      "updatedAt": "2026-05-05T16:00:38.457Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Elastic SAN"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2025-08",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure elastic san",
-        "feature"
-      ]
-    },
-    {
-      "id": "560957",
-      "title": "Generally Available: Azure Functions durable task scheduler Consumption SKU",
-      "description": "The Durable Task Scheduler Consumption SKU is now generally available. Run durable workflows and AI agent orchestrations on Azure with pay-per-use pricing. No storage to manage, no capacity to plan, and no idle costs. The Consumption SKU charges only for actions dispatched, making it ideal for bursty workloads like AI agent orchestration, event-driven pipelines, and API-triggered workflows. It supports up to 500 actions/second, 30-day data retention, a built-in monitoring dashboard, and identity-based security with Entra ID and RBAC. Works across Azure Functions, Azure Container Apps, AKS, and",
-      "url": "https://azure.microsoft.com/updates?id=560957",
-      "publishedAt": "2026-05-04T17:45:58.185Z",
-      "updatedAt": "2026-05-04T17:45:58.185Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Containers",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Functions"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "containers",
-        "internet of things",
-        "azure functions",
         "feature"
       ]
     }
