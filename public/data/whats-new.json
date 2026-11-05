@@ -1,8 +1,150 @@
 {
-  "lastUpdated": "2026-11-04T15:58:33.796Z",
+  "lastUpdated": "2026-11-05T16:11:16.119Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "579300",
+      "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+      "description": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant customer-managed keys (**CMKs**), Federal Information Processing Standards (**FIPS**) configuration, network migration, Premium SSD v2 storage, and major version upgrade prechecks. It also enhances autonomous tuning recommendations and introduces more flexible PostgreSQL version handling. These enhancements enable customers to automate more server ma",
+      "url": "https://azure.microsoft.com/updates?id=579300",
+      "publishedAt": "2026-11-04T18:42:12.678Z",
+      "updatedAt": "2026-11-04T18:42:12.678Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "feature"
+      ]
+    },
+    {
+      "id": "578966",
+      "title": "Generally Available: Route maps for Azure Route Server",
+      "description": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Server BGP peerings with Network Virtual Appliances (NVAs), ExpressRoute gateways, and VPN gateways in the same virtual network. Route maps provide the following capabilities: Route summarization: Summarize routes when on-premises networks connect to the virtual network through ExpressRoute or VPN. Route control: Control routes entering and leav",
+      "url": "https://azure.microsoft.com/updates?id=578966",
+      "publishedAt": "2026-11-04T18:39:41.821Z",
+      "updatedAt": "2026-11-04T18:39:41.821Z",
+      "status": "update",
+      "categories": [
+        "Networking"
+      ],
+      "services": [
+        "Azure Route Server"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "azure route server",
+        "feature"
+      ]
+    },
+    {
+      "id": "579507",
+      "title": "Public Preview: Azure Firewall IPv6 now supports application rules",
+      "description": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent policies across IPv4 and IPv6 environments. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=579507",
+      "publishedAt": "2026-11-04T18:09:43.661Z",
+      "updatedAt": "2026-11-04T18:09:43.661Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "azure firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026",
+      "title": "Retirement: Transition to Entra ID (formerly known as Azure AD) to query data from Azure Monitor application insights by March 31, 2027",
+      "description": "*Note: We have extended the retirement date to March 31, 2027. On March 31, 2027 API keys used query application insights will be retired. You'll need to transition to Microsoft Entra ID (formerly known as Azure AD) which provides all the functionality of API keys plus new ones, including: Microsoft Entra ID (formerly Azure AD) Multi-Factor Authentication. Hybrid integration to write password changes back to on-premises environment. Hybrid integration to enforce password protection policies for an on-premises environment. Recommended action: To continue querying your application insights resou",
+      "url": "https://azure.microsoft.com/updates?id=transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026",
+      "publishedAt": "2023-05-15T19:51:58.000Z",
+      "updatedAt": "2026-11-04T17:40:28.514Z",
+      "status": "retiring",
+      "categories": [
+        "DevOps",
+        "Management and governance"
+      ],
+      "services": [
+        "Application Insights",
+        "Azure Monitor"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "devops",
+        "management and governance",
+        "application insights",
+        "azure monitor",
+        "retirements"
+      ]
+    },
+    {
+      "id": "579162",
+      "title": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+      "description": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point of a VM. This preview extends existing multi-disk crash-consistent restore point support to Premium SSD v2 and Ultra data disks. Existing support for Standard HDD, Standard SSD, and Premium SSD disks is unchanged. Instant Access is also supported for multi-disk crash-consistent restore points in this preview. This applies only to VMs with Pre",
+      "url": "https://azure.microsoft.com/updates?id=579162",
+      "publishedAt": "2026-11-04T17:13:51.549Z",
+      "updatedAt": "2026-11-04T17:13:51.549Z",
+      "status": "preview",
+      "categories": [
+        "Storage",
+        "Compute"
+      ],
+      "services": [
+        "Azure Disk Storage",
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Compliance",
+        "Management",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "storage",
+        "compute",
+        "azure disk storage",
+        "virtual machines",
+        "compliance",
+        "management",
+        "feature"
+      ]
+    },
     {
       "id": "576382",
       "title": "Public Preview: JWT validation for Application Gateway for Containers",
@@ -13465,139 +13607,6 @@
       "tags": [
         "databases",
         "azure sql managed instance",
-        "feature"
-      ]
-    },
-    {
-      "id": "561176",
-      "title": "Retirement: Azure Document Intelligence v3.0 API will be retired on March 30, 2029",
-      "description": "On March 30, 2029, Azure Document Intelligence v3.0 API will be retired. Please migrate to latest generally available Azure Document Intelligence API version, v4.0, by that date. After March 30, 2029, Azure Document Intelligence v3.0 API will no longer be supported and will become unusable.",
-      "url": "https://azure.microsoft.com/updates?id=561176",
-      "publishedAt": "2026-05-06T22:15:33.285Z",
-      "updatedAt": "2026-05-06T22:15:33.285Z",
-      "status": "retiring",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Azure AI Document Intelligence"
-      ],
-      "updateTypes": [
-        "Retirements",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "azure ai document intelligence",
-        "retirements",
-        "services"
-      ]
-    },
-    {
-      "id": "561373",
-      "title": "Public Preview: Bulk Restore for Azure Virtual Machines using Azure Backup",
-      "description": "Azure Backup now supports ‘Bulk Restore’ for Azure virtual machines (VMs), enabling customers to restore multiple VMs (upto 100) in a single operation. This feature simplifies large-scale recovery scenarios while preserving control and granularity at an individual VM level. Customers can select multiple VMs, choose restore points, apply common restore parameters and track restore progress centrally. This feature is optimized for scenarios such as outages, ransomware recovery, improving recovery speed and operational efficiency. Learn More.",
-      "url": "https://azure.microsoft.com/updates?id=561373",
-      "publishedAt": "2026-05-06T19:45:54.286Z",
-      "updatedAt": "2026-05-06T19:45:54.286Z",
-      "status": "preview",
-      "categories": [
-        "Management and governance",
-        "Storage"
-      ],
-      "services": [
-        "Azure Backup"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-05",
-      "tags": [
-        "management and governance",
-        "storage",
-        "azure backup",
-        "feature"
-      ]
-    },
-    {
-      "id": "560668",
-      "title": "Public Preview: Azure NetApp Files enable backup by default",
-      "description": "Azure NetApp Files now enables backup by default when creating new volumes, delivering a more seamless and secure data‑protection experience. Backups are automatically provisioned during volume creation, reducing setup effort while still allowing customers to opt out when needed. This enhancement improves usability, strengthens data resilience, and is available across all Azure NetApp Files regions Learn more: What's new in Azure NetApp Files Protect Azure NetApp Files volumes Create an SMB volume for Azure NetApp Files Create an NFS volume for Azure NetApp Files Configure policy-based backups",
-      "url": "https://azure.microsoft.com/updates?id=560668",
-      "publishedAt": "2026-05-06T18:45:15.630Z",
-      "updatedAt": "2026-05-06T18:45:15.630Z",
-      "status": "preview",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure NetApp Files"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-04",
-      "tags": [
-        "storage",
-        "azure netapp files",
-        "feature"
-      ]
-    },
-    {
-      "id": "561162",
-      "title": "Public Preview: Azure Cosmos DB Shell—your new command line for data workflows",
-      "description": "Azure Cosmos DB Shell is now available in public preview, introducing a modern command-line experience with agentic capabilities powered by Model Context Protocol (MCP). You can now query, explore, and manage your data more efficiently through intelligent, AI-assisted workflows. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=561162",
-      "publishedAt": "2026-05-06T18:45:15.630Z",
-      "updatedAt": "2026-05-06T18:45:15.630Z",
-      "status": "preview",
-      "categories": [
-        "Databases",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Cosmos DB"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-05",
-      "tags": [
-        "databases",
-        "internet of things",
-        "azure cosmos db",
-        "feature"
-      ]
-    },
-    {
-      "id": "561167",
-      "title": "Public Preview: Azure Cosmos DB spherical quantization for improved vector search",
-      "description": "Azure Cosmos DB now offers spherical quantization in public preview to help you achieve faster vector indexing with higher recall and accuracy at scale. Spherical quantization is an advanced vector compression technique designed to preserve search quality while improving vector indexing and search performance. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=561167",
-      "publishedAt": "2026-05-06T18:30:28.395Z",
-      "updatedAt": "2026-05-06T18:30:28.395Z",
-      "status": "preview",
-      "categories": [
-        "Databases",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Cosmos DB"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-05",
-      "tags": [
-        "databases",
-        "internet of things",
-        "azure cosmos db",
         "feature"
       ]
     }
