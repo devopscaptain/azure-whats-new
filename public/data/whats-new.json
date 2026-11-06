@@ -1,8 +1,66 @@
 {
-  "lastUpdated": "2026-11-05T16:11:16.119Z",
+  "lastUpdated": "2026-11-06T15:41:13.952Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577668",
+      "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+      "description": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help you prepare for evolving cryptographic threats while meeting your security and client compatibility requirements. Choose a predefined Standard or Enhanced policy, or use a Custom policy to select supported classical and hybrid post-quantum key exchange groups, including the option to select X25519. Hybrid post-quantum key exchange requires TLS 1.3 and protects client-to-edge connections; it does not apply to connections from Azure Front Door to your origin. For additional c",
+      "url": "https://azure.microsoft.com/updates?id=577668",
+      "publishedAt": "2026-11-05T23:19:48.287Z",
+      "updatedAt": "2026-11-05T23:19:48.287Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "feature"
+      ]
+    },
+    {
+      "id": "579280",
+      "title": "Generally Available: WAF Insights for Azure Application Gateway",
+      "description": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked requests, analyze attack patterns, and identify false positives without writing queries. With general availability, WAF Insights supports both Azure Diagnostics and resource-specific logs, renames the Triage tab to Investigate, and counts each request once by its final WAF outcome. Use the Monitor tab to track WAF activity and the most acti",
+      "url": "https://azure.microsoft.com/updates?id=579280",
+      "publishedAt": "2026-11-05T17:11:31.237Z",
+      "updatedAt": "2026-11-05T17:11:31.237Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "web application firewall",
+        "feature"
+      ]
+    },
     {
       "id": "579300",
       "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
@@ -387,7 +445,7 @@
     {
       "id": "570498",
       "title": "Retirement: Azure Fluid Relay",
-      "description": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption. The Fluid Framework remains available as an open-source framework for building distributed, real-time collaborative web applications. A self-hosted Fluid service solution is available as the replacement. You can continue using Azure Fluid Relay until February 1, 2027 while you complete your transition. How this affects you: If your applications continue to use Azure Fluid Relay after February 2,",
+      "description": "On June 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption. The Fluid Framework remains available as an open-source framework for building distributed, real-time collaborative web applications. A self-hosted Fluid service solution is available as the replacement. You can continue using Azure Fluid Relay until June 1, 2027 while you complete your transition. How this affects you: If your applications continue to use Azure Fluid Relay after June 2, 2027, they ",
       "url": "https://azure.microsoft.com/updates?id=570498",
       "publishedAt": "2026-11-02T19:01:41.618Z",
       "updatedAt": "2026-11-02T19:01:41.618Z",
@@ -13558,56 +13616,6 @@
         "azure migrate",
         "feature",
         "services"
-      ]
-    },
-    {
-      "id": "560734",
-      "title": "Generally Available: Azure Dl/D/E v7 Virtual Machines",
-      "description": "Azure has announced the general availability of the new Dl/D/E v7 Virtual Machines, powered by the latest Intel® Xeon® 6 (Granite Rapids) processors. These general‑purpose and memory‑optimized VMs deliver up to 20 % better general compute performance compared to previous generation Intel‑based v6 VMs, alongside major improvements in scale, networking, and storage. The v7 families support three memory-to-vCPU ratios (2:1, 4:1, and 8:1) and offer configurations with or without local NVMe temp disks. Customers can scale up to 372 vCPUs and 2.8 TiB of memory on Esv7/Edsv7 sizes, enabling larger an",
-      "url": "https://azure.microsoft.com/updates?id=560734",
-      "publishedAt": "2026-05-07T18:00:38.982Z",
-      "updatedAt": "2026-05-07T18:00:38.982Z",
-      "status": "ga",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Virtual Machines"
-      ],
-      "updateTypes": [
-        "Pricing & Offerings"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "virtual machines",
-        "pricing & offerings"
-      ]
-    },
-    {
-      "id": "560283",
-      "title": "Public Preview: Azure SQL update for early-May 2026",
-      "description": "In early May 2026, the following update and enhancement was made to Azure SQL: Right‑size memory for Business Critical Azure SQL Managed Instance to improve performance without overprovisioning. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=560283",
-      "publishedAt": "2026-05-06T23:00:22.147Z",
-      "updatedAt": "2026-05-06T23:00:22.147Z",
-      "status": "preview",
-      "categories": [
-        "Databases"
-      ],
-      "services": [
-        "Azure SQL Managed Instance"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-05",
-      "tags": [
-        "databases",
-        "azure sql managed instance",
-        "feature"
       ]
     }
   ]
