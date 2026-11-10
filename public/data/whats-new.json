@@ -1,8 +1,54 @@
 {
-  "lastUpdated": "2026-11-08T14:47:13.055Z",
+  "lastUpdated": "2026-11-10T16:07:27.156Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "575106",
+      "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+      "description": "Support for.NET 8 and.NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to.NET 10 by that date. Your apps will continue to operate, but security updates will no longer be provided and support for.NET 8 and.NET 9 on Azure Functions will end. Running apps on an unsupported runtime or language version might lead to security and performance issues. Upgrade to.NET 10 before November 10, 2026 to remain on a supported version. Learn more about the.NET support policy and the Azure Functions language support policy. Recommended action To avoid potential security vulnera",
+      "url": "https://azure.microsoft.com/updates?id=575106",
+      "publishedAt": "2026-11-09T22:50:01.551Z",
+      "updatedAt": "2026-11-09T22:50:01.551Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Web"
+      ],
+      "services": [
+        "Static Web Apps"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "web",
+        "static web apps",
+        "retirements"
+      ]
+    },
+    {
+      "id": "579854",
+      "title": "Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+      "description": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to simplify onboarding Arc-enabled Windows Servers to Azure File Sync, taking you from agent installation and server registration to configuring synchronization with an Azure file share in one streamlined workflow. Key benefits: Simplify deployment: Set up Azure File Sync for Arc-enabled Windows Servers through a guided Azure portal experience. Ce",
+      "url": "https://azure.microsoft.com/updates?id=579854",
+      "publishedAt": "2026-11-09T17:20:57.324Z",
+      "updatedAt": "2026-11-09T17:20:57.324Z",
+      "status": "preview",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "feature"
+      ]
+    },
     {
       "id": "577668",
       "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
@@ -13548,74 +13594,6 @@
         "security",
         "microsoft sentinel",
         "feature"
-      ]
-    },
-    {
-      "id": "562010",
-      "title": "Generally Available: Azure Virtual Network Manager rule impact analyzer",
-      "description": "Azure Virtual Network Manager rule impact analyzer is now generally available, empowering you to simulate the impact of your security admin rules on your virtual networks before deploying your rules. With this capability, you can simulate the effects of your security admin rules on your virtual networks’ existing traffic flows and modify rules as needed to ensure your desired traffic flows are maintained and reduce the risk of unexpected connectivity issues. This feature is available in the Azure portal and is powered by Azure Network Watcher traffic analytics and virtual network flow logs, pr",
-      "url": "https://azure.microsoft.com/updates?id=562010",
-      "publishedAt": "2026-05-12T17:30:34.911Z",
-      "updatedAt": "2026-05-12T17:30:34.911Z",
-      "status": "ga",
-      "categories": [
-        "Networking"
-      ],
-      "services": [
-        "Azure Virtual Network Manager"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Management",
-        "Security",
-        "Services"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "networking",
-        "azure virtual network manager",
-        "feature",
-        "management",
-        "security",
-        "services"
-      ]
-    },
-    {
-      "id": "561814",
-      "title": "Generally Available: Azure Premium SSD v2 Disk is now available in all three available zones in Japan West",
-      "description": "Azure Premium SSD v2 is now available in all three Availability Zones in Japan West. Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines, offers sub-millisecond latencies and exceptional price performance for IO-intensive workloads at a low cost. Premium SSD v2 is suited for a broad range of enterprise production scenarios, including SQL Server, Oracle, MariaDB, SAP, Cassandra, MongoDB, big data/analytics, and gaming on virtual machines or stateful containers. If Premium SSD v2 is unavailable in your preferred region and you would like t",
-      "url": "https://azure.microsoft.com/updates?id=561814",
-      "publishedAt": "2026-05-07T18:15:17.640Z",
-      "updatedAt": "2026-05-07T18:15:17.640Z",
-      "status": "ga",
-      "categories": [
-        "Compute",
-        "Storage",
-        "Management and governance",
-        "Migration"
-      ],
-      "services": [
-        "Azure Compute Fleet",
-        "Azure Disk Storage",
-        "Azure Migrate"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "storage",
-        "management and governance",
-        "migration",
-        "azure compute fleet",
-        "azure disk storage",
-        "azure migrate",
-        "feature",
-        "services"
       ]
     }
   ]
