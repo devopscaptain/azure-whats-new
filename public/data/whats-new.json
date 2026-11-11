@@ -1,8 +1,147 @@
 {
-  "lastUpdated": "2026-11-10T16:07:27.156Z",
+  "lastUpdated": "2026-11-11T15:53:29.175Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "578454",
+      "title": "Public Preview: Distributed accelerator for cloud storage on AKS",
+      "description": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep frequently read data from Azure Blob Storage close to GPU compute. For inference workloads, DACS helps reduce warm-model loading times and repeated Blob Storage reads as workloads scale out, restart, or recover from node replacement. New and replacement nodes can reuse model data already cached in the cluster instead of downloading it again f",
+      "url": "https://azure.microsoft.com/updates?id=578454",
+      "publishedAt": "2026-11-10T20:08:32.416Z",
+      "updatedAt": "2026-11-10T20:08:32.416Z",
+      "status": "preview",
+      "categories": [
+        "Containers"
+      ],
+      "services": [
+        "Azure Container Storage"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "containers",
+        "azure container storage",
+        "feature"
+      ]
+    },
+    {
+      "id": "578773",
+      "title": "Generally Available: Azure Functions support for .NET 11",
+      "description": "Azure Functions support for.NET 11 is now generally available. You can now build Azure Functions apps targeting.NET 11 using the isolated worker model, while continuing to use the Azure Functions programming model and host integration. Your serverless applications can now take advantage of the new runtime performance optimizations, richer APIs, and enhanced developer tooling through the latest.NET runtime, C#, library, and SDK improvements in this release. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=578773",
+      "publishedAt": "2026-11-10T20:07:45.431Z",
+      "updatedAt": "2026-11-10T20:07:45.431Z",
+      "status": "ga",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Internet of Things"
+      ],
+      "services": [
+        "Azure Functions"
+      ],
+      "updateTypes": [
+        "Feature",
+        "SDK and Tools"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "internet of things",
+        "azure functions",
+        "feature",
+        "sdk and tools"
+      ]
+    },
+    {
+      "id": "579383",
+      "title": "Public Preview: Azure Front Door adds native gRPC support",
+      "description": "Announcing the public preview of gRPC support in Azure Front Door. Build and deliver gRPC applications through Azure Front Door Standard and Premium. Now in preview, gRPC support lets you route calls to specific services and methods, distribute traffic across healthy origins, and use supported Azure Front Door security and routing capabilities. gRPC is supported over HTTP/2 and HTTPS from the client through Azure Front Door to the origin, including unary and streaming RPCs. You can also configure gRPC health probes to load balance traffic to healthy origins. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=579383",
+      "publishedAt": "2026-11-10T18:55:53.512Z",
+      "updatedAt": "2026-11-10T18:55:53.512Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Services"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "feature",
+        "services"
+      ]
+    },
+    {
+      "id": "579310",
+      "title": "Generally Available: Azure Front Door edge actions",
+      "description": "Announcing the general availability of Azure Front Door edge actions (serverless compute at the edge). With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door client request/response processing to make real-time decisions closer to users, improving performance, security, and application flexibility without adding complexity to origin infrastructure. Common scenarios include A/B testing, canary deployments, header manipulation, request filtering, dynamic origin selection, advanced routing, authentication/authorization at the edge, and many more. Edge ac",
+      "url": "https://azure.microsoft.com/updates?id=579310",
+      "publishedAt": "2026-11-10T18:55:09.750Z",
+      "updatedAt": "2026-11-10T18:55:09.750Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Services"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "feature",
+        "services"
+      ]
+    },
+    {
+      "id": "579746",
+      "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+      "description": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6 routing in their Azure architectures while keeping their current IPv4 connectivity. In dual-stack mode, you can apply Azure Route Server route maps to ExpressRoute and VPN Gateway connections, and to network virtual appliance connections in hub or spoke virtual networks. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=579746",
+      "publishedAt": "2026-11-10T18:21:41.119Z",
+      "updatedAt": "2026-11-10T18:21:41.119Z",
+      "status": "update",
+      "categories": [
+        "Networking"
+      ],
+      "services": [
+        "Azure Route Server"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "azure route server",
+        "feature"
+      ]
+    },
     {
       "id": "575106",
       "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
@@ -13454,145 +13593,6 @@
       "tags": [
         "storage",
         "azure netapp files",
-        "feature"
-      ]
-    },
-    {
-      "id": "562350",
-      "title": "Generally Available: Managed Identity Support for Azure Files SMB Is now GA",
-      "description": "Azure Files now supports Managed Identities for SMB access, enabling applications and services to authenticate without storing static credentials or account keys. This feature aligns with Zero Trust principles, allowing workloads to use Entra-issued tokens for secure, short-lived access to file shares. By leveraging Managed Identities, organizations can eliminate service principal secrets and reduce credential sprawl, simplifying compliance and improving security posture. This capability is especially impactful for cloud-native workloads that require persistent storage, including: AKS clusters",
-      "url": "https://azure.microsoft.com/updates?id=562350",
-      "publishedAt": "2026-05-14T17:30:02.495Z",
-      "updatedAt": "2026-05-14T17:30:02.495Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Files"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Compliance",
-        "Microsoft Build",
-        "Security",
-        "Services"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure files",
-        "feature",
-        "compliance",
-        "microsoft build",
-        "security",
-        "services"
-      ]
-    },
-    {
-      "id": "561564",
-      "title": "Generally Available: Azure Monitor dashboards with Grafana in Public, Government (Fairfax) and China",
-      "description": "Azure Monitor dashboards with Grafana are generally available, bringing the power of Grafana’s open and composable visualization platform directly into the Azure Portal. This capability enables developers and operators to create, edit, and share Grafana dashboards without needing to deploy or manage additional infrastructure. Users can seamlessly visualize Azure Monitor metrics, logs and traces, alongside Prometheus, Azure Resource Graph and Azure Data Explorer data using familiar Grafana experiences with Azure-native security and governance through RBAC and ARM-based deployment. With general ",
-      "url": "https://azure.microsoft.com/updates?id=561564",
-      "publishedAt": "2026-05-12T23:45:17.264Z",
-      "updatedAt": "2026-05-12T23:45:17.264Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Open Source"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "open source"
-      ]
-    },
-    {
-      "id": "561942",
-      "title": "Generally Available: Confidential computing for Azure Service Bus Premium",
-      "description": "Confidential computing for Azure Service Bus Premium is now generally available in Korea Central and UAE North. This capability enables Service Bus to process messages inside hardware-based trusted execution environments (TEEs), adding protection for data in use on top of existing encryption at rest and in transit. The TEE prevents unauthorized access to data while it is being processed, bringing hardware-level isolation to message handling. Confidential computing works alongside the security features you can already use with Service Bus today, such as TLS encryption for data in transit, encry",
-      "url": "https://azure.microsoft.com/updates?id=561942",
-      "publishedAt": "2026-05-12T18:30:55.453Z",
-      "updatedAt": "2026-05-12T18:30:55.453Z",
-      "status": "ga",
-      "categories": [
-        "Integration"
-      ],
-      "services": [
-        "Service Bus"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "integration",
-        "service bus",
-        "feature",
-        "security"
-      ]
-    },
-    {
-      "id": "561947",
-      "title": "Update: 99.99% uptime for all Azure Service Bus Premium namespaces in Availability Zone regions",
-      "description": "Starting May 1, 2026, all Azure Service Bus Premium namespaces deployed in regions with Availability Zone support now qualify for a 99.99% uptime SLA. Premium is the tier customers choose for their most important workloads, and this update brings the SLA in line with the zone-redundant infrastructure those namespaces already run on. Previously, the 99.99% SLA required partitioned namespaces to be enabled. That requirement has been removed - any Premium namespace in an AZ region now receives the higher SLA automatically. Availability Zones are physically separate datacenters within an Azure reg",
-      "url": "https://azure.microsoft.com/updates?id=561947",
-      "publishedAt": "2026-05-12T18:30:55.453Z",
-      "updatedAt": "2026-05-12T18:30:55.453Z",
-      "status": "ga",
-      "categories": [
-        "Integration"
-      ],
-      "services": [
-        "Service Bus"
-      ],
-      "updateTypes": [
-        "Compliance"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "integration",
-        "service bus",
-        "compliance"
-      ]
-    },
-    {
-      "id": "561510",
-      "title": "Generally Available: Sentinel TI - improved pattern parsing & revoke reliability",
-      "description": "We’ve rolled out two important improvements to enhance accuracy and control in pattern-based workflows: Revoke fix: Resolved an issue where revoke actions were not consistently applied, ensuring changes now take effect reliably and as intended. Support for AND in pattern parsing: You can now combine conditions using AND, enabling more precise and expressive pattern definitions. These updates help you manage indicators and patterns with greater confidence and precision.",
-      "url": "https://azure.microsoft.com/updates?id=561510",
-      "publishedAt": "2026-05-12T17:30:34.911Z",
-      "updatedAt": "2026-05-12T17:30:34.911Z",
-      "status": "ga",
-      "categories": [
-        "Hybrid + multicloud",
-        "Security"
-      ],
-      "services": [
-        "Microsoft Sentinel"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "hybrid + multicloud",
-        "security",
-        "microsoft sentinel",
         "feature"
       ]
     }
