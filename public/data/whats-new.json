@@ -1,8 +1,37 @@
 {
-  "lastUpdated": "2026-11-11T15:53:29.175Z",
+  "lastUpdated": "2026-11-12T16:36:37.662Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "580155",
+      "title": "Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+      "description": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreading their traffic across thousands of IP addresses, so that each one stays under the threshold. Rate limit grouping adds new group-by options that count requests by an attribute those clients share, so traffic from many IP addresses counts toward a single threshold. With this preview, you can group each rate limit rule by: JA4 fingerprint, to li",
+      "url": "https://azure.microsoft.com/updates?id=580155",
+      "publishedAt": "2026-11-11T18:18:27.669Z",
+      "updatedAt": "2026-11-11T18:18:27.669Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
     {
       "id": "578454",
       "title": "Public Preview: Distributed accelerator for cloud storage on AKS",
@@ -13569,31 +13598,6 @@
         "storage",
         "azure blob storage",
         "sdk and tools"
-      ]
-    },
-    {
-      "id": "561722",
-      "title": "Generally Available: Support for workloads with large files in Azure NetApp Files",
-      "description": "To support seamless migration and operation of workloads that use large files including Azure VMware Solution (AVS) virtual machines with large VMDK disks, Azure NetApp Files now supports file sizes of up to 64 TiB for regular volume s. This enhancement enables the migration of on‑premises workloads with large virtual machine disks to Azure VMware Solution and supports ongoing operation of data‑intensive workloads in Azure. The capability is available in all Azure NetApp Files enabled regions across the Flexible, Standard, Premium, and Ultra service levels. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=561722",
-      "publishedAt": "2026-05-14T18:00:48.999Z",
-      "updatedAt": "2026-05-14T18:00:48.999Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure NetApp Files"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure netapp files",
-        "feature"
       ]
     }
   ]
