@@ -1,8 +1,122 @@
 {
-  "lastUpdated": "2026-11-12T16:36:37.662Z",
+  "lastUpdated": "2026-11-13T15:56:10.768Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "577673",
+      "title": "Public Preview: JWT validation with Azure Front Door Auth Policy",
+      "description": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before requests reach your APIs or web applications, helping you centralize authentication checks and reduce unnecessary traffic to your origins. Associate an Auth Policy with a profile, domain, or route, and configure the expected issuer and audience for token validation. Use Block mode to reject requests with missing or invalid tokens with an HTTP 401 Unauthorized response or evaluate requests without blocki",
+      "url": "https://azure.microsoft.com/updates?id=577673",
+      "publishedAt": "2026-11-12T22:36:37.366Z",
+      "updatedAt": "2026-11-12T22:36:37.366Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "feature"
+      ]
+    },
+    {
+      "id": "577678",
+      "title": "Generally Available: Azure Front Door mutual TLS authentication",
+      "description": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and APIs in business-to-business, Internet of Things, financial services, and enterprise scenarios. Choose from four modes: require and validate, require without validation, validate when presented, or pass through to the origin. These modes let you control whether client certificates are mandatory and whether Azure Front Door or your origin performs certificate validation. When forwarded to the origin, ",
+      "url": "https://azure.microsoft.com/updates?id=577678",
+      "publishedAt": "2026-11-12T22:27:35.885Z",
+      "updatedAt": "2026-11-12T22:27:35.885Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "feature"
+      ]
+    },
+    {
+      "id": "578207",
+      "title": "Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+      "description": "Auto scaling introduces a per-workspace capability in Azure Monitor Workspace (AMW) to automatically scale ingestion limits based on observed usage patterns. When enabled, the system dynamically adjusts ingestion limits (quota ceiling) to maintain healthy utilization and reduce the need for manual limit management. Limits are increased as your metrics volume grows and can be decreased when usage stays low for a sustained period of time. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=578207",
+      "publishedAt": "2026-11-12T18:23:52.219Z",
+      "updatedAt": "2026-11-12T18:23:52.219Z",
+      "status": "preview",
+      "categories": [
+        "Compute",
+        "Containers",
+        "DevOps",
+        "Management and governance"
+      ],
+      "services": [
+        "Azure Kubernetes Service (AKS)",
+        "Azure Monitor"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "compute",
+        "containers",
+        "devops",
+        "management and governance",
+        "azure kubernetes service (aks)",
+        "azure monitor",
+        "feature"
+      ]
+    },
+    {
+      "id": "574158",
+      "title": "Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+      "description": "The public preview of Microsoft-managed performance monitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance workloads often rely on custom scripts and disconnected monitoring tools. This requires them to manage telemetry infrastructure and manually correlate performance insights across their SQL Managed Instance estate. The new experience collects and stores performance telemetry and provides resource-level and at-scale dashboards to help identify performance trends, anomalies, and resource bottlenecks. For deeper analysis and cus",
+      "url": "https://azure.microsoft.com/updates?id=574158",
+      "publishedAt": "2026-11-12T16:59:40.821Z",
+      "updatedAt": "2026-11-12T16:59:40.821Z",
+      "status": "preview",
+      "categories": [
+        "Databases"
+      ],
+      "services": [
+        "Azure SQL Managed Instance"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "azure sql managed instance",
+        "feature"
+      ]
+    },
     {
       "id": "580155",
       "title": "Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
@@ -13498,106 +13612,6 @@
       "previewDate": null,
       "tags": [
         "feature"
-      ]
-    },
-    {
-      "id": "562049",
-      "title": "Generally Available: Application Insights Auto-instrumentation for Azure Kubernetes Service apps",
-      "description": "Azure Monitor Application Insights auto-instrumentation for Azure Kubernetes Service (AKS) apps is now generally available, making it easier to monitor your applications without modifying source code. With just a few configuration steps, you can automatically instrument Java and Node.js workloads running on AKS and start collecting telemetry with Application Insights. This capability helps teams quickly unlock Application Insights experiences such as application maps, end-to-end transaction diagnostics, distributed tracing, and log analysis without the time and effort of manual code changes. B",
-      "url": "https://azure.microsoft.com/updates?id=562049",
-      "publishedAt": "2026-05-18T18:00:18.663Z",
-      "updatedAt": "2026-05-18T18:00:18.663Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Open Source"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "microsoft build",
-        "open source"
-      ]
-    },
-    {
-      "id": "562548",
-      "title": "Generally Available: Azure Front Door WebSocket",
-      "description": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex communication over a single, long-lived TCP connection, enabling efficient, low-latency data exchange without the need for polling. This reduces overhead and improves resource utilization for real-time applications. With native WebSocket support, Azure Front Door can power interactive and real-time scenarios such as chat applications, live dashboards, financial data streaming, gaming, and other continuous d",
-      "url": "https://azure.microsoft.com/updates?id=562548",
-      "publishedAt": "2026-05-18T17:45:33.582Z",
-      "updatedAt": "2026-05-18T17:45:33.582Z",
-      "status": "ga",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature",
-        "Services"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "feature",
-        "services"
-      ]
-    },
-    {
-      "id": "562533",
-      "title": "Update: Microsoft Foundry built-in RBAC role naming and enhancements",
-      "description": "Role names in Microsoft Foundry have been updated to align with the product brand. The following built-in roles are now renamed: Azure AI Account Owner → Foundry Account Owner Azure AI Owner → Foundry Owner Azure AI User → Foundry User Azure AI Project Manager → Foundry Project Manager In addition, role management capabilities have been enhanced to support evolving Foundry scenarios. Foundry Account Owner and Foundry Owner roles now include the ability to assign select dependent roles needed for common workflows, such as deploying hosted agents and accessing trace data. These roles can assign ",
-      "url": "https://azure.microsoft.com/updates?id=562533",
-      "publishedAt": "2026-05-15T22:00:42.053Z",
-      "updatedAt": "2026-05-15T22:00:42.053Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Management"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "management"
-      ]
-    },
-    {
-      "id": "562516",
-      "title": "Generally Available: Azure Blob Storage SDK for Rust",
-      "description": "The Azure Blob Storage SDK for Rust is now generally available. The Rust SDK allows you to connect to an Azure Blob Storage account and perform operations on containers and blobs, including uploading, downloading, listing, and managing blobs. This release brings production-grade capabilities for secure, reliable access to Blob Storage from Rust, such as Microsoft Entra ID authentication, automatic retries on transient failures, and distributed tracing through OpenTelemetry. You now have stable APIs backed by semver guarantees, a pluggable async runtime, and the same familiar design patterns us",
-      "url": "https://azure.microsoft.com/updates?id=562516",
-      "publishedAt": "2026-05-15T18:15:26.345Z",
-      "updatedAt": "2026-05-15T18:15:26.345Z",
-      "status": "ga",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Azure Blob Storage"
-      ],
-      "updateTypes": [
-        "SDK and Tools"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "azure blob storage",
-        "sdk and tools"
       ]
     }
   ]
