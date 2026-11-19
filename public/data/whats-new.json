@@ -1,8 +1,129 @@
 {
-  "lastUpdated": "2026-11-18T16:57:38.412Z",
+  "lastUpdated": "2026-11-19T17:04:37.520Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "581604",
+      "title": "Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
+      "description": "Announcing the public preview of the AI bot ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. AI crawlers and agents visit your site for different reasons, and you may want to allow some but not others. Robots.txt only works when a bot chooses to follow it, and some bots pretend to be a well-known AI crawler. The AI bot ruleset identifies AI bots, groups them by purpose, and enforces your choice for each group at the edge. With this preview, you can choose an action for each of four categories: AI training, for verified crawlers that collect public content to train ",
+      "url": "https://azure.microsoft.com/updates?id=581604",
+      "publishedAt": "2026-11-18T18:27:29.127Z",
+      "updatedAt": "2026-11-18T18:27:29.127Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite",
+        "Security"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581645",
+      "title": "Announcing: The new Azure Databricks on Azure Government is now in Beta",
+      "description": "A new Azure Databricks environment is now available in Beta on Microsoft Azure Government. It brings the modern data and AI platform from global Azure to U.S. public sector agencies and their partners, delivered as a first-party Azure service. The Beta includes Unity Catalog for unified governance across data and AI assets, and Databricks SQL with serverless compute for scalable analytics without managing infrastructure. It also includes system tables for usage, audit and cost visibility. The Compliance Security Profile is on by default in every workspace, Azure Private Link is required, and c",
+      "url": "https://azure.microsoft.com/updates?id=581645",
+      "publishedAt": "2026-11-18T18:01:03.356Z",
+      "updatedAt": "2026-11-18T18:01:03.356Z",
+      "status": "update",
+      "categories": [
+        "AI + machine learning",
+        "Analytics"
+      ],
+      "services": [
+        "Azure Databricks"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "analytics",
+        "azure databricks",
+        "microsoft ignite",
+        "announcement"
+      ]
+    },
+    {
+      "id": "581048",
+      "title": "Generally Available: Cross-subscription backup for Azure Virtual Machines in Azure Backup",
+      "description": "Azure Backup now supports cross-subscription backup for Azure Virtual Machines, enabling customers to protect VMs using a Recovery Services vault located in a different Azure subscription within the same tenant. This capability allows organizations to centralize backup management across multiple subscriptions, simplifying backup administration, improving governance, and reducing the need to maintain separate backup vaults in each subscription. It is particularly valuable for enterprises managing large Azure environments with dedicated subscriptions for backup and security operations. Learn mor",
+      "url": "https://azure.microsoft.com/updates?id=581048",
+      "publishedAt": "2026-11-18T18:00:04.993Z",
+      "updatedAt": "2026-11-18T18:00:04.993Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Storage"
+      ],
+      "services": [
+        "Azure Backup"
+      ],
+      "updateTypes": [
+        "Management",
+        "Microsoft Ignite",
+        "Feature"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": "2026-04",
+      "tags": [
+        "management and governance",
+        "storage",
+        "azure backup",
+        "management",
+        "microsoft ignite",
+        "feature"
+      ]
+    },
+    {
+      "id": "579943",
+      "title": "Public Preview: AI-powered application and database modernization with Modernize CLI",
+      "description": "Modernize CLI brings application and database modernization together as one connected, agentic journey. It assesses application architecture, dependencies, and cloud readiness while discovering the databases the application relies on and invoking specialized database skills for compatibility, migration readiness, and target recommendations. The combined insights create a coordinated modernization plan spanning application code and the data layer. You can then use GitHub Copilot to remediate the application and database changes and validate the workload end to end on Azure, transforming what we",
+      "url": "https://azure.microsoft.com/updates?id=579943",
+      "publishedAt": "2026-11-18T17:58:45.392Z",
+      "updatedAt": "2026-11-18T17:58:45.392Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "microsoft ignite",
+        "feature"
+      ]
+    },
     {
       "id": "581227",
       "title": "Announcing: Azure Boost observability for NVMe disks",
@@ -35,7 +156,7 @@
     {
       "id": "581503",
       "title": "Public Preview: Immutable snapshots for Azure Disk Storage",
-      "description": "Immutable snapshots for Azure Disk Storage are now available in public preview. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short-term backups that need faster restore. Snapshots are read-only after creation, and you can apply an immutability policy to existing snapshots of any Azure disk type to prevent deletion for up to 90 days. While the policy is active, no one can delete the snapshot, regardless of role or permissions. This helps protect your backups from accidental or malicious deletion and ",
+      "description": "Immutable snapshots for Azure Disk Storage are now available in public preview. You can now apply an immutability policy to snapshots of any Azure disk type to prevent deletion for up to 90 days. While the policy is active, no one can delete the snapshot, regardless of role or permissions. This helps protect backups from ransomware, meet regulatory requirements for short-term backups that need fast restore, and guard against rogue AI agent behavior. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short",
       "url": "https://azure.microsoft.com/updates?id=581503",
       "publishedAt": "2026-11-18T00:00:09.005Z",
       "updatedAt": "2026-11-18T00:00:09.005Z",
@@ -4961,7 +5082,8 @@
       ],
       "updateTypes": [
         "Feature",
-        "Security"
+        "Security",
+        "Post Quantum Crypto"
       ],
       "gaDate": "2026-11",
       "previewDate": null,
@@ -4969,7 +5091,8 @@
         "networking",
         "security",
         "azure front door",
-        "feature"
+        "feature",
+        "post quantum crypto"
       ]
     },
     {
@@ -13485,114 +13608,6 @@
       "title": "Public Preview: Rubric evaluator in Microsoft Foundry",
       "description": "Microsoft Foundry introduces rubric evaluators for measuring agent quality, now in public preview for single-turn and multi-turn agent flows. Rubric evaluators enable developers to define context-specific evaluation criteria using agent prompts, production traces and context-specific files with weighted dimensions and optional human review, ensuring that quality is measured against what truly matters for each scenario. This establishes a reliable baseline that is powering downstream workflows, including evaluation, optimization, regression testing and deployment gates. Learn More",
       "url": "https://azure.microsoft.com/updates?id=563656",
-      "publishedAt": "2026-06-03T19:00:25.447Z",
-      "updatedAt": "2026-06-03T19:00:25.447Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563691",
-      "title": "Generally Available: Custom Voice portal experience in Microsoft Foundry",
-      "description": "Azure AI Speech moves the Custom Voice authoring experience into the Microsoft Foundry portal in general availability. Approved Custom Voice customers can now upload voice talent recordings and consent statements, run data quality checks, train neural voice models, and deploy to endpoints from the same Foundry project that hosts their text-to-speech, Speech-to-text, and Voice Live workloads. They can also train Personal voice in Foundry. The experience replaces the previous Speech Studio Custom Voice flow with consistent Foundry navigation, role-based access, and project-scoped resources. Exis",
-      "url": "https://azure.microsoft.com/updates?id=563691",
-      "publishedAt": "2026-06-03T19:00:25.447Z",
-      "updatedAt": "2026-06-03T19:00:25.447Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563696",
-      "title": "Public Preview: Evaluations with Intelligent Trace Sampling",
-      "description": "Microsoft Foundry observability introduces intelligent trace filtering and sampling for evaluations in public preview. Instead of running evaluations against all production traces, Foundry now select a representative subset of traces using a multi-stage MinHash farthest-first diversity algorithm, including deduplication, hard filers, aggregation and diversity-based selection for evaluation. This approach improves cost efficiency while producing significantly higher lexical diversity and diverse coverage compared to random sampling. Intelligent sampling is particularly effective for: evaluation",
-      "url": "https://azure.microsoft.com/updates?id=563696",
-      "publishedAt": "2026-06-03T19:00:25.447Z",
-      "updatedAt": "2026-06-03T19:00:25.447Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563721",
-      "title": "Generally Available: Microsoft Foundry for Visual Studio Code (June Build 2026 refresh)",
-      "description": "The Microsoft Foundry extension for Visual Studio Code reaches general availability with a Build 2026 refresh that brings the full model catalog, model playground, and Hosted agent deployment into the editor. Developers can sign in with their Azure account, create or open a Foundry project, browse over 1,900 models with filters for publisher and capability, and deploy a model into the project without leaving VS Code. The extension also generates starter code for Python,.NET, JavaScript, or Java in the SDK and authentication style the developer prefers. For Hosted agents, the extension supports",
-      "url": "https://azure.microsoft.com/updates?id=563721",
-      "publishedAt": "2026-06-03T19:00:25.447Z",
-      "updatedAt": "2026-06-03T19:00:25.447Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563731",
-      "title": "Public Preview: Domain filter for specialized model discovery in Foundry model catalog",
-      "description": "Microsoft Foundry model catalog adds a domain filter in public preview, helping developers narrow the catalog of over 1,900 models to the ones trained for a specific industry or use case. Filters cover domains such as robotics, biomedical sciences, materials discovery, and coding. The filter sits alongside existing filters for publisher, modality, deployment type, and capability, so a developer searching for a robotics-tuned reasoning model can find it in a few clicks instead of scrolling through hundreds of general-purpose entries. The same filter is exposed through the catalog REST API, whic",
-      "url": "https://azure.microsoft.com/updates?id=563731",
       "publishedAt": "2026-06-03T19:00:25.447Z",
       "updatedAt": "2026-06-03T19:00:25.447Z",
       "status": "preview",
