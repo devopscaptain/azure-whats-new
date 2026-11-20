@@ -1,8 +1,129 @@
 {
-  "lastUpdated": "2026-11-19T17:04:37.520Z",
+  "lastUpdated": "2026-11-20T16:44:01.332Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "580700",
+      "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+      "description": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships, while customers rely on their trusted partners to manage their cloud and AI initiatives.",
+      "url": "https://azure.microsoft.com/updates?id=580700",
+      "publishedAt": "2026-11-20T00:00:14.367Z",
+      "updatedAt": "2026-11-20T00:00:14.367Z",
+      "status": "update",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Announcement"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "microsoft ignite",
+        "announcement"
+      ]
+    },
+    {
+      "id": "581907",
+      "title": "Generally Available: Soft delete in Azure Compute Gallery",
+      "description": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version 2026-03-03). When the retention period ends, a configurable grace period of 7 to 90 days begins. During the grace period, images can no longer be used for deployments but can still be recovered. Soft Delete works with Private, Direct Shared and Community galleries. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581907",
+      "publishedAt": "2026-11-19T23:47:55.386Z",
+      "updatedAt": "2026-11-19T23:47:55.386Z",
+      "status": "ga",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "574587",
+      "title": "Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+      "description": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major version upgrades from supported earlier PostgreSQL versions to PostgreSQL 19. This release gives you early access to PostgreSQL 19 in a fully managed Azure environment and additional time to validate new deployments and upgrade scenarios before general availability. You can test application compatibility, evaluate workloads, and prepare your Po",
+      "url": "https://azure.microsoft.com/updates?id=574587",
+      "publishedAt": "2026-11-19T23:25:49.666Z",
+      "updatedAt": "2026-11-19T23:25:49.666Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "microsoft ignite",
+        "feature"
+      ]
+    },
+    {
+      "id": "581254",
+      "title": "Public Preview: Zone resilience for Azure VMs",
+      "description": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration. ZRS managed disks replicate data synchronously across zones but don't restart an affected VM. Zone resilience reuses supported disks and configuration, with a near-zero recovery point objective (RPO) for data committed to disks. Key capabilities: Change zone placement without creating a new VM resource Recover with existing OS and data disks rather than restoring copies Choose the target zone and when ",
+      "url": "https://azure.microsoft.com/updates?id=581254",
+      "publishedAt": "2026-11-19T20:34:19.204Z",
+      "updatedAt": "2026-11-19T20:34:19.204Z",
+      "status": "preview",
+      "categories": [],
+      "services": [],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Inspire"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "feature",
+        "microsoft inspire"
+      ]
+    },
+    {
+      "id": "579579",
+      "title": "Public Preview: Database Agent for Azure Database for PostgreSQL",
+      "description": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration, workload signals, query plans, and logs to determine the likely root cause, and explains the supporting evidence in clear language. Database Agent also provides actionable remediation guidance so you can review the evidence and decide what to do next. Instead of manually correlating telemetry and diagnostic data for each issue, you can spend l",
+      "url": "https://azure.microsoft.com/updates?id=579579",
+      "publishedAt": "2026-11-19T17:25:28.706Z",
+      "updatedAt": "2026-11-19T17:25:28.706Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "microsoft ignite",
+        "feature"
+      ]
+    },
     {
       "id": "581604",
       "title": "Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
@@ -13477,139 +13598,6 @@
       "url": "https://azure.microsoft.com/updates?id=563431",
       "publishedAt": "2026-06-03T21:15:57.217Z",
       "updatedAt": "2026-06-03T21:15:57.217Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563671",
-      "title": "Generally Available: Text Analytics for Health NextGen Playground in Azure AI Language",
-      "description": "Azure AI Language brings the next-generation Text Analytics for Health (TA4H) playground to general availability in the Microsoft Foundry portal. Clinical informatics teams and ISVs can paste discharge summaries, doctor's notes, or research abstracts and see extracted diagnoses, medications, symptoms, and time references with UMLS entity linking and relation extraction in a single view. The playground returns FHIR-structured output alongside the standard JSON response, so teams can validate downstream integration with electronic health record systems before writing a line of code. Supported in",
-      "url": "https://azure.microsoft.com/updates?id=563671",
-      "publishedAt": "2026-06-03T21:15:57.217Z",
-      "updatedAt": "2026-06-03T21:15:57.217Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563491",
-      "title": "Generally Available: Self-serve custom photo avatar creation in Microsoft Foundry",
-      "description": "Microsoft Foundry brings self-serve custom photo avatar creation to GA in the Foundry NextGen fine-tuning portal. Enterprise customers building voice agents with avatars or producing content with avatar and speech often need a branded avatar instead of a standard one, but until now the only path ran through a manual white-glove engagement that was slow and dependent on internal teams. With this release, customers create custom photo avatars directly in the portal through a guided self-serve workflow, integrated alongside other model customization capabilities in NextGen fine-tuning. Teams iter",
-      "url": "https://azure.microsoft.com/updates?id=563491",
-      "publishedAt": "2026-06-03T20:45:02.617Z",
-      "updatedAt": "2026-06-03T20:45:02.617Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563716",
-      "title": "Public Preview: Agent-to-agent (A2A) support for Prompt agents and Hosted agents in Foundry",
-      "description": "Microsoft Foundry Agent Service adds agent-to-agent (A2A) communication in public preview for Prompt agents and Hosted agents that use the responses protocol. Agents can call other agents by name through a managed endpoint, with identity, content safety, and audit logging applied to every hop. Developers can model multi-step business processes as a small set of cooperating agents instead of a single monolithic prompt, then trace the full conversation across agents in Application Insights. Because A2A is a first-class protocol in Agent Service, agents written with Agent Framework, LangGraph, or",
-      "url": "https://azure.microsoft.com/updates?id=563716",
-      "publishedAt": "2026-06-03T19:15:46.029Z",
-      "updatedAt": "2026-06-03T19:15:46.029Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "564849",
-      "title": "Generally Available: Azure Red Hat OpenShift in Belgium Central",
-      "description": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Belgium Central, expanding regional availability for OpenShift deployments across Europe. With the launch of Microsoft’s first Azure region in Belgium, customers can now run fully managed OpenShift clusters closer to their users and data, improving performance and reducing latency for cloud-native applications. This new region enables organizations to deploy Kubernetes-based workloads while meeting local data residency and regulatory requirements. Built with multiple availability zones, Belgium Central supports resilient, produc",
-      "url": "https://azure.microsoft.com/updates?id=564849",
-      "publishedAt": "2026-06-03T19:15:46.029Z",
-      "updatedAt": "2026-06-03T19:15:46.029Z",
-      "status": "ga",
-      "categories": [
-        "Containers"
-      ],
-      "services": [
-        "Azure Red Hat OpenShift"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "containers",
-        "azure red hat openshift",
-        "feature"
-      ]
-    },
-    {
-      "id": "563656",
-      "title": "Public Preview: Rubric evaluator in Microsoft Foundry",
-      "description": "Microsoft Foundry introduces rubric evaluators for measuring agent quality, now in public preview for single-turn and multi-turn agent flows. Rubric evaluators enable developers to define context-specific evaluation criteria using agent prompts, production traces and context-specific files with weighted dimensions and optional human review, ensuring that quality is measured against what truly matters for each scenario. This establishes a reliable baseline that is powering downstream workflows, including evaluation, optimization, regression testing and deployment gates. Learn More",
-      "url": "https://azure.microsoft.com/updates?id=563656",
-      "publishedAt": "2026-06-03T19:00:25.447Z",
-      "updatedAt": "2026-06-03T19:00:25.447Z",
       "status": "preview",
       "categories": [
         "AI + machine learning"
