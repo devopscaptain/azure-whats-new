@@ -1,8 +1,212 @@
 {
-  "lastUpdated": "2026-11-20T16:44:01.332Z",
+  "lastUpdated": "2026-11-21T15:55:19.047Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "581463",
+      "title": "Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+      "description": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with warnings and next steps to address them. In VS Code, policy-specific errors identify disallowed tools when saving an agent or toolbox and link to policy details in the Foundry portal. Policy administration remains centralized in Foundry, so developers can act within their workflow without managing separate rules. Learn more: Set up Microsoft Foundry",
+      "url": "https://azure.microsoft.com/updates?id=581463",
+      "publishedAt": "2026-11-21T00:45:13.388Z",
+      "updatedAt": "2026-11-21T00:45:13.388Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581468",
+      "title": "Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+      "description": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, deploy changes to Foundry, and run deployed agent versions from VS Code. Foundry manages the harness and execution environment for supported multi-step workflows involving tools, skills, files, and commands. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581468",
+      "publishedAt": "2026-11-21T00:43:13.294Z",
+      "updatedAt": "2026-11-21T00:43:13.294Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "579952",
+      "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+      "description": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until you migrate to the appropriate scenario SDK,.NET apps will continue to run, and non-.NET apps can continue to run if configured to use a preview extension bundle version earlier than 4.60.0. However, after April 20, 2027, these apps will be unsupported, and Microsoft will no longer provide security updates, patches, or technical support for the Azure Functions OpenAI extension. Running function ap",
+      "url": "https://azure.microsoft.com/updates?id=579952",
+      "publishedAt": "2026-11-20T23:16:31.646Z",
+      "updatedAt": "2026-11-20T23:16:31.646Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Internet of Things"
+      ],
+      "services": [
+        "Azure Functions"
+      ],
+      "updateTypes": [
+        "Retirements",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "internet of things",
+        "azure functions",
+        "retirements",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581713",
+      "title": "Public Preview: Programmed Training in Microsoft Foundry",
+      "description": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form. Managed training jobs work well when you only need to choose a dataset, a grader or job settings. Research teams that need a custom learning signal or control over each update have had to run and maintain their own GPU training infrastructure. With Programmed Training, your Python program controls the experiment while Foundry runs sampling and low-rank adaptation (LoRA) updates on serv",
+      "url": "https://azure.microsoft.com/updates?id=581713",
+      "publishedAt": "2026-11-20T22:58:28.897Z",
+      "updatedAt": "2026-11-20T22:58:28.897Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581746",
+      "title": "Public Preview: Multi-turn evaluation in Microsoft Foundry",
+      "description": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses. A response can look correct on its own and still be part of a conversation that fails the user. For example, an agent can repeat the same failing action across several turns and leave the request unresolved. Turn-level scores do not show this pattern. With multi-turn evaluation, you set the evaluation level of a run to score each turn or the conversation as a whole. Conversation-level evaluators, such as task completion,",
+      "url": "https://azure.microsoft.com/updates?id=581746",
+      "publishedAt": "2026-11-20T22:56:51.814Z",
+      "updatedAt": "2026-11-20T22:56:51.814Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581963",
+      "title": "Public Preview: Azure Firewall for Containers",
+      "description": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container networking architecture while maintaining consistent network security and control. With this preview, organizations can strengthen protection for container workloads while using Azure Firewall as part of their broader Azure network security strategy. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581963",
+      "publishedAt": "2026-11-20T20:05:17.771Z",
+      "updatedAt": "2026-11-20T20:05:17.771Z",
+      "status": "preview",
+      "categories": [
+        "Networking",
+        "Security",
+        "Compute",
+        "Containers"
+      ],
+      "services": [
+        "Azure Firewall",
+        "Azure Kubernetes Service (AKS)"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite",
+        "Security"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "security",
+        "compute",
+        "containers",
+        "azure firewall",
+        "azure kubernetes service (aks)",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "564451",
+      "title": "Generally Available: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+      "description": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improved CPU performance, greater scalability, and expanded configuration options to meet the demands of a wide range of workloads. Key improvements include: Up to 50% improvement in CPU performance (workload dependent) 20% improvement in remote storage IOPS with NVMe 10% better remote storage throughput with NVMe 15% improvement in network bandwidth",
+      "url": "https://azure.microsoft.com/updates?id=564451",
+      "publishedAt": "2026-06-02T21:00:30.592Z",
+      "updatedAt": "2026-11-20T18:50:52.553Z",
+      "status": "ga",
+      "categories": [
+        "Compute"
+      ],
+      "services": [
+        "Virtual Machines"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Build",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "virtual machines",
+        "feature",
+        "microsoft build",
+        "microsoft ignite"
+      ]
+    },
     {
       "id": "580700",
       "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
@@ -796,7 +1000,7 @@
     {
       "id": "571821",
       "title": "Generally Available: Network egress controls for hosted agents in Microsoft Foundry",
-      "description": "Network egress controls govern the outbound connections a Foundry hosted agent can make, is generally available. Ordered rules match on destination host (FQDN, with wildcards such as *.contoso.com) and apply an Allow, Deny, or Rewrite (redirect to another destination) action, or a header-modification action that changes outbound request headers. Rules are part of the agent's Responsible AI policy and are enforced inside the Foundry-managed agent sandbox before traffic leaves the runtime. Two enforcement modes are supported: Audit mode logs deny decisions without blocking traffic, and Enforce m",
+      "description": "Network egress controls for hosted agents in Foundry Agent Service are now generally available. Create rules that allow or deny destinations, or rewrite destinations. Audit mode logs deny decisions without blocking them. Rewrite rules still take effect. Header transformation rules are in preview and also take effect in audit mode. Learn more.",
       "url": "https://azure.microsoft.com/updates?id=571821",
       "publishedAt": "2026-09-18T17:23:21.396Z",
       "updatedAt": "2026-11-17T21:51:16.032Z",
@@ -808,14 +1012,16 @@
         "Microsoft Foundry"
       ],
       "updateTypes": [
-        "Microsoft.AspNetCore.OData.Formatter.Value.EdmUntypedCollection"
+        "Microsoft Ignite",
+        "Feature"
       ],
       "gaDate": "2026-11",
       "previewDate": "2026-07",
       "tags": [
         "ai + machine learning",
         "microsoft foundry",
-        "microsoft.aspnetcore.odata.formatter.value.edmuntypedcollection"
+        "microsoft ignite",
+        "feature"
       ]
     },
     {
@@ -849,8 +1055,8 @@
     },
     {
       "id": "563661",
-      "title": "Generally Available: Semantic chunking and AI-generated image descriptions with Azure Content Understanding in Azure AI Search",
-      "description": "The Azure Content Understanding skill in Azure AI Search is generally available for semantic chunking and AI-generated image descriptions, for use with Foundry IQ and Azure AI Search. The skill produces semantically coherent chunks with structured Markdown, location metadata, and searchable image descriptions in an Azure AI Search enrichment pipeline. Learn more.",
+      "title": "Generally Available: Semantic chunking and image descriptions with Azure Content Understanding in Foundry IQ",
+      "description": "Foundry IQ—formerly Azure AI Search—now offers generally available semantic chunking and optional AI-generated image descriptions through the Azure Content Understanding skill. The skill uses document structure to create chunks with Markdown and location metadata. Configure a supported chat-model deployment to generate descriptions of supported images, charts, and diagrams. Learn more.",
       "url": "https://azure.microsoft.com/updates?id=563661",
       "publishedAt": "2026-06-04T19:00:34.788Z",
       "updatedAt": "2026-11-17T21:17:15.930Z",
@@ -3266,35 +3472,6 @@
       ]
     },
     {
-      "id": "579531",
-      "title": "Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
-      "description": "You can now use AES-256 keys stored in Azure Key Vault Premium or Managed HSM as TDE protectors, providing an alternative to RSA keys for protecting data at rest. While RSA may remain secure against today’s classical computing capabilities, advances in quantum computing could eventually pose a risk. AES-256 keys are considered more resistant to known quantum-computing threats than current asymmetric algorithms such as RSA. This update helps you build greater crypto agility into your platform and take practical steps toward post-quantum readiness. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=579531",
-      "publishedAt": "2026-11-17T20:00:32.909Z",
-      "updatedAt": "2026-11-17T20:00:32.909Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure SQL Database"
-      ],
-      "updateTypes": [
-        "Microsoft Ignite",
-        "Feature"
-      ],
-      "gaDate": "2026-11",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure sql database",
-        "microsoft ignite",
-        "feature"
-      ]
-    },
-    {
       "id": "579540",
       "title": "Public Preview: Encryption at rest with customer-managed keys in Azure HorizonDB",
       "description": "Customer-managed keys (CMK) for encryption at rest are now available in public preview for Azure HorizonDB. By default, Azure HorizonDB uses service\\-managed keys (SMK) to encrypt data at rest, with Azure managing the encryption keys on your behalf. With CMK, you can instead control the key encryption key (KEK) used to protect your data by managing it in your own Azure Key Vault or Azure Key Vault Managed HSM. CMKs provide greater control over your encryption key lifecycle and can help you meet your organization’s security and compliance requirements. With CMK, you can: Control access to encry",
@@ -4740,6 +4917,37 @@
       "tags": [
         "feature",
         "microsoft ignite"
+      ]
+    },
+    {
+      "id": "579531",
+      "title": "Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
+      "description": "You can now use AES-256 keys stored in Azure Key Vault Premium or Managed HSM as TDE protectors, providing an alternative to RSA keys for protecting data at rest. While RSA may remain secure against today’s classical computing capabilities, advances in quantum computing could eventually pose a risk. AES-256 keys are considered more resistant to known quantum-computing threats than current asymmetric algorithms such as RSA. This update helps you build greater crypto agility into your platform and take practical steps toward post-quantum readiness. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=579531",
+      "publishedAt": "2026-11-17T20:00:24.008Z",
+      "updatedAt": "2026-11-17T20:00:24.008Z",
+      "status": "ga",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure SQL Database"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Feature",
+        "Post Quantum Crypto"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure sql database",
+        "microsoft ignite",
+        "feature",
+        "post quantum crypto"
       ]
     },
     {
@@ -13396,208 +13604,6 @@
       "url": "https://azure.microsoft.com/updates?id=563506",
       "publishedAt": "2026-06-04T19:30:58.622Z",
       "updatedAt": "2026-06-04T19:30:58.622Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563222",
-      "title": "Generally Available: Microsoft Foundry IQ",
-      "description": "Microsoft Foundry IQ reaches general availability, giving developers a managed knowledge layer that grounds agents in enterprise data without rebuilding retrieval pipelines for each project. Teams connect SharePoint, OneLake, Azure Blob, and other sources once, then Foundry IQ handles ingestion, chunking, vector indexing, and access enforcement using the calling user's permissions. Agents query a single knowledge base and receive ranked, source-cited results, so answers stay tied to the documents customers control. Foundry IQ runs inside the same Foundry project as the agent and shares its ide",
-      "url": "https://azure.microsoft.com/updates?id=563222",
-      "publishedAt": "2026-06-04T19:15:11.385Z",
-      "updatedAt": "2026-06-04T19:15:11.385Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563416",
-      "title": "Public Preview: Fabric IQ Ontology Knowledge Source in Microsoft Foundry IQ",
-      "description": "Microsoft Foundry IQ now treats a Microsoft Fabric Ontology as a federated knowledge source in public preview, giving agents a way to query the semantic layer customers already curate in Fabric. Foundry IQ translates natural language questions into ontology-grounded queries and SQL against the entities, relationships, and bindings the Fabric team has defined, then returns results with citations back to the underlying Fabric tables. Analytics and platform teams can expose governed business definitions to agents without exporting data or maintaining a parallel schema. The source plugs into the s",
-      "url": "https://azure.microsoft.com/updates?id=563416",
-      "publishedAt": "2026-06-04T19:15:11.385Z",
-      "updatedAt": "2026-06-04T19:15:11.385Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563516",
-      "title": "Generally Available: Private Connectivity for Azure AI Search and Foundry Knowledge Bases",
-      "description": "Azure AI Search and Foundry Knowledge Bases now support private, end-to-end network connectivity between search resources and Foundry services. Customers can route ingestion, enrichment, retrieval, and agent traffic over Shared Private Link or Network Security Perimeter so data never traverses the public internet. This release is built for organizations running RAG pipelines, Knowledge Bases, and Foundry agents on regulated or sensitive data, where compliance teams require full network isolation. Existing search indexes, indexers, and Knowledge Base configurations continue to work; customers a",
-      "url": "https://azure.microsoft.com/updates?id=563516",
-      "publishedAt": "2026-06-04T19:15:11.385Z",
-      "updatedAt": "2026-06-04T19:15:11.385Z",
-      "status": "ga",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "565159",
-      "title": "Generally Available: Azure Monitor Service Level Indicators (SLI)",
-      "description": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of relying only on infrastructure signals like CPU or isolated alerts, SLIs help determine whether an issue is truly affecting users. This shifts the focus from simply asking whether an app is up to understanding whether it is fast, reliable, and meeting expectations. With SLIs and SLOs, teams can cut through operational noise and answer the question that matters most: are we delivering on our custome",
-      "url": "https://azure.microsoft.com/updates?id=565159",
-      "publishedAt": "2026-06-04T16:30:52.239Z",
-      "updatedAt": "2026-06-04T16:30:52.239Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Management",
-        "Microsoft Build",
-        "Services"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": "2026-05",
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "feature",
-        "management",
-        "microsoft build",
-        "services"
-      ]
-    },
-    {
-      "id": "563217",
-      "title": "Public Preview: MAI-Voice-2 in Microsoft Foundry",
-      "description": "Microsoft Foundry now offers MAI-Voice-2 in public preview, a first-party voice model from the Microsoft AI team. MAI-Voice-2 generates natural speech across more than 10 languages and supports voice cloning from a short reference sample, plus voice prompting so developers can shape tone, pacing, and style with plain instructions. Customers can build multilingual virtual agents, accessibility experiences, and audio content workflows without stitching together separate cloning and prompt-engineering tools. Because MAI-Voice-2 is sold directly by Microsoft, it ships with the same billing, conten",
-      "url": "https://azure.microsoft.com/updates?id=563217",
-      "publishedAt": "2026-06-03T23:00:57.486Z",
-      "updatedAt": "2026-06-03T23:00:57.486Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "560810",
-      "title": "General Availability: Backup your ledger files for audit with Azure confidential ledger’s new tool",
-      "description": "Ever wondered how to allow auditing personas (i.e. security analyst in your organization or security assessment contractor) the ability to view your ledger files and establish trust in the cryptographic proofs themselves? With the new localized, web ledger explorer tool, ledger files can be imported to verify the authenticity of the ledger and the ledger data in its entirety. This tool enables a simple experience in viewing the merkle-tree proof visually to ensure all ledger contents are chained together. Administrators of the ledger instances continue to have access to the ledger explorer fea",
-      "url": "https://azure.microsoft.com/updates?id=560810",
-      "publishedAt": "2026-06-03T22:15:24.565Z",
-      "updatedAt": "2026-06-03T22:15:24.565Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Security",
-        "Storage"
-      ],
-      "services": [
-        "Azure confidential ledger"
-      ],
-      "updateTypes": [
-        "Feature",
-        "SDK and Tools",
-        "Security",
-        "Services"
-      ],
-      "gaDate": "2026-04",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "security",
-        "storage",
-        "azure confidential ledger",
-        "feature",
-        "sdk and tools",
-        "services"
-      ]
-    },
-    {
-      "id": "563431",
-      "title": "Public Preview: User feedback logging in Microsoft Foundry",
-      "description": "This feature introduces end user feedback logging semantics that enables developers to capture structured feedback signals from real users interacting with AI agents—such as thumbs up/down, ratings, or custom annotations—and automatically associates that feedback with the underlying request traces in Azure Monitor. By standardizing how feedback is logged and correlated with agent runs and telemetry, the feature closes the loop between user experience and system behavior, allowing teams to analyze quality, detect issues, and continuously improve models based on real-world usage. Captured feedba",
-      "url": "https://azure.microsoft.com/updates?id=563431",
-      "publishedAt": "2026-06-03T21:15:57.217Z",
-      "updatedAt": "2026-06-03T21:15:57.217Z",
       "status": "preview",
       "categories": [
         "AI + machine learning"
