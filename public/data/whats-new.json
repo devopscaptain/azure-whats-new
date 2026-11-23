@@ -1,8 +1,179 @@
 {
-  "lastUpdated": "2026-11-22T15:56:54.359Z",
+  "lastUpdated": "2026-11-23T19:52:43.512Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "582030",
+      "title": "Generally Available: Wildcard domain support in Azure Firewall network rules",
+      "description": "Wildcard domain support in Azure Firewall network rules is now generally available. This capability enables customers to use wildcard patterns, such as *.contoso.com, when defining FQDN-based network rules. Wildcard support makes it easier to secure destinations that use multiple or frequently changing subdomains. Customers can simplify policy configuration, reduce the number of individual FQDN entries they need to maintain, and manage access to related domains more efficiently. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=582030",
+      "publishedAt": "2026-11-23T18:51:31.310Z",
+      "updatedAt": "2026-11-23T18:51:31.310Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "580115",
+      "title": "Public Preview: Azure Policy support for Azure HorizonDB",
+      "description": "Azure Policy support for Azure HorizonDB is now available in preview, helping you apply governance and observability standards consistently across your HorizonDB deployments. With the new built-in policy, you can automatically deploy diagnostic settings for Azure HorizonDB clusters to a Log Analytics workspace when the required configuration is missing. This helps you establish consistent monitoring across your HorizonDB environments while reducing the need for manual configuration. Azure Policy provides a centralized way to define and enforce organizational standards across Azure resources, m",
+      "url": "https://azure.microsoft.com/updates?id=580115",
+      "publishedAt": "2026-11-23T18:21:46.039Z",
+      "updatedAt": "2026-11-23T18:21:46.039Z",
+      "status": "preview",
+      "categories": [
+        "Management and governance",
+        "Databases"
+      ],
+      "services": [
+        "Azure Policy",
+        "Azure HorizonDB"
+      ],
+      "updateTypes": [
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "management and governance",
+        "databases",
+        "azure policy",
+        "azure horizondb",
+        "feature"
+      ]
+    },
+    {
+      "id": "577474",
+      "title": "Retirement: Azure AI Content Safety selected features will be retired on April 30, 2027",
+      "description": "The following Azure AI Content Safety preview capabilities will retire on April 30, 2027: Analyze Multimodal Custom categories (rapid), including text and image Connected containers for Text, Image, and Prompt Shields Disconnected containers for Text, Image Embedded Content Safety SDK Groundedness detection in Azure AI Content Safety and Azure OpenAI If you use these capabilities, review the recommended alternatives and plan your migration before the retirement date. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=577474",
+      "publishedAt": "2026-11-23T18:11:31.436Z",
+      "updatedAt": "2026-11-23T18:11:31.436Z",
+      "status": "retiring",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Azure AI Content Safety"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "azure ai content safety",
+        "retirements"
+      ]
+    },
+    {
+      "id": "574535",
+      "title": "Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
+      "description": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now you can run steady workloads more economically while automatically scaling to handle demand spikes. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=574535",
+      "publishedAt": "2026-11-23T18:09:39.142Z",
+      "updatedAt": "2026-11-23T18:09:39.142Z",
+      "status": "preview",
+      "categories": [
+        "Databases",
+        "Hybrid + multicloud"
+      ],
+      "services": [
+        "Azure Database for PostgreSQL"
+      ],
+      "updateTypes": [
+        "Microsoft Ignite",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "databases",
+        "hybrid + multicloud",
+        "azure database for postgresql",
+        "microsoft ignite",
+        "feature"
+      ]
+    },
+    {
+      "id": "579280",
+      "title": "Generally Available: WAF Insights for Azure Application Gateway",
+      "description": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked requests, analyze attack patterns, and identify false positives without writing queries. With general availability, WAF Insights supports both Azure Diagnostics and resource-specific logs, renames the Triage tab to Investigate, and counts each request once by its final WAF outcome. Use the Monitor tab to track WAF activity and the most acti",
+      "url": "https://azure.microsoft.com/updates?id=579280",
+      "publishedAt": "2026-11-23T18:02:38.652Z",
+      "updatedAt": "2026-11-23T18:02:38.652Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Application Gateway",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "application gateway",
+        "web application firewall",
+        "feature"
+      ]
+    },
+    {
+      "id": "579285",
+      "title": "Generally Available: WAF Insights for Azure Front Door",
+      "description": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked requests, analyze attack patterns, and identify false positives without writing queries. Use the Monitor tab to track WAF activity, outcomes, and the most active rules, and the Investigate tab to drill down from a rule or a URL to the exact request and every rule it matched, correlated with the Front Door access log by tracking reference. Azure Fron",
+      "url": "https://azure.microsoft.com/updates?id=579285",
+      "publishedAt": "2026-11-23T18:01:19.242Z",
+      "updatedAt": "2026-11-23T18:01:19.242Z",
+      "status": "ga",
+      "categories": [
+        "Networking",
+        "Security"
+      ],
+      "services": [
+        "Azure Front Door",
+        "Web Application Firewall"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Security"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "networking",
+        "security",
+        "azure front door",
+        "web application firewall",
+        "feature"
+      ]
+    },
     {
       "id": "581463",
       "title": "Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
@@ -5422,36 +5593,6 @@
         "azure front door",
         "feature",
         "post quantum crypto"
-      ]
-    },
-    {
-      "id": "579280",
-      "title": "Generally Available: WAF Insights for Azure Application Gateway",
-      "description": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked requests, analyze attack patterns, and identify false positives without writing queries. With general availability, WAF Insights supports both Azure Diagnostics and resource-specific logs, renames the Triage tab to Investigate, and counts each request once by its final WAF outcome. Use the Monitor tab to track WAF activity and the most acti",
-      "url": "https://azure.microsoft.com/updates?id=579280",
-      "publishedAt": "2026-11-05T17:11:31.237Z",
-      "updatedAt": "2026-11-05T17:11:31.237Z",
-      "status": "ga",
-      "categories": [
-        "Networking",
-        "Security"
-      ],
-      "services": [
-        "Application Gateway",
-        "Web Application Firewall"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Security"
-      ],
-      "gaDate": "2026-11",
-      "previewDate": null,
-      "tags": [
-        "networking",
-        "security",
-        "application gateway",
-        "web application firewall",
-        "feature"
       ]
     },
     {
@@ -13495,133 +13636,6 @@
         "azure monitor",
         "microsoft build",
         "open source"
-      ]
-    },
-    {
-      "id": "565182",
-      "title": "Public Preview: AI pipelines in Azure HorizonDB",
-      "description": "AI pipelines for Azure HorizonDB is now available in public preview. AI pipelines let you describe an AI data ingestion workflow, chunking, embedding, extraction, generation, and ranking, declaratively in SQL, and run it as a fault-tolerant pipeline inside the database. Execution is durable: pipelines survive crashes, retry failed steps automatically, checkpoint incremental work, and resume long-running jobs from the last completed step. This removes the boilerplate ingestion service that many GenAI applications rebuild today. Pipelines run on change, so embeddings stay in sync as source rows ",
-      "url": "https://azure.microsoft.com/updates?id=565182",
-      "publishedAt": "2026-06-04T19:45:40.553Z",
-      "updatedAt": "2026-06-04T19:45:40.553Z",
-      "status": "preview",
-      "categories": [
-        "Databases"
-      ],
-      "services": [
-        "Azure HorizonDB"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "databases",
-        "azure horizondb",
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "562733",
-      "title": "Generally Available: Microsoft Discovery",
-      "description": "Microsoft Discovery is now generally available, providing research and development organizations an enterprise platform for building and governing agentic AI workflows across scientific and engineering disciplines. Also available in preview is the Microsoft Discovery app, a local desktop experience that helps researchers and scientific teams begin working with agentic discovery today without requiring cloud infrastructure.",
-      "url": "https://azure.microsoft.com/updates?id=562733",
-      "publishedAt": "2026-06-04T19:30:58.622Z",
-      "updatedAt": "2026-06-04T19:30:58.622Z",
-      "status": "ga",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Microsoft Build"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "563446",
-      "title": "Public Preview: Azure SQL as a knowledge source in Foundry IQ",
-      "description": "Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and agentic experiences can now expose authoritative tables and views from Azure SQL as searchable, retrieval-ready knowledge for Knowledge Bases, RAG pipelines, and Foundry agents. The capability uses the same indexer-based ingestion patterns developers already know in Azure AI Search and aligns Azure SQL with SharePoint, OneLake, and other Knowledge Sources under one configuration model. Copilots and ",
-      "url": "https://azure.microsoft.com/updates?id=563446",
-      "publishedAt": "2026-06-04T19:30:58.622Z",
-      "updatedAt": "2026-06-04T19:30:58.622Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563451",
-      "title": "Public Preview: APIM Support for Foundry Models in Azure AI Search",
-      "description": "Microsoft Foundry brings Azure API Management support to all Foundry model integrations in Azure AI Search, now in public preview. Enterprise platform engineers and AI solution teams running large-scale RAG pipelines can place Foundry and Azure OpenAI models behind APIM for the GenAI Prompt Skill, embedding models, and vectorizer operations used at indexing and query time. APIM provides traffic shaping, load balancing, custom domains, identity governance, and private connectivity in front of every model endpoint a Search workload depends on. Customers can eliminate indexing failures caused by ",
-      "url": "https://azure.microsoft.com/updates?id=563451",
-      "publishedAt": "2026-06-04T19:30:58.622Z",
-      "updatedAt": "2026-06-04T19:30:58.622Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "563506",
-      "title": "Public Preview: Tool search in Microsoft Foundry toolboxes",
-      "description": "Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows, sending every tool definition on every turn gets expensive. Tool Search retrieves only the most relevant tools at runtime, keeping the model’s context focused and efficient. Instead of browsing lists, the agent describes its intent, discovers the right tools, and executes. Toolbox builders also need control over how tools are surfaced, and tool search provides this. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=563506",
-      "publishedAt": "2026-06-04T19:30:58.622Z",
-      "updatedAt": "2026-06-04T19:30:58.622Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
       ]
     }
   ]
