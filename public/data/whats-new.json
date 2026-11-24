@@ -1,8 +1,577 @@
 {
-  "lastUpdated": "2026-11-23T19:52:43.512Z",
+  "lastUpdated": "2026-11-24T19:21:43.719Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "582171",
+      "title": "Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+      "description": "Azure Site Recovery now supports Zone-to-Zone Disaster Recovery (Zonal DR) for Azure Ultra disks. Customers can protect performance-intensive virtual machines across Availability Zones against zonal disruptions by replication and recovering them to another zone within the same Azure region. This capability improves resiliency for mission critical workloads and demanding applications requiring ultra disks. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=582171",
+      "publishedAt": "2026-11-24T17:48:22.762Z",
+      "updatedAt": "2026-11-24T17:48:22.762Z",
+      "status": "ga",
+      "categories": [
+        "Management and governance",
+        "Migration"
+      ],
+      "services": [
+        "Azure Site Recovery"
+      ],
+      "updateTypes": [
+        "Management",
+        "Feature"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "management and governance",
+        "migration",
+        "azure site recovery",
+        "management",
+        "feature"
+      ]
+    },
+    {
+      "id": "581483",
+      "title": "Public Preview: Optimize agents from insights in Foundry Agent Service",
+      "description": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructions and function-calling tool descriptions. This portal workflow supports only prompt agents that do not use the Microsoft Copilot harness; hosted agents use a separate optimization workflow. For hosted-agent optimization, use the Microsoft Foundry Toolkit extension for Visual Studio Code or the Azure Developer CLI with the microsoft.foundry extension. Review candidate changes a",
+      "url": "https://azure.microsoft.com/updates?id=581483",
+      "publishedAt": "2026-11-24T16:52:07.969Z",
+      "updatedAt": "2026-11-24T16:52:07.969Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581498",
+      "title": "Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+      "description": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway first, then enter the gateway-routed endpoint in Foundry. Foundry does not automatically register the MCP server or replace direct endpoints. The gateway can apply access controls and policies, publish approved tools behind one endpoint, and expose logs and traces for MCP tool calls, policy decisions and backend routing. This gives platform teams centralized control while developer",
+      "url": "https://azure.microsoft.com/updates?id=581498",
+      "publishedAt": "2026-11-24T16:50:47.239Z",
+      "updatedAt": "2026-11-24T16:50:47.239Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581303",
+      "title": "Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+      "description": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results. Once configured, search applications and AI agents return content based on each user's access. This reduces the need to create and maintain separate security filters. For Azure Data Lake Storage (ADLS) Gen2, you can use supported access control lists (ACLs), container-level role-based access control (RBAC), or both. For standard Azure Blob Storage, document-level access control supports container-level RBAC, not individual blob ACLs. Set up document-level access ",
+      "url": "https://azure.microsoft.com/updates?id=581303",
+      "publishedAt": "2026-11-24T16:49:39.552Z",
+      "updatedAt": "2026-11-24T16:49:39.552Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581313",
+      "title": "Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+      "description": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer. Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service forwards native A2A requests directly to your hosted agent container. Your code handles A2A messages and tasks. Agent Service manages the endpoint, authentication, and hosted compute. The preview supports incoming A2A v1.0 requests over JSON-RPC. Streaming, push notifications, and authenticated extended agent cards are not available. A2A passthrough handles incoming requests. I",
+      "url": "https://azure.microsoft.com/updates?id=581313",
+      "publishedAt": "2026-11-24T16:48:25.545Z",
+      "updatedAt": "2026-11-24T16:48:25.545Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581318",
+      "title": "Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+      "description": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI ( azd ) can save analysis results as Markdown or JSON. You can start without Python, a language SDK, or an initialized azd project. The prebuilt-layout analyzer extracts text and layout without language or embedding model deployments. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581318",
+      "publishedAt": "2026-11-24T16:45:59.020Z",
+      "updatedAt": "2026-11-24T16:45:59.020Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581323",
+      "title": "Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+      "description": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new requests. You can apply a budget to all usage, or filter it by project, model deployment, agent, or hosted agent session. Budgets reset daily, weekly, or monthly. Cost controls count usage as requests run, so they can act before costs appear in Azure Cost Management. During the preview, cost controls support Azure OpenAI model deployments. Spending totals are estimates and aren",
+      "url": "https://azure.microsoft.com/updates?id=581323",
+      "publishedAt": "2026-11-24T16:43:40.493Z",
+      "updatedAt": "2026-11-24T16:43:40.493Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581328",
+      "title": "Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+      "description": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound requests at runtime. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581328",
+      "publishedAt": "2026-11-24T16:42:20.107Z",
+      "updatedAt": "2026-11-24T16:42:20.107Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581333",
+      "title": "Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+      "description": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content. During indexing, it extracts entities and relationships from unstructured content, guided by an ontology you provide. Agents can use those relationships to answer multi-step questions and resolve ambiguous references. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581333",
+      "publishedAt": "2026-11-23T21:16:32.493Z",
+      "updatedAt": "2026-11-23T21:16:32.493Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581338",
+      "title": "Public Preview: Updated Guardrails experience in Microsoft Foundry",
+      "description": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges. When an administrator policy requires controls for a project, Guardrails surfaces those requirements and prevents developers from changing policy-managed settings. Developers can still add permitted agent-specific controls. Policies can be reused across agents and models in a project, and existing guardrails remain backward compatible. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581338",
+      "publishedAt": "2026-11-23T21:15:04.103Z",
+      "updatedAt": "2026-11-23T21:15:04.103Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581343",
+      "title": "Public Preview: IQ Retriever Zero in Foundry IQ",
+      "description": "Foundry IQ can use an iterative retrieval model to break complex questions into focused searches. The model reviews search results and searches again when needed, within a configured budget, then passes the retrieved evidence to the model that answers the question. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581343",
+      "publishedAt": "2026-11-23T21:13:44.610Z",
+      "updatedAt": "2026-11-23T21:13:44.610Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581353",
+      "title": "Public Preview: Style and instruction control for HD V3 voices in Azure Speech in Foundry Tools",
+      "description": "Azure Speech in Foundry Tools provides HD V3 voices with style and instruction control in public preview. Use supported controls to shape voice delivery for voice agents, narration, and other speech experiences. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581353",
+      "publishedAt": "2026-11-23T21:12:25.803Z",
+      "updatedAt": "2026-11-23T21:12:25.803Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581358",
+      "title": "Public Preview: Human annotation for agent evaluations in Microsoft Foundry",
+      "description": "Human annotation for agent evaluations is in public preview in Microsoft Foundry, as announced in the Microsoft IQ launch blog. Reviewers can add ratings, tags, comments, and expected outputs to agent traces. Use annotated conversation traces to build evaluation datasets and curate golden datasets. Foundry can generate a task-specific rubric for each test case. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581358",
+      "publishedAt": "2026-11-23T21:11:23.449Z",
+      "updatedAt": "2026-11-23T21:11:23.449Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581363",
+      "title": "Generally Available: Agent insights in Microsoft Foundry",
+      "description": "In Microsoft Foundry, insights analyze agent traces to surface recurring patterns and group related issues. Review an insight and its supporting traces to investigate common failures and decide what to improve first. Use agent optimizer to test potential fixes for selected insights before you promote an updated agent. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581363",
+      "publishedAt": "2026-11-23T21:10:07.590Z",
+      "updatedAt": "2026-11-23T21:10:07.590Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581368",
+      "title": "Generally Available: Files knowledge source for Foundry IQ",
+      "description": "Upload files directly to a managed knowledge source in Foundry IQ. Foundry IQ processes and indexes the files for retrieval through a knowledge base, so you don't need to provision a storage account or scheduled indexer. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=581368",
+      "publishedAt": "2026-11-23T21:08:46.889Z",
+      "updatedAt": "2026-11-23T21:08:46.889Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581378",
+      "title": "Public Preview: Call model router without a deployment in Microsoft Foundry",
+      "description": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource. By default, Auto uses the Balanced routing mode across the pool models available in your region, and each response names the model that answered. Admins can set Auto's routing mode, models, and content filter for each Foundry resource, or turn Auto off. Auto has lower rate limits than a model router deployment and processes data as Global Standard. For production traffic, deploy model router, a",
+      "url": "https://azure.microsoft.com/updates?id=581378",
+      "publishedAt": "2026-11-23T20:32:57.628Z",
+      "updatedAt": "2026-11-23T20:32:57.628Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581383",
+      "title": "Public Preview: Use the Messages API with model router in Microsoft Foundry",
+      "description": "Model router in Microsoft Foundry supports the Messages API in public preview. Messages-based applications and coding tools can use automatic model selection while keeping the Anthropic request and response format. Messages requests route only to supported Claude models, not the full model router pool. Deploy each Claude model you want to use as a Global Standard deployment in the same Foundry resource. Send requests to your resource's /anthropic/v1/messages endpoint with model set to your model router deployment name or auto. The Anthropic SDK, Claude Code, and Claude Agent SDK can use this A",
+      "url": "https://azure.microsoft.com/updates?id=581383",
+      "publishedAt": "2026-11-23T20:31:40.625Z",
+      "updatedAt": "2026-11-23T20:31:40.625Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581388",
+      "title": "Public Preview: Use your model deployments with model router in Microsoft Foundry",
+      "description": "Model router in Microsoft Foundry can use your existing model deployments to serve routed requests, in public preview. This helps you use capacity you already have while model router selects a model for each request. After selecting a model, model router first tries your eligible provisioned throughput (PTU) deployment for an OpenAI model, then your eligible pay-as-you-go deployment, and then router-managed capacity. It moves to the next option when no eligible deployment is available at that step or a deployment returns a retryable error. To use your deployment, deploy the exact model name an",
+      "url": "https://azure.microsoft.com/updates?id=581388",
+      "publishedAt": "2026-11-23T20:29:36.598Z",
+      "updatedAt": "2026-11-23T20:29:36.598Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581393",
+      "title": "Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
+      "description": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and agents without switching to Chat Completions. Responses API support includes streaming, function tools, structured outputs, image input, multi-turn conversations with previous_response_id or conversation, stored responses, background mode, and built-in tools such as web search, file search, code interpreter, and MCP. Each response identifies th",
+      "url": "https://azure.microsoft.com/updates?id=581393",
+      "publishedAt": "2026-11-23T20:28:24.243Z",
+      "updatedAt": "2026-11-23T20:28:24.243Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581398",
+      "title": "Public Preview: Use model router with AI Gateway",
+      "description": "Automatic model selection in AI Gateway uses model router from Microsoft Foundry to rank the models behind a model alias for each request. The gateway combines that ranking with the alias's priorities and weights to select a backend, while its access controls, policies, and telemetry continue to apply. Choose Balanced, Quality, or Cost as the selection mode. With Model first, the gateway selects the best-fit model across priority groups. With Priorities first, it selects only from the highest-priority group. Weights split traffic among backends for the selected model. Backends can be Foundry o",
+      "url": "https://azure.microsoft.com/updates?id=581398",
+      "publishedAt": "2026-11-23T20:15:53.583Z",
+      "updatedAt": "2026-11-23T20:15:53.583Z",
+      "status": "preview",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
+    {
+      "id": "581478",
+      "title": "Generally Available: Deploy hosted agents from your own container registry in Foundry Toolkit for VS Code",
+      "description": "Foundry Toolkit for Visual Studio Code now deploys hosted agents from prebuilt images in customer-managed container registries, including registries other than Azure Container Registry. Choose the matching registry connection in your Foundry project; the Toolkit retains that configuration for redeployment. This lets you reuse approved registries and existing image-build pipelines without copying images into a new Azure Container Registry or rebuilding locally. Registry authentication stays in the configured service connection. Existing Azure Container Registry, source-build, and ZIP deployment",
+      "url": "https://azure.microsoft.com/updates?id=581478",
+      "publishedAt": "2026-11-23T20:13:42.909Z",
+      "updatedAt": "2026-11-23T20:13:42.909Z",
+      "status": "ga",
+      "categories": [
+        "AI + machine learning"
+      ],
+      "services": [
+        "Microsoft Foundry"
+      ],
+      "updateTypes": [
+        "Feature",
+        "Microsoft Ignite"
+      ],
+      "gaDate": "2026-11",
+      "previewDate": null,
+      "tags": [
+        "ai + machine learning",
+        "microsoft foundry",
+        "feature",
+        "microsoft ignite"
+      ]
+    },
     {
       "id": "582030",
       "title": "Generally Available: Wildcard domain support in Azure Firewall network rules",
@@ -13091,551 +13660,6 @@
         "management and governance",
         "azure monitor",
         "feature"
-      ]
-    },
-    {
-      "id": "564441",
-      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
-      "description": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 (GPv1) storage accounts. This includes legacy blob storage and Files accounts configurations. Key Dates: October 1 st, 2025: Public announcement. September 1 st, 2026: New account creation blocked October 13 th, 2026: Final retirement. All remaining GPv1 accounts will be transitioned to GPv2. What’s Changing: The following account types will be retired: General purpose v1 (GPv1) storage accounts (",
-      "url": "https://azure.microsoft.com/updates?id=564441",
-      "publishedAt": "2026-06-11T19:00:41.895Z",
-      "updatedAt": "2026-06-11T19:00:41.895Z",
-      "status": "retiring",
-      "categories": [
-        "Storage"
-      ],
-      "services": [
-        "Storage Accounts"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "storage accounts",
-        "retirements"
-      ]
-    },
-    {
-      "id": "564772",
-      "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
-      "description": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them: D-series, Ds-series Dv2-series, Dsv2-series Ls-series After this date: New Batch pools using these VM series cannot be created Existing pools cannot scale out Pools may be forcibly resized to zero nodes Remaining VMs will be stopped/deallocated and no longer covered by SLA Timeline Now – May 1, 2028: Existing pools continue to run; migration is recommended May 1, 2028: Full retirement; affected pools may become unusable Required action Migrate your Batch pools to suppor",
-      "url": "https://azure.microsoft.com/updates?id=564772",
-      "publishedAt": "2026-06-11T19:00:41.895Z",
-      "updatedAt": "2026-06-11T19:00:41.895Z",
-      "status": "retiring",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Batch"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "batch",
-        "retirements"
-      ]
-    },
-    {
-      "id": "564774",
-      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
-      "description": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them: Av2-series F-series, Fs-series, Fsv2-series G-series, Gs-series Lsv2-series After this date: New Batch pools using these VM series cannot be created Existing pools cannot scale out Pools may be forcibly resized to zero nodes Remaining VMs will be stopped/deallocated and no longer covered by SLA Timeline: Now – November 15, 2028: Existing pools continue to run; migration is recommended November 15, 2028: Full retirement; affected pools may become unusable Required ",
-      "url": "https://azure.microsoft.com/updates?id=564774",
-      "publishedAt": "2026-06-11T19:00:41.895Z",
-      "updatedAt": "2026-06-11T19:00:41.895Z",
-      "status": "retiring",
-      "categories": [
-        "Compute"
-      ],
-      "services": [
-        "Batch"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "compute",
-        "batch",
-        "retirements"
-      ]
-    },
-    {
-      "id": "564734",
-      "title": "Generally Available: SQL MCP Server",
-      "description": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with PostgreSQL and Azure Cosmos DB, SQL MCP Server is a dynamic, self-hosted data-plane endpoint with caching, multiple data sources, REST, and GraphQL in one solution. Open source and free, it runs well in Azure, on-premises, or in any cloud. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=564734",
-      "publishedAt": "2026-06-11T18:45:02.823Z",
-      "updatedAt": "2026-06-11T18:45:02.823Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure SQL Database"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure sql database",
-        "feature"
-      ]
-    },
-    {
-      "id": "565482",
-      "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
-      "description": "Update to our previous communication: We previously announced the retirement of all Inbound NAT rules version 1 resources, which included both single-VM NAT rules and NAT pools for Virtual Machine Scale Sets. We have narrowed the scope of this retirement to Inbound NAT pools only. NAT pools are being retired because they provide the same functionality as Inbound NAT rules v2, which offer improved performance and is the recommended option for Virtual Machine Scale Sets (VMSS). Understanding the difference: Inbound NAT rules version 1 includes two resource types: Inbound NAT rules version 1: Por",
-      "url": "https://azure.microsoft.com/updates?id=565482",
-      "publishedAt": "2026-06-11T16:15:07.016Z",
-      "updatedAt": "2026-06-11T16:15:07.016Z",
-      "status": "retiring",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Retirements",
-        "Services",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "retirements",
-        "services",
-        "feature"
-      ]
-    },
-    {
-      "id": "565154",
-      "title": "Generally Available: Microsoft Entra server principals on Azure SQL Database",
-      "description": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity with SQL logins for your Microsoft Entra identities. With Entra logins, you can assign server roles to Entra principals, automate user and database provisioning using service principal logins, and enable Entra-only authentication to disable SQL authentication entirely. If you're already using Entra logins on Azure SQL Managed Instance or SQL Server 2022, you now get the same experience on Azure SQL D",
-      "url": "https://azure.microsoft.com/updates?id=565154",
-      "publishedAt": "2026-06-10T20:45:26.008Z",
-      "updatedAt": "2026-06-10T20:45:26.008Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure SQL Database"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure sql database",
-        "feature"
-      ]
-    },
-    {
-      "id": "558560",
-      "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
-      "description": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will reach end of life. We encourage all customers to begin migrating to Mirroring for Microsoft Fabric — the recommended go-forward solution for Cosmos DB analytics workloads. Mirroring for Microsoft Fabric delivers the same zero-ETL hybrid transactional and analytical processing (HTAP) capabilities as Azure Synapse Link, with meaningful improvements: Open Delta Parquet format stored in Microsoft Fabric O",
-      "url": "https://azure.microsoft.com/updates?id=558560",
-      "publishedAt": "2026-06-10T17:00:06.609Z",
-      "updatedAt": "2026-06-10T17:00:06.609Z",
-      "status": "retiring",
-      "categories": [
-        "Databases",
-        "Internet of Things",
-        "Analytics"
-      ],
-      "services": [
-        "Azure Cosmos DB",
-        "Azure Synapse Analytics"
-      ],
-      "updateTypes": [
-        "Retirements",
-        "Services"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "internet of things",
-        "analytics",
-        "azure cosmos db",
-        "azure synapse analytics",
-        "retirements",
-        "services"
-      ]
-    },
-    {
-      "id": "565393",
-      "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
-      "description": "The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with current security and reliability standards, this preview client will be retired. Timeline and Impact: August 31, 2026 – Azure VPN Client for Linux (Preview) is retired September 1, 2026 – The Linux preview client is no longer supported for Azure VPN Gateway Point-to-Site (P2S) connections After August 31, 2026, connections using the Azure VPN Client for Linux (Preview) may fail, which could result i",
-      "url": "https://azure.microsoft.com/updates?id=565393",
-      "publishedAt": "2026-06-10T16:15:16.386Z",
-      "updatedAt": "2026-06-10T16:15:16.386Z",
-      "status": "retiring",
-      "categories": [
-        "Networking",
-        "Security"
-      ],
-      "services": [
-        "Virtual WAN",
-        "VPN Gateway"
-      ],
-      "updateTypes": [
-        "Retirements"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "networking",
-        "security",
-        "virtual wan",
-        "vpn gateway",
-        "retirements"
-      ]
-    },
-    {
-      "id": "562637",
-      "title": "Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
-      "description": "You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security concerns, troubleshooting errors, and assisting with operational workflows. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=562637",
-      "publishedAt": "2026-06-09T23:45:10.038Z",
-      "updatedAt": "2026-06-09T23:45:10.038Z",
-      "status": "preview",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "feature"
-      ]
-    },
-    {
-      "id": "562084",
-      "title": "Generally Available: PostgreSQL Hub for Azure Developers",
-      "description": "PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and structured learning pathways to help you build everything from core applications to AI agents. Featured resources stay current with the latest updates. The hub also provides a space to connect with other developers. You can start discussions, share knowledge, and collaborate more closely with Microsoft and ecosystem experts as the community continues to grow. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=562084",
-      "publishedAt": "2026-06-09T18:45:07.725Z",
-      "updatedAt": "2026-06-09T18:45:07.725Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "feature"
-      ]
-    },
-    {
-      "id": "559756",
-      "title": "Update: Minimum billable object size for cooler storage tiers",
-      "description": "W e are pausing the introduction of a minimum billable object size for the cool, cold, and archive access tiers. As a result, b illing behavior will not change on July 1, 2026, for either new or existing storage accounts. We will provide an update on our revised approach and timeline in a future Azure Update. No action is required from customers at this time.",
-      "url": "https://azure.microsoft.com/updates?id=559756",
-      "publishedAt": "2026-04-14T21:15:15.063Z",
-      "updatedAt": "2026-06-08T23:45:02.947Z",
-      "status": "ga",
-      "categories": [
-        "Storage",
-        "Analytics"
-      ],
-      "services": [
-        "Azure Blob Storage",
-        "Azure Data Lake Storage"
-      ],
-      "updateTypes": [
-        "Pricing & Offerings"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "storage",
-        "analytics",
-        "azure blob storage",
-        "azure data lake storage",
-        "pricing & offerings"
-      ]
-    },
-    {
-      "id": "565271",
-      "title": "Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
-      "description": "Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics processing units (GPUs) with each GPU featuring 96 GB of GDDR7 memory, and enable both leading-edge graphics and generative artificial intelligence (AI) compute workloads. The VM host is equipped with Intel Xeon™ 6 \"Granite Rapids\" 6900P series central processing units (CPUs), providing all-core turbo frequencies up to 4.2 GHz for demanding pre- and post-processing steps. NCv6 offers fractional GPU ",
-      "url": "https://azure.microsoft.com/updates?id=565271",
-      "publishedAt": "2026-06-08T18:15:14.090Z",
-      "updatedAt": "2026-06-08T18:15:14.090Z",
-      "status": "ga",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "feature"
-      ]
-    },
-    {
-      "id": "565359",
-      "title": "Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
-      "description": "Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal virtual machines without selecting an Availability Zone. This allows customers to bring the performance and price benefits of Premium SSD v2 to workloads that have not transitioned to zonal configurations. Azure Premium SSD v2 is a next-generation block storage option for Azure virtual machines that delivers sub-millisecond latency and strong price performance for IO-intensive workloads such as SQL",
-      "url": "https://azure.microsoft.com/updates?id=565359",
-      "publishedAt": "2026-06-08T18:00:23.123Z",
-      "updatedAt": "2026-06-08T18:00:23.123Z",
-      "status": "ga",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "feature"
-      ]
-    },
-    {
-      "id": "563756",
-      "title": "Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download",
-      "description": "Enhanced maintenance control capabilities are now generally available for Azure Database for PostgreSQL Flexible Server. These new capabilities give you greater visibility and flexibility in managing platform maintenance events, helping reduce disruption to your workloads. You can now view upcoming maintenance events directly in the Azure portal, CLI, and APIs, including details such as maintenance type, expected downtime, and deferral eligibility. With the ability to reschedule maintenance by up to 14 days, you can align updates with your business schedules and avoid peak usage periods. Addit",
-      "url": "https://azure.microsoft.com/updates?id=563756",
-      "publishedAt": "2026-06-08T17:15:43.582Z",
-      "updatedAt": "2026-06-08T17:15:43.582Z",
-      "status": "ga",
-      "categories": [
-        "Databases",
-        "Hybrid + multicloud"
-      ],
-      "services": [
-        "Azure Database for PostgreSQL"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": null,
-      "tags": [
-        "databases",
-        "hybrid + multicloud",
-        "azure database for postgresql",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "565171",
-      "title": "Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
-      "description": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in Defender will be powered by Agent 365 observability logs and the Microsoft 365 agent registry — providing a unified source of truth for Microsoft Foundry agent inventory, real-time threat protection through a unified blocking platform, and consistent posture across cloud environments. For tenants with an Agent 365-eligible license, these experiences will continue to be available through the Microsoft",
-      "url": "https://azure.microsoft.com/updates?id=565171",
-      "publishedAt": "2026-06-08T17:15:43.582Z",
-      "updatedAt": "2026-06-08T17:15:43.582Z",
-      "status": "preview",
-      "categories": [
-        "Hybrid + multicloud",
-        "Security"
-      ],
-      "services": [
-        "Microsoft Defender for Cloud"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Pricing & Offerings",
-        "Security"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-07",
-      "tags": [
-        "hybrid + multicloud",
-        "security",
-        "microsoft defender for cloud",
-        "feature",
-        "pricing & offerings"
-      ]
-    },
-    {
-      "id": "564873",
-      "title": "Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
-      "description": "With role-based access control (RBAC) for Azure Managed Redis data access, you can precisely control who can read, write, or administer your Redis data using Microsoft Entra ID—without relying on shared keys. Built on top of Redis Access Control Lists (ACLs), this update enables fine‑grained, role‑based permissions aligned with your enterprise identity system. You benefit from stronger security through least‑privilege access, simplified compliance with auditable role assignments, and safer multiple‑team collaboration with scoped data access. By eliminating key management, you also reduce opera",
-      "url": "https://azure.microsoft.com/updates?id=564873",
-      "publishedAt": "2026-06-08T16:15:40.275Z",
-      "updatedAt": "2026-06-08T16:15:40.275Z",
-      "status": "preview",
-      "categories": [],
-      "services": [
-        "Azure Managed Redis"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "azure managed redis",
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "565286",
-      "title": "Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
-      "description": "Metrics Usage Insights now includes an Ingestion Volume Change dashboard to help you compare ingestion volume over time. Quickly detect spikes or drops in time series counts and event ingestion rates, enabling faster investigation of cost changes and more effective capacity planning. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=565286",
-      "publishedAt": "2026-06-05T20:45:48.585Z",
-      "updatedAt": "2026-06-05T20:45:48.585Z",
-      "status": "preview",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "564981",
-      "title": "Private Preview: Guest RDMA on Azure Boost",
-      "description": "Guest RDMA is now in preview on Azure, starting in the UK South region, bringing high-throughput, ultra-low latency networking directly into guest VMs within the same region. By using Azure Boost to enable RDMA in the guest OS, applications can bypass the traditional networking stack and offload transport to the NIC, reducing CPU overhead and improving communication performance. Key benefits include low latency through kernel bypass, high throughput of up to 100 Gb/s in preview depending on VM SKU, and lower CPU usage from hardware-based data movement. The preview is designed for workloads wit",
-      "url": "https://azure.microsoft.com/updates?id=564981",
-      "publishedAt": "2026-06-05T20:30:12.401Z",
-      "updatedAt": "2026-06-05T20:30:12.401Z",
-      "status": "development",
-      "categories": [],
-      "services": [],
-      "updateTypes": [
-        "Feature",
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": null,
-      "tags": [
-        "feature",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "564176",
-      "title": "Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
-      "description": "In public preview, Microsoft Foundry now supports avatar voice sync with custom voices in the Voice Live API, allowing developers to pair branded or persona-specific text-to-speech voices with real-time avatar experiences. This update helps teams building virtual agents, digital humans, and immersive customer engagement scenarios preserve their existing voice identity while taking advantage of low-latency, lip-synced avatar rendering, removing the previous limitation that restricted avatar pairing to a curated voice set. By unifying custom voices and avatars in a single low-latency pipeline, t",
-      "url": "https://azure.microsoft.com/updates?id=564176",
-      "publishedAt": "2026-06-04T22:15:50.778Z",
-      "updatedAt": "2026-06-04T22:15:50.778Z",
-      "status": "preview",
-      "categories": [
-        "AI + machine learning"
-      ],
-      "services": [
-        "Microsoft Foundry"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Feature"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "ai + machine learning",
-        "microsoft foundry",
-        "microsoft build",
-        "feature"
-      ]
-    },
-    {
-      "id": "564563",
-      "title": "Generally Available: Azure Files assessments are now available worldwide using Azure Migrate",
-      "description": "We’re pleased to announce that Azure Migrate now generally supports discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. This gives customers a complete, data-driven view of their file share environment and a clear path to migrate to Azure Files. The capability entered preview in mid-February and is now generally available worldwide. The adoption during public preview has been strong, with hundreds of customers creating file share assessments, actively planning and executing migrations to Azure Files. Key benefits include: Discover and review on-premises SMB",
-      "url": "https://azure.microsoft.com/updates?id=564563",
-      "publishedAt": "2026-06-04T21:45:11.119Z",
-      "updatedAt": "2026-06-04T21:45:11.119Z",
-      "status": "ga",
-      "categories": [
-        "Management and governance",
-        "Migration"
-      ],
-      "services": [
-        "Azure Migrate"
-      ],
-      "updateTypes": [
-        "Services",
-        "Feature"
-      ],
-      "gaDate": "2026-05",
-      "previewDate": null,
-      "tags": [
-        "management and governance",
-        "migration",
-        "azure migrate",
-        "services",
-        "feature"
-      ]
-    },
-    {
-      "id": "565090",
-      "title": "Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector",
-      "description": "Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configure your OpenTelemetry Collector to send data directly to Azure Monitor cloud ingestion endpoints to ingest OTLP metrics, logs and traces using Microsoft Entra for authentication. You can enable OTLP data ingestion in Azure Monitor using Application Insights OR by manually creating the required data collection endpoints, rules and workspaces. T",
-      "url": "https://azure.microsoft.com/updates?id=565090",
-      "publishedAt": "2026-06-04T19:45:40.553Z",
-      "updatedAt": "2026-06-04T19:45:40.553Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Microsoft Build",
-        "Open Source"
-      ],
-      "gaDate": "2026-06",
-      "previewDate": "2026-03",
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "microsoft build",
-        "open source"
       ]
     }
   ]
