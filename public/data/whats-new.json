@@ -1,8 +1,66 @@
 {
-  "lastUpdated": "2026-11-25T18:27:03.327Z",
+  "lastUpdated": "2026-11-26T18:09:26.822Z",
   "source": "api",
   "itemCount": 500,
   "items": [
+    {
+      "id": "582326",
+      "title": "Public Preview: ECMP Nexthop",
+      "description": "Equal-Cost Multi-Path (ECMP) routing for Azure Virtual Network is now available in public preview, enabling customers to distribute traffic across multiple network appliances using a single user-defined route (UDR). Customers can configure 2 to 16 next-hop IP addresses per route, scaling aggregate network throughput beyond individual appliance limits without increasing routing complexity. This capability supports bandwidth-intensive AI workloads, large-scale data platforms, and enterprise hub-and-spoke architectures. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=582326",
+      "publishedAt": "2026-11-25T23:14:20.645Z",
+      "updatedAt": "2026-11-25T23:14:20.645Z",
+      "status": "preview",
+      "categories": [
+        "Networking"
+      ],
+      "services": [
+        "Virtual Network"
+      ],
+      "updateTypes": [
+        "Management",
+        "Services",
+        "Feature"
+      ],
+      "gaDate": null,
+      "previewDate": "2026-11",
+      "tags": [
+        "networking",
+        "virtual network",
+        "management",
+        "services",
+        "feature"
+      ]
+    },
+    {
+      "id": "568586",
+      "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+      "description": "Support for Java 8, 11 and 17 on Azure Functions is ending on September 1, 2027. Your apps that are hosted on Azure Functions will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8, 11 and 17. Required action To avoid potential security vulnerabilities, minimize risk for your Azure Functions apps, and take advantage of latest features, follow the steps to upgrade your Function app to Java 25 before September 1, 2027. Learn more.",
+      "url": "https://azure.microsoft.com/updates?id=568586",
+      "publishedAt": "2026-11-25T21:53:30.464Z",
+      "updatedAt": "2026-11-25T21:53:30.464Z",
+      "status": "retiring",
+      "categories": [
+        "Compute",
+        "Containers",
+        "Internet of Things"
+      ],
+      "services": [
+        "Azure Functions"
+      ],
+      "updateTypes": [
+        "Retirements"
+      ],
+      "gaDate": null,
+      "previewDate": null,
+      "tags": [
+        "compute",
+        "containers",
+        "internet of things",
+        "azure functions",
+        "retirements"
+      ]
+    },
     {
       "id": "582171",
       "title": "Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
@@ -13604,62 +13662,6 @@
         "azure nat gateway",
         "feature",
         "services"
-      ]
-    },
-    {
-      "id": "562497",
-      "title": "Public Preview: New project templates and template gallery for Azure Functions in VS Code",
-      "description": "The Azure Functions extension for VS Code now provides a redesigned Create New Project experience in public preview, featuring a rich, visual template gallery that replaces the multi-step Quick Pick wizard with a searchable, filterable view of project templates. Developers can browse templates by language and use case, search across template names, descriptions, and tags, and start from featured templates. A \"Generate with Copilot\" mode lets developers describe what they want to build and get a project scaffold generated for them. The gallery is populated from a continuously updated, Microsoft",
-      "url": "https://azure.microsoft.com/updates?id=562497",
-      "publishedAt": "2026-06-16T19:00:15.641Z",
-      "updatedAt": "2026-06-16T19:00:15.641Z",
-      "status": "preview",
-      "categories": [
-        "Compute",
-        "Containers",
-        "Internet of Things"
-      ],
-      "services": [
-        "Azure Functions"
-      ],
-      "updateTypes": [
-        "Microsoft Build"
-      ],
-      "gaDate": null,
-      "previewDate": "2026-06",
-      "tags": [
-        "compute",
-        "containers",
-        "internet of things",
-        "azure functions",
-        "microsoft build"
-      ]
-    },
-    {
-      "id": "562027",
-      "title": "Generally Available: Log Analytics Summary Rules experience",
-      "description": "A new Azure portal experience for Summary Rules in Log Analytics is now available. Summary Rules enable aggregation of high-volume log data at a defined cadence and store it in summarized tables for improved query performance, reporting, or enhanced data privacy. Also, you can ingest logs at lower tier and summarize the important data you need in Analytics tier. Learn more.",
-      "url": "https://azure.microsoft.com/updates?id=562027",
-      "publishedAt": "2026-06-16T17:15:28.122Z",
-      "updatedAt": "2026-06-16T17:15:28.122Z",
-      "status": "ga",
-      "categories": [
-        "DevOps",
-        "Management and governance"
-      ],
-      "services": [
-        "Azure Monitor"
-      ],
-      "updateTypes": [
-        "Feature"
-      ],
-      "gaDate": "2025-02",
-      "previewDate": null,
-      "tags": [
-        "devops",
-        "management and governance",
-        "azure monitor",
-        "feature"
       ]
     }
   ]
